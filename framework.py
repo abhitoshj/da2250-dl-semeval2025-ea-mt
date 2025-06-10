@@ -174,7 +174,7 @@ def _load_predictions(input_path: str) -> Dict[str, str]:
     """
     data = {}
 
-    with open(input_path) as f:
+    with open(input_path, 'r', encoding='utf-8') as f:
         for line in f:
             line = line.strip()
             if not line:
@@ -272,18 +272,3 @@ def _get_mentions_from_references(data: List[dict]) -> Dict[str, Set[str]]:
         mentions[instance_id] = instance_mentions
 
     return mentions
-
-# sample usage
-# def main():
-#     comet_model = download_comet_model()
-#     reference_path = os.path.join('./data/predictions/gemma3_1b/validation/de_DE.jsonl')
-#     predictions_path = os.path.join('./data/semeval.predictions.v2-348f83c7ccc3ec827a2a3ddbe220278b/predictions/gpt-4o-2024-08-06/validation/de_DE.jsonl')
-# 
-#     comet_score = calculate_comet_scores(comet_model, reference_path, predictions_path)
-#     print(f"Final COMET score: {comet_score:.4f}")
-# 
-#     _, _, accuracy = calculate_meta_score(reference_path, predictions_path)
-#     print(f"Final M-ETA score: {accuracy}")
-#     
-# if __name__ == "__main__":
-#     main()
