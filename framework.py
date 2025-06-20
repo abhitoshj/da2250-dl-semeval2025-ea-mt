@@ -4,7 +4,6 @@ import json
 from typing import Dict, List, Set
 from comet import download_model, load_from_checkpoint
 
-# Define constants for training and validation data directories
 TRAIN_DATA_DIR = './data/semeval.train.v2-e0d1c28b78c8dd4969d25eea5d3bc9cc/semeval/train'
 VALIDATION_DATA_DIR = './data/semeval.validation.v2-889a1492ba6c3791baa8f4224bc8e685/validation'
 
