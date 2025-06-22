@@ -1,0 +1,723 @@
+{"id": "Q1036741_0", "text": "Are soybean sprouts a common ingredient in Asian cuisine?", "source_language": "en", "target_language": "ja", "prediction": "大豆もやしは、アジア料理によく使われる食材ですか？"}
+{"id": "Q1041436_0", "text": "Where is the Po Lin Monastery situated?", "source_language": "en", "target_language": "ja", "prediction": "宝蓮禅寺はどこにありますか？"}
+{"id": "Q1041436_1", "text": "Where is the Po Lin Monastery located?", "source_language": "en", "target_language": "ja", "prediction": "ポーリンさんざんじいはどこにありますか？"}
+{"id": "Q1041436_2", "text": "What type of place is the Po Lin Monastery?", "source_language": "en", "target_language": "ja", "prediction": "ポーリン禅寺は何種類の場所ですか？"}
+{"id": "Q1049880_0", "text": "What can readers expect to learn from The Prize: The Epic Quest for Oil, Money, and Power?", "source_language": "en", "target_language": "ja", "prediction": "石油の世紀 - 支配者たちの興亡（上下）からどう学べるか？"}
+{"id": "Q1049880_1", "text": "Who is the author of the book The Prize: The Epic Quest for Oil, Money, and Power?", "source_language": "en", "target_language": "ja", "prediction": "「The Prize: The Epic Quest for Oil, Money, and Power」の著者はどれですか？"}
+{"id": "Q1049880_2", "text": "How would you describe the genre of The Prize: The Epic Quest for Oil, Money, and Power?", "source_language": "en", "target_language": "ja", "prediction": "石油の世紀 - 支配者たちの興亡（上下）の書籍である、The Prize: The Epic Quest for Oil, Money, and Powerの文学的なジャンルは何ですか？"}
+{"id": "Q1050324_0", "text": "What religious denomination is associated with the Monastery of Saint Euthymius?", "source_language": "en", "target_language": "ja", "prediction": "スパソ・エフフィミエフ修道院はどの宗教に関連していますか？"}
+{"id": "Q1050324_1", "text": "Where is the Monastery of Saint Euthymius located?", "source_language": "en", "target_language": "ja", "prediction": "スパソ・エフフィミエフ修道院はどこにありますか？"}
+{"id": "Q1050324_2", "text": "How old is the Monastery of Saint Euthymius?", "source_language": "en", "target_language": "ja", "prediction": "スパソ・エフフィミエフ修道院の年齢は、かくにますか？"}
+{"id": "Q1053081_0", "text": "Who composed the cello concerto known as the Cello Concerto?", "source_language": "en", "target_language": "ja", "prediction": "誰が『チェロ協奏曲』という名前のセルオコンサートを作成しましたか？"}
+{"id": "Q1053081_1", "text": "How would you describe the genre of the musical work called the Cello Concerto?", "source_language": "en", "target_language": "ja", "prediction": "チェロ協奏曲は何のジャンルですか？"}
+{"id": "Q1054060_0", "text": "What genre does Mendelssohn's Violin Concerto in E minor belong to?", "source_language": "en", "target_language": "ja", "prediction": "バーチャル・ヴィოリン協奏曲はどのジャンルに属していますか？"}
+{"id": "Q1054060_1", "text": "Who composed the famous Violin Concerto in E minor?", "source_language": "en", "target_language": "ja", "prediction": "誰がE小調の著名なバイオリン協奏曲を作りましたか？"}
+{"id": "Q106605_0", "text": "Can you describe the color scheme used on the coat of arms of Egypt?", "source_language": "en", "target_language": "ja", "prediction": "エジプトの国章に使用されている色彩は、説明することはできますか？"}
+{"id": "Q106605_1", "text": "How does the artwork on the coat of arms of Egypt represent the heritage and culture of the country?", "source_language": "en", "target_language": "ja", "prediction": "エジプトの国章は、国民の遺産や文化をどのように象徴していますか？"}
+{"id": "Q106605_2", "text": "What are the main elements featured on the coat of arms of Egypt?", "source_language": "en", "target_language": "ja", "prediction": "エジプトの国章に主要な要素は何ですか？"}
+{"id": "Q107324616_0", "text": "When was The Marsh King's Daughter released?", "source_language": "en", "target_language": "ja", "prediction": "The Marsh King's Daughter (沼の王の娘)が何年頃に発売されたんですか？"}
+{"id": "Q107324616_1", "text": "What country is The Marsh King's Daughter from?", "source_language": "en", "target_language": "ja", "prediction": "英国からはどこですか？（The Marsh King's Daughter）"}
+{"id": "Q107324616_2", "text": "Is The Marsh King's Daughter a drama film?", "source_language": "en", "target_language": "ja", "prediction": "荒の王の娘はドラマ映画ですか?"}
+{"id": "Q10749869_0", "text": "How is vanilla extract used in cooking?", "source_language": "en", "target_language": "ja", "prediction": "クッキングでどう使用されていますか、バニラエキス？"}
+{"id": "Q10749869_1", "text": "How is vanilla extract made?", "source_language": "en", "target_language": "ja", "prediction": "バニラエクスはどのように製造されていますか？"}
+{"id": "Q10749869_2", "text": "What is the main ingredient in vanilla extract?", "source_language": "en", "target_language": "ja", "prediction": "バニラエクスの主な成分は何ですか？"}
+{"id": "Q1086648_0", "text": "What were the years of Mario Viola's life?", "source_language": "en", "target_language": "ja", "prediction": "ジョヴァンニ・マリネッリの生命の年数は何年か tell me."}
+{"id": "Q1086648_1", "text": "What was Mario Viola's profession?", "source_language": "en", "target_language": "ja", "prediction": "Mario Violaの職業は何でしたか？"}
+{"id": "Q1086648_2", "text": "In which country was Mario Viola born?", "source_language": "en", "target_language": "ja", "prediction": "マリオ・ヴィオラは何国に誕生しましたか？"}
+{"id": "Q109116_0", "text": "Who starred in The Great Dictator?", "source_language": "en", "target_language": "ja", "prediction": "大統領の映画で何人が主演しましたか？"}
+{"id": "Q109116_1", "text": "When was The Great Dictator released?", "source_language": "en", "target_language": "ja", "prediction": "何年に「大裁决者」が発弦しましたか？"}
+{"id": "Q109116_2", "text": "What type of film is The Great Dictator?", "source_language": "en", "target_language": "ja", "prediction": "独裁者はどの映画の種類ですか？"}
+{"id": "Q109286670_0", "text": "Is Love Twist a daily drama or a weekly series?", "source_language": "en", "target_language": "ja", "prediction": "愛のプレッツェルは日収納ドラマか週間ドラマですか？"}
+{"id": "Q109286670_1", "text": "Which year was Love Twist released?", "source_language": "en", "target_language": "ja", "prediction": "愛のプレッツェルは何年にリリースされましたか？"}
+{"id": "Q109286670_2", "text": "What is the format of the show Love Twist?", "source_language": "en", "target_language": "ja", "prediction": "愛のプレッツェルの形式は何ですか？"}
+{"id": "Q110968050_0", "text": "What genre is Shut In?", "source_language": "en", "target_language": "ja", "prediction": "シュータインは何のジャンルですか？"}
+{"id": "Q110968050_1", "text": "Who directed Shut In?", "source_language": "en", "target_language": "ja", "prediction": "シュータインは誰が監督しましたか？"}
+{"id": "Q110968050_2", "text": "When was Shut In released?", "source_language": "en", "target_language": "ja", "prediction": "Shut In (とじこめ) は何年にリリースされましたか？"}
+{"id": "Q112081_0", "text": "Who was Archduke Wilhelm of Austria?", "source_language": "en", "target_language": "ja", "prediction": "アークデュケ様は、奥スタイアのヴィルヘルム・フォン・エスターライヒさまですか？"}
+{"id": "Q11275473_0", "text": "How many seasons are there in the TV series I'm Old Enough?", "source_language": "en", "target_language": "ja", "prediction": "TVシリーズ「I'm Old Enough」にある季節はいくらありますか？"}
+{"id": "Q11275473_1", "text": "Who are the main characters in the Japanese television series I'm Old Enough?", "source_language": "en", "target_language": "ja", "prediction": "日本のテレビドラマ『誰が主人公ですか？（はじめてのおつかい）』において、主人公は何人でしょうか？"}
+{"id": "Q11275473_2", "text": "When was the first season of I'm Old Enough released?", "source_language": "en", "target_language": "ja", "prediction": "イームオールドENOUGHの1回目の放送は何年になったでしょうか？"}
+{"id": "Q11347598_0", "text": "Is Run Away based on a true story?", "source_language": "en", "target_language": "ja", "prediction": "ランナウェイ〜愛する君のためには真実を основаとしていますか？"}
+{"id": "Q11347598_1", "text": "Who directed the 1949 film Run Away?", "source_language": "en", "target_language": "ja", "prediction": "1949年の映画Run Awayは誰が制作を務いていましたか？"}
+{"id": "Q11347598_2", "text": "When was the TV series Run Away released?", "source_language": "en", "target_language": "ja", "prediction": "ターベィシー集団のTV連載「フリー運転」は何年にてリリースされましたか？"}
+{"id": "Q1136357_0", "text": "What were some notable achievements or actions of Duke Xian of Jin during his reign?", "source_language": "en", "target_language": "ja", "prediction": "献公の統治中にどのような名著的な成就や行動があったでしょうか？"}
+{"id": "Q1136357_1", "text": "What was the role of Duke Xian of Jin in the history of ancient China?", "source_language": "en", "target_language": "ja", "prediction": "上古中国で、献公は何の役割を果たしましたか？"}
+{"id": "Q1136357_2", "text": "How did Duke Xian of Jin gain power and establish himself as the ruler of his state?", "source_language": "en", "target_language": "ja", "prediction": "献公はどのように権力を獲得し、自らの国家の領図者となりましたか？"}
+{"id": "Q11373958_0", "text": "When was The Negotiator first aired?", "source_language": "en", "target_language": "ja", "prediction": "交渉人は何年から配信されましたか？"}
+{"id": "Q11373958_1", "text": "Who is the main character in The Negotiator?", "source_language": "en", "target_language": "ja", "prediction": "トレーニアターは The Negotiator の主要なキャラクターですか？"}
+{"id": "Q11373958_2", "text": "How many seasons of The Negotiator are there?", "source_language": "en", "target_language": "ja", "prediction": "トレーナーシリーズのセージョンはいくつありますか？"}
+{"id": "Q1141815_0", "text": "What is the genre of The Call of Cthulhu?", "source_language": "en", "target_language": "ja", "prediction": "クトゥルフの呼び声は何のジャンルですか？"}
+{"id": "Q1141815_1", "text": "Who is the author of The Call of Cthulhu?", "source_language": "en", "target_language": "ja", "prediction": "クトゥルフの呼び声は誰が作品者ですか？"}
+{"id": "Q1141815_2", "text": "When was The Call of Cthulhu first published?", "source_language": "en", "target_language": "ja", "prediction": "クトゥルフの呼び声は何年にて初めて公開されましたか？"}
+{"id": "Q1149593_0", "text": "What are some notable characteristics or traits of King Duosi?", "source_language": "en", "target_language": "ja", "prediction": "朶思大王の特徴や性格については何かありますか？"}
+{"id": "Q1149593_1", "text": "What role does King Duosi play in the story?", "source_language": "en", "target_language": "ja", "prediction": "漢談中、朶思大王はどの役割を果たしていますか？"}
+{"id": "Q1149593_2", "text": "How does King Duosi's character contribute to the overall plot of the novel?", "source_language": "en", "target_language": "ja", "prediction": "抱える小説の全体的なプロットについて、朶思大王の人物はどう貢献していますか？"}
+{"id": "Q1150791_0", "text": "How many episodes are there in the Sherlock Hound TV series?", "source_language": "en", "target_language": "ja", "prediction": "名探偵ホームズのテレビシリーズにあるエピソードはいくつですか？"}
+{"id": "Q1150791_1", "text": "When was the Sherlock Hound TV series released?", "source_language": "en", "target_language": "ja", "prediction": "名探偵ホームズテレビシリーズは何年頃に放送されましたか？"}
+{"id": "Q1150791_2", "text": "What is the genre of the Sherlock Hound TV series?", "source_language": "en", "target_language": "ja", "prediction": "名探偵ホームズは何のジャンルでテレビドラマをしていますか？"}
+{"id": "Q115627473_1", "text": "Who is the main focus of the TV series Pepsi, Where's My Jet?", "source_language": "en", "target_language": "ja", "prediction": "TVシリーズ「ペプシ、あの闘技機はどこにいるか？」の主体は誰ですか？"}
+{"id": "Q115627473_2", "text": "What genre does the documentary miniseries Pepsi, Where's My Jet? fall into?", "source_language": "en", "target_language": "ja", "prediction": "ドキュメンタリーミニシリーズ「ペプシよ、戦闘機はどこに？」のジャンルは何ですか？"}
+{"id": "Q11612258_0", "text": "Who are the main actors in the movie Nōnai Poison Berry?", "source_language": "en", "target_language": "ja", "prediction": "脳内ポイズンベリーの主役は誰ですか？"}
+{"id": "Q11612258_1", "text": "When was the movie Nōnai Poison Berry released?", "source_language": "en", "target_language": "ja", "prediction": "脳内ポイズンベリーの映画は何年頃に放送されましたか？"}
+{"id": "Q11612258_2", "text": "What genre does the movie Nōnai Poison Berry belong to?", "source_language": "en", "target_language": "ja", "prediction": "脳内ポイズンベリーの映画は何のジャンルに属していますか？"}
+{"id": "Q116728_0", "text": "What was the nationality of Victoria, Princess Royal?", "source_language": "en", "target_language": "ja", "prediction": "ヴィクトリア女王の国籍は何でしたか？"}
+{"id": "Q116728_1", "text": "In which countries was Victoria, Princess Royal known as Empress?", "source_language": "en", "target_language": "ja", "prediction": "エミュージェSSはどの国で女王妃ヴィクトリアSSを皇后として知られますか？"}
+{"id": "Q116728_2", "text": "When was Victoria, Princess Royal born and when did she pass away?", "source_language": "en", "target_language": "ja", "prediction": "ヴィクトリア、王女大公女は何年に生まれたのですか？、何年寿永くならずにしまうんですか？"}
+{"id": "Q11861_0", "text": "How would you describe The Princess and the Pea in one word?", "source_language": "en", "target_language": "ja", "prediction": "もともと薄めである Princess and the Pea は、迅速に感じるのが特徴的です。"}
+{"id": "Q11861_1", "text": "Who is the author of The Princess and the Pea?", "source_language": "en", "target_language": "ja", "prediction": "皇女は「エンドウ豆の上に寝たお姫さま」の著者ですか？"}
+{"id": "Q11861_2", "text": "What kind of artwork is The Princess and the Pea?", "source_language": "en", "target_language": "ja", "prediction": "何種類の芸術はエンドウ豆の上に寝たお姫さまですか？"}
+{"id": "Q1203306_0", "text": "When was the first volume of Embracing Love manga released?", "source_language": "en", "target_language": "ja", "prediction": "Embracing Love 1号版の初版は何年にリリースされましたか？"}
+{"id": "Q1203306_1", "text": "Who is the author of the Embracing Love book series?", "source_language": "en", "target_language": "ja", "prediction": "春を抱いていた本の作者はどれですか？"}
+{"id": "Q1203306_2", "text": "What is the main storyline of the Embracing Love TV series?", "source_language": "en", "target_language": "ja", "prediction": "エンブレーシング・ラブのテレビドラマで主要なストーリーラインは何ですか？"}
+{"id": "Q12062296_0", "text": "How old is Nakhoda Masjid, the mosque in India?", "source_language": "en", "target_language": "ja", "prediction": "インドのナコダ・モスクは何歳ですか？"}
+{"id": "Q12062296_1", "text": "What type of place is Nakhoda Masjid?", "source_language": "en", "target_language": "ja", "prediction": "何の場所であります、ナコダ・モスク？"}
+{"id": "Q12062296_2", "text": "Can you describe Nakhoda Masjid in India?", "source_language": "en", "target_language": "ja", "prediction": "インドの中にあるナコダ・モスクを説明してくださいか？"}
+{"id": "Q1206749_0", "text": "How has the Devi-Bhagavata Purana influenced other forms of artwork in Hindu culture?", "source_language": "en", "target_language": "ja", "prediction": " Hindu culturerуの他のアートワークにどう影響を与えましたか、デービー・バーガヴァタ・プラーナ？"}
+{"id": "Q1206749_1", "text": "How does the artwork in the Devi-Bhagavata Purana depict Hindu deities and mythological stories?", "source_language": "en", "target_language": "ja", "prediction": "デーヴィー・バーガヴァタ・プラーナのアートワークは、インド神話の幻想やインド神をどう描いているか？"}
+{"id": "Q1206749_2", "text": "What are some key themes explored in the Devi-Bhagavata Purana and how do they relate to Hindu spirituality?", "source_language": "en", "target_language": "ja", "prediction": "デーヴィー・バーガヴァタ・プラーナに掘り下げられる主題は何ですか、そしてこれはインド宗教の霊的さとどのように関係がありますか？"}
+{"id": "Q12121649_0", "text": "Who is the composer of the March of Ukrainian Nationalists?", "source_language": "en", "target_language": "ja", "prediction": "ウクライナの民族主義運動の曲の作曲家は誰ですか？"}
+{"id": "Q12121649_1", "text": "What genre does the March of Ukrainian Nationalists belong to?", "source_language": "en", "target_language": "ja", "prediction": "これはウクライナの国民主義軍団の進行は何のジャンルに属いていますか？"}
+{"id": "Q12121649_2", "text": "How would you describe the March of Ukrainian Nationalists in one word?", "source_language": "en", "target_language": "ja", "prediction": " Ukraintani shuudan no koujin wo ikite iru hou o ishite iru no atari wa doo ichi juunyuu desu ka?"}
+{"id": "Q1218985_0", "text": "Is The Last Days of Pompeii considered a piece of artwork?", "source_language": "en", "target_language": "ja", "prediction": "ポンペイの最終日が芸術品と考えられますか？"}
+{"id": "Q1218985_1", "text": "In what year was The Last Days of Pompeii published?", "source_language": "en", "target_language": "ja", "prediction": "ポンペイ最後の日は何年に発売されましたか？"}
+{"id": "Q1218985_2", "text": "Can you provide a brief description of The Last Days of Pompeii?", "source_language": "en", "target_language": "ja", "prediction": "諸様、ポンペイの最終日について、ご簡要を与えることはできますか？"}
+{"id": "Q12404907_0", "text": "Can you provide a brief description of the Valley of the Shadow of Death photograph by Roger Fenton?", "source_language": "en", "target_language": "ja", "prediction": "ロジャー・フェントンが撮りたもので、死の陰の谷の写真について、どういった説明はできますか？"}
+{"id": "Q12404907_1", "text": "Who is the artist behind the artwork titled Valley of the Shadow of Death?", "source_language": "en", "target_language": "ja", "prediction": "死の陰の谷の作品のアーティストは誰ですか？"}
+{"id": "Q12404907_2", "text": "What type of artwork is Valley of the Shadow of Death?", "source_language": "en", "target_language": "ja", "prediction": "藝術の種類は、死の陰の谷なんですか？"}
+{"id": "Q1245160_0", "text": "Who are the main actors in the movie Destination Moon?", "source_language": "en", "target_language": "ja", "prediction": "Destination Moonのメインアクターは誰ですか？"}
+{"id": "Q1245160_1", "text": "What is the year of release for the movie Destination Moon?", "source_language": "en", "target_language": "ja", "prediction": "ディースタイネーション ムーンの出演映画の発売年は何かと言いますか？"}
+{"id": "Q1245160_2", "text": "What genre does the movie Destination Moon belong to?", "source_language": "en", "target_language": "ja", "prediction": "どのジャンルで、Destination Moonの映画に属していますか？"}
+{"id": "Q1245463_0", "text": "In which region of France can the Sénanque Abbey be found?", "source_language": "en", "target_language": "ja", "prediction": "セナンク修道院はフランスのどの地域にありますか？"}
+{"id": "Q1245463_1", "text": "What type of place is the Sénanque Abbey?", "source_language": "en", "target_language": "ja", "prediction": "セナンク修道院は何の型の場所ですか？"}
+{"id": "Q1245463_2", "text": "What is the Sénanque Abbey known for?", "source_language": "en", "target_language": "ja", "prediction": "セナンク修道院は何に知られていますか？"}
+{"id": "Q1265294_0", "text": "Can you explain the role of Sankore Madrasah in promoting education in Mali?", "source_language": "en", "target_language": "ja", "prediction": "サンコーレ・マドラサは、マリ共和国の教育広告で何役にて活躍していますか？"}
+{"id": "Q1265294_1", "text": "How would you describe the importance of Sankore Madrasah in Timbuktu?", "source_language": "en", "target_language": "ja", "prediction": "トンブクトゥの中で、サンコーレ・マドラサはいつも重要と言われますね。"}
+{"id": "Q1265294_2", "text": "When was Sankore Madrasah established?", "source_language": "en", "target_language": "ja", "prediction": "サンコーレ・マドラサは何年によって建立されましたか？"}
+{"id": "Q127367_0", "text": "What is the genre of the movie The Lord of the Rings: The Fellowship of the Ring?", "source_language": "en", "target_language": "ja", "prediction": "映画「ロード・オブ・ザ・リング：フォローシップ・オブ・ザ・リング」のジャンルは何ですか？"}
+{"id": "Q127367_1", "text": "When was The Lord of the Rings: The Fellowship of the Ring released?", "source_language": "en", "target_language": "ja", "prediction": "ロード・オブ・ザ・リング：フェロウシップ・オブ・ザ・リングは何年にリリースされましたか？"}
+{"id": "Q127367_2", "text": "Who was the author of the original book on which The Lord of the Rings: The Fellowship of the Ring is based?", "source_language": "en", "target_language": "ja", "prediction": "原作に基づく『ロード・オブ・ザ・リング』の著者は誰ですか？"}
+{"id": "Q129289_0", "text": "How would you describe the style of Julie, or the New Heloise?", "source_language": "en", "target_language": "ja", "prediction": "ジュリーや、新エロイーズのスタイルはどう説きますか？"}
+{"id": "Q1304524_0", "text": "Who are the main actors in The April Fools film?", "source_language": "en", "target_language": "ja", "prediction": "The April Fools の主演は誰ですか？"}
+{"id": "Q1304524_1", "text": "What year was The April Fools released?", "source_language": "en", "target_language": "ja", "prediction": "「The April Fools」のリリース年は何か？"}
+{"id": "Q1304524_2", "text": "What genre does the movie The April Fools belong to?", "source_language": "en", "target_language": "ja", "prediction": "映画「邦題：幸せはパリで」はどのジャンルに属していますか？"}
+{"id": "Q1304555_0", "text": "Can you provide a brief plot summary of Father's Little Dividend?", "source_language": "en", "target_language": "ja", "prediction": "父の小分配当の短きまとめを誰か提供すれば、できますか？"}
+{"id": "Q1304555_1", "text": "When was the movie Father's Little Dividend released?", "source_language": "en", "target_language": "ja", "prediction": "可愛い配当は何年に配るときですか？"}
+{"id": "Q1304555_2", "text": "What is the genre of the film Father's Little Dividend?", "source_language": "en", "target_language": "ja", "prediction": "父の小分割で何種類のジャンルか？"}
+{"id": "Q130822_0", "text": "Which countries did William IV rule?", "source_language": "en", "target_language": "ja", "prediction": "ウィリアム4世は何国を統治しましたか？"}
+{"id": "Q130822_1", "text": "When did William IV become king?", "source_language": "en", "target_language": "ja", "prediction": "ウィリアム4世は何年に王位を取り立ちましたか？"}
+{"id": "Q130822_2", "text": "How long did William IV reign?", "source_language": "en", "target_language": "ja", "prediction": "ウィリアム4世はどの長きに再びましたか？"}
+{"id": "Q1324033_0", "text": "When was Tales of Count Lucanor first published?", "source_language": "en", "target_language": "ja", "prediction": "「ルカーノル伯とパトローニオによる模範とすべき本」は何年にて初損の年を持ったのでしょうか？"}
+{"id": "Q1324033_1", "text": "Who is the author of Tales of Count Lucanor?", "source_language": "en", "target_language": "ja", "prediction": "カウント・ルカナーの誰が作者ですか？"}
+{"id": "Q1324033_2", "text": "How many stories are included in Tales of Count Lucanor?", "source_language": "en", "target_language": "ja", "prediction": "Tales of Count Lucanorにはどのようなストーリーが含まれていますか？"}
+{"id": "Q1330443_0", "text": "What is the main theme used in Rhapsody on a Theme of Paganini?", "source_language": "en", "target_language": "ja", "prediction": "Rhapsody on a Theme of Paganiniの主題は何ですか？"}
+{"id": "Q1330443_1", "text": "Who is the most famous composer of Rhapsody on a Theme of Paganini?", "source_language": "en", "target_language": "ja", "prediction": "ペガニーニの主題による狂詩曲は誰が一番著名な作曲家ですか？"}
+{"id": "Q1330443_2", "text": "What type of musical work is Rhapsody on a Theme of Paganini?", "source_language": "en", "target_language": "ja", "prediction": "Paganiniのテーマに基づく狂詩曲はどの種類の音楽作品ですか？"}
+{"id": "Q1342275_0", "text": "Which instrument is the main focus in Flight of the Bumblebee?", "source_language": "en", "target_language": "ja", "prediction": "フライト オブ ザ バンクルビーで主要な注意点は何ですか？"}
+{"id": "Q1342275_1", "text": "What type of musical work is Flight of the Bumblebee?", "source_language": "en", "target_language": "ja", "prediction": "バーミュダの飛行は、何種類の音楽作品ですか？"}
+{"id": "Q1342275_2", "text": "How would you describe the style of Flight of the Bumblebee?", "source_language": "en", "target_language": "ja", "prediction": "バUMBLEBEEのフライスタイルはどうでしょうか？"}
+{"id": "Q1366627_0", "text": "When was the Tragic Overture first performed?", "source_language": "en", "target_language": "ja", "prediction": "トラギック・オーヴェルтураの初演を何年前にしたと思いますか？"}
+{"id": "Q1366627_1", "text": "Who composed the Tragic Overture?", "source_language": "en", "target_language": "ja", "prediction": "誰がトラジックオーバチュアを作曲しましたか？"}
+{"id": "Q1366627_2", "text": "How long is the Tragic Overture?", "source_language": "en", "target_language": "ja", "prediction": "トラギックオーバーチュアはいくら時間か"}
+{"id": "Q1376060_0", "text": "What is the subject of the novel Snow Country?", "source_language": "en", "target_language": "ja", "prediction": "雪国の主題は何ですか？"}
+{"id": "Q1376060_1", "text": "Who is the author of the artwork Snow Country?", "source_language": "en", "target_language": "ja", "prediction": "雪国の作者は誰ですか？"}
+{"id": "Q1376060_2", "text": "What type of artwork is Snow Country?", "source_language": "en", "target_language": "ja", "prediction": "雪国は何の型のアートワークですか？"}
+{"id": "Q139318_0", "text": "When was the Moskovsky railway station constructed?", "source_language": "en", "target_language": "ja", "prediction": "モスコーフスキー駅はいつ設備されましたか？"}
+{"id": "Q139318_1", "text": "What type of landmark is the Moskovsky railway station?", "source_language": "en", "target_language": "ja", "prediction": "モスコーフスキー駅はどの地蔵ですか？"}
+{"id": "Q139318_2", "text": "How would you describe the architecture of the Moskovsky railway station building?", "source_language": "en", "target_language": "ja", "prediction": "建築物のアーケテクチャは、モスコーフスキー駅のどのように描かれますか？"}
+{"id": "Q1442972_0", "text": "What is the tempo of Sabre Dance?", "source_language": "en", "target_language": "ja", "prediction": "剣の舞のテンポは何ですか？"}
+{"id": "Q1442972_1", "text": "Which ballet features Sabre Dance?", "source_language": "en", "target_language": "ja", "prediction": "スーパー・イタリアには、剣の舞がどこに現れますか？"}
+{"id": "Q1442972_2", "text": "Who composed Sabre Dance?", "source_language": "en", "target_language": "ja", "prediction": "誰がサブレ・ダンスを作成したか？"}
+{"id": "Q14479991_0", "text": "Is the Well-Manicured Man a real or fictional character?", "source_language": "en", "target_language": "ja", "prediction": "ウェル・マニケューアード・マンは実際のからakterであるか、フィクションかですか？"}
+{"id": "Q14479991_1", "text": "What franchise does the fictional character, Well-Manicured Man, belong to?", "source_language": "en", "target_language": "ja", "prediction": "ウェル・マニキュアード・マンはどのフランシーズに属していますか？"}
+{"id": "Q14479991_2", "text": "Can you describe the Well-Manicured Man from the X-Files in a few words?", "source_language": "en", "target_language": "ja", "prediction": "Xファイルのウェル・マニキュアード・マンを一言で説明することは可能ですか？"}
+{"id": "Q1461235_0", "text": "Where is the Stroganov Palace located?", "source_language": "en", "target_language": "ja", "prediction": "ストロゴノフ宮殿はどこにありますか？"}
+{"id": "Q1461235_1", "text": "When was the Stroganov Palace built?", "source_language": "en", "target_language": "ja", "prediction": "ストロガノフ宮殿は何年により建設されましたか？"}
+{"id": "Q1461235_2", "text": "Who commissioned the construction of the Stroganov Palace?", "source_language": "en", "target_language": "ja", "prediction": "ストロガノ夫氏はストロガノフ宮殿を何者が託り立てたのですか？"}
+{"id": "Q1473982_0", "text": "What are some notable features of the Moscow Rizhsky railway station?", "source_language": "en", "target_language": "ja", "prediction": "モスクワ・リーシスキー駅の特徴は何ですか？"}
+{"id": "Q1473982_1", "text": "What is the main function of the Moscow Rizhsky railway station?", "source_language": "en", "target_language": "ja", "prediction": "モスクワのリーシスキー駅の主な機能は何ですか？"}
+{"id": "Q15121455_0", "text": "What are some variations of garlic soup recipes?", "source_language": "en", "target_language": "ja", "prediction": "ガーリックソウプの何かの変種はありますか？"}
+{"id": "Q15121455_1", "text": "What are the health benefits of garlic soup?", "source_language": "en", "target_language": "ja", "prediction": "ギャリックソープの健康的な効果は何ですか？"}
+{"id": "Q15121455_2", "text": "Can you freeze garlic soup?", "source_language": "en", "target_language": "ja", "prediction": "ガーリックソープを冷蔵できますか？"}
+{"id": "Q1521491_0", "text": "How is the Military Order of William awarded to recipients?", "source_language": "en", "target_language": "ja", "prediction": "ウィレム軍事肩掛け章はどのように受賞者へ与えられますか？"}
+{"id": "Q1521491_1", "text": "Who established the Military Order of William?", "source_language": "en", "target_language": "ja", "prediction": "ウィリアムの軍事荣章を設立した誰ですか？"}
+{"id": "Q1521491_2", "text": "What is the significance of the Military Order of William in the Kingdom of the Netherlands?", "source_language": "en", "target_language": "ja", "prediction": "オランダ王国のネダルド・ウィレム軍事勲章は何か意味がありますか？"}
+{"id": "Q154003_0", "text": "What style of art is The Breasts of Tiresias?", "source_language": "en", "target_language": "ja", "prediction": "ティレジアスの乳房はどの美術派ですか？"}
+{"id": "Q154003_1", "text": "Who created the artwork The Breasts of Tiresias?", "source_language": "en", "target_language": "ja", "prediction": "ティレジアスの藝術「ティレジアスの乳房」を作成した誰ですか？"}
+{"id": "Q154003_2", "text": "When was The Breasts of Tiresias created?", "source_language": "en", "target_language": "ja", "prediction": "ティレジアスの乳房は何年に造られましたか？"}
+{"id": "Q1555383_0", "text": "Can you name any famous renditions or adaptations of The Song of the Volga Boatmen?", "source_language": "en", "target_language": "ja", "prediction": "ヴォルガの舟歌について、知られたインタープリテーションやアダプターは何かありますか？"}
+{"id": "Q1555383_1", "text": "How would you describe the genre of music that The Song of the Volga Boatmen belongs to?", "source_language": "en", "target_language": "ja", "prediction": "ヴォルガの舟歌という曲はどのジャンルに属していますか？"}
+{"id": "Q1555383_2", "text": "Who typically performs The Song of the Volga Boatmen?", "source_language": "en", "target_language": "ja", "prediction": "ヴォルガの舟歌を何人が常に演奏していますか？"}
+{"id": "Q1572049_0", "text": "When was the Kara Ahmed Pasha Mosque constructed?", "source_language": "en", "target_language": "ja", "prediction": "カラ・アフメト・パシャ・ジャーミイの建築年は何年か和訳しますか？"}
+{"id": "Q1572049_1", "text": "What is the main purpose of the Kara Ahmed Pasha Mosque?", "source_language": "en", "target_language": "ja", "prediction": "カラ・アフメト・パシャ・ジャーミイの主な使用目的は何ですか？"}
+{"id": "Q1572049_2", "text": "Can visitors of all religious backgrounds visit the Kara Ahmed Pasha Mosque?", "source_language": "en", "target_language": "ja", "prediction": "すべての宗教背景の訪問者は、カラ・アフメト・パシャ・ジャーミイ mosque に訪れることができますか？"}
+{"id": "Q15728550_1", "text": "What is the genre of When Calls the Heart?", "source_language": "en", "target_language": "ja", "prediction": "When Calls the Heartのジャンルは何ですか？"}
+{"id": "Q15728550_2", "text": "Can you provide a brief description of the Canadian-American series When Calls the Heart?", "source_language": "en", "target_language": "ja", "prediction": "カナダ・アメリカのシリーズ「When Calls the Heart」について、説明することはできますか？"}
+{"id": "Q1576684_0", "text": "What is the main character's name in the Soar High! Isami TV series?", "source_language": "en", "target_language": "ja", "prediction": "飛べ!イサミの主人公はどういった名前ですか？"}
+{"id": "Q1576684_1", "text": "Is Soar High! Isami adapted from a book series or a TV series?", "source_language": "en", "target_language": "ja", "prediction": "いさみは本集収録かもしれませんし、TVシリーズにも映る可能性がありますか？"}
+{"id": "Q1576684_2", "text": "How many books are there in the Soar High! Isami book series?", "source_language": "en", "target_language": "ja", "prediction": "Soar High! Isamiのシリーズにおいて、本はいくつありますか？"}
+{"id": "Q160948_0", "text": "Who was Grand Duke Kirill Vladimirovich of Russia?", "source_language": "en", "target_language": "ja", "prediction": "大陸のロシアの大公、君り尔・乌拉迪米罗вичは誰でしたか？"}
+{"id": "Q16180866_0", "text": "Can viewers participate in the 1000 Song Challenge TV series?", "source_language": "en", "target_language": "ja", "prediction": "ビューアが1000曲チャレンジテレビサーイスに参加できますか？"}
+{"id": "Q16180866_1", "text": "Who are the hosts of the 1000 Song Challenge TV series?", "source_language": "en", "target_language": "ja", "prediction": "1000 Song Challenge TVシリーズの主役は誰ですか？"}
+{"id": "Q16180866_2", "text": "How many episodes are there in the 1000 Song Challenge TV series?", "source_language": "en", "target_language": "ja", "prediction": "1000曲のTVシリーズにおけるエピソードは何個ありますか？"}
+{"id": "Q163512_0", "text": "Who is the composer of the four-movement symphony known as Symphony No. 1?", "source_language": "en", "target_language": "ja", "prediction": "誰が交響曲第1番の作曲家ですか？"}
+{"id": "Q163512_1", "text": "How many movements are in Symphony No. 1?", "source_language": "en", "target_language": "ja", "prediction": "交響曲第1番にはいくつの音楽部分がありますか？"}
+{"id": "Q163512_2", "text": "What is the subject of Symphony No. 1?", "source_language": "en", "target_language": "ja", "prediction": "交響曲第1番の主題は何ですか？"}
+{"id": "Q1635605_0", "text": "What are some notable characteristics of Cuthbert Calculus?", "source_language": "en", "target_language": "ja", "prediction": "ビーカー教授について、目立たない特徴は何ですか？"}
+{"id": "Q1635605_1", "text": "What is Cuthbert Calculus' occupation?", "source_language": "en", "target_language": "ja", "prediction": "クーバー・キャルカリスの職業は何ですか？"}
+{"id": "Q1635605_2", "text": "In which fictional universe does Cuthbert Calculus appear?", "source_language": "en", "target_language": "ja", "prediction": "ビーカー博士は何の妄想的な世界に現れていますか？"}
+{"id": "Q1644266_0", "text": "What was the purpose of the Knights of the Round Table?", "source_language": "en", "target_language": "ja", "prediction": "廉政と正義を守るために、円卓の騎士は何の目的であったか？"}
+{"id": "Q1644266_1", "text": "How many knights were there in the order of the Knights of the Round Table?", "source_language": "en", "target_language": "ja", "prediction": "円卓の騎士たちは、円卓の骁勇の騎士団で何人いましたか？"}
+{"id": "Q1644266_2", "text": "In Arthurian romance, where did the Knights of the Round Table usually gather for their meetings?", "source_language": "en", "target_language": "ja", "prediction": "アーтураの神話において、廉弌卓の騎士はどこで通常の会議を行うか？"}
+{"id": "Q1660217_0", "text": "When was Piano Trio No. 2 composed?", "source_language": "en", "target_language": "ja", "prediction": "ピアノ三重奏曲第2番（メンデルスゾーン）は何年に композиされましたか？"}
+{"id": "Q1660217_1", "text": "What is the genre of Franz Schubert's Piano Trio No. 2?", "source_language": "en", "target_language": "ja", "prediction": "フランツ・シュベルトのピアノ三重奏曲第2番のジャンルは何ですか？"}
+{"id": "Q1660217_2", "text": "How many movements does Piano Trio No. 2 have?", "source_language": "en", "target_language": "ja", "prediction": "ピアノ三重奏曲第2番はどのくらいの部分に分かれていますか？"}
+{"id": "Q16603371_0", "text": "When did Rara Anzai start her career?", "source_language": "en", "target_language": "ja", "prediction": "安齋ららのキャリアをはじめた時は何期間でしょうか？"}
+{"id": "Q16603371_1", "text": "What is Rara Anzai known for?", "source_language": "en", "target_language": "ja", "prediction": "ラーラ・安齶は何に著しいですか？"}
+{"id": "Q16603371_2", "text": "Where is Rara Anzai from?", "source_language": "en", "target_language": "ja", "prediction": "Rara Anzaiからはどこですか？"}
+{"id": "Q168657_0", "text": "Where was Albert I of Saxony born?", "source_language": "en", "target_language": "ja", "prediction": "アルベルト Iのサクソニア出身地はどこでしたか？"}
+{"id": "Q168657_1", "text": "What role did Albert I of Saxony play in history?", "source_language": "en", "target_language": "ja", "prediction": "アルベルト・ザクソニアは歴史で何の役割を果たしましたか？"}
+{"id": "Q168657_2", "text": "When did Albert I of Saxony reign as king?", "source_language": "en", "target_language": "ja", "prediction": "アルベルト第1世が王位を持っていた時期は何かと聞きますか？"}
+{"id": "Q17117463_0", "text": "How would you describe the Graça Convent in Lisbon?", "source_language": "en", "target_language": "ja", "prediction": "ライSONのグラセ教会のコンヴェントはどうでしょう？"}
+{"id": "Q17117463_1", "text": "Where is the Graça Convent located in Lisbon?", "source_language": "en", "target_language": "ja", "prediction": "リスボンの中にどこにあります、コンヴェント・ダ・グラサ教会？"}
+{"id": "Q17117463_2", "text": "What type of place is the Graça Convent known as?", "source_language": "en", "target_language": "ja", "prediction": "コンヴェント・ダ・グラサ教会は何の種類の場所で知られていますか？"}
+{"id": "Q1746050_0", "text": "When was Piano Sonata No. 8 composed by Mozart?", "source_language": "en", "target_language": "ja", "prediction": "ピアノソナタ第8番はモーツァルトが作成したときかを教えてください。"}
+{"id": "Q1746050_1", "text": "How many movements are there in Mozart's Piano Sonata No. 8?", "source_language": "en", "target_language": "ja", "prediction": "ピアノソナタ第8番(モーツァルト)には、いくつの動作がありますか？"}
+{"id": "Q1746050_2", "text": "What is the genre of Mozart's Piano Sonata No. 8?", "source_language": "en", "target_language": "ja", "prediction": "ピアノソナタの8番は何のジャンルですか？"}
+{"id": "Q1753492_0", "text": "In what fictional city is the Justice League Watchtower typically located?", "source_language": "en", "target_language": "ja", "prediction": "ジャスチスリーグのウォッチタワーは通常何都市に配置されていますか？"}
+{"id": "Q1753626_0", "text": "Who are some of the actresses in the film Woman Times Seven?", "source_language": "en", "target_language": "ja", "prediction": "女時七の映画にいくつかの演じる女性は誰ですか？"}
+{"id": "Q1753626_1", "text": "How many women are featured in the movie Woman Times Seven?", "source_language": "en", "target_language": "ja", "prediction": "Woman Times Sevenの映画でにくつけられる女たちはいくつですか？"}
+{"id": "Q1753626_2", "text": "What year was the movie Woman Times Seven released?", "source_language": "en", "target_language": "ja", "prediction": "女と女と女たちの映画は何年頃に公開されましたか？"}
+{"id": "Q175500_0", "text": "What makes Banz Abbey a cultural heritage monument?", "source_language": "en", "target_language": "ja", "prediction": "バンツ修道院は文化遺産の記念しる事は何ですか？"}
+{"id": "Q175500_1", "text": "Where is Banz Abbey located?", "source_language": "en", "target_language": "ja", "prediction": "バンツ修道院はどこにありますか？"}
+{"id": "Q175500_2", "text": "Is Banz Abbey a place of worship?", "source_language": "en", "target_language": "ja", "prediction": "バンツ修道院は慰霯場ですか？"}
+{"id": "Q175565_0", "text": "How many instruments are typically involved in performing the String Quartet No. 13?", "source_language": "en", "target_language": "ja", "prediction": "String Quartet No. 13 (Beethoven) にはどのような数の器筒楽器が適正に挙げられますか？"}
+{"id": "Q175565_1", "text": "What type of musical composition is the String Quartet No. 13?", "source_language": "en", "target_language": "ja", "prediction": "String Quartet No. 13は何種類の音楽作品ですか？"}
+{"id": "Q175565_2", "text": "Can you name a famous performer or recording of the String Quartet No. 13?", "source_language": "en", "target_language": "ja", "prediction": "弦楽四重奏曲第13番の名著書や、知られた演奏家またはレコーディングを教えてくださいか？"}
+{"id": "Q1757431_0", "text": "What type of film is The Girl in the Red Velvet Swing?", "source_language": "en", "target_language": "ja", "prediction": "映画の種類は、赤い紅革スイングの少女は何ですか？"}
+{"id": "Q1757431_1", "text": "What is the year of release for the movie The Girl in the Red Velvet Swing?", "source_language": "en", "target_language": "ja", "prediction": "映画「The Girl in the Red Velvet Swing」の公開年は何年ですか？"}
+{"id": "Q1757431_2", "text": "What is the main color emphasized in The Girl in the Red Velvet Swing?", "source_language": "en", "target_language": "ja", "prediction": "お薫の色は「女仕が赤い棚の女」でどこを重視していますか？"}
+{"id": "Q17592_0", "text": "Can common ostrich meat be found in restaurants?", "source_language": "en", "target_language": "ja", "prediction": "ダチョウはレストランに何かを食べられますか？"}
+{"id": "Q17592_1", "text": "Are common ostriches commonly consumed as food?", "source_language": "en", "target_language": "ja", "prediction": "通常、大鶴は食べられますか？"}
+{"id": "Q17592_2", "text": "How is common ostrich prepared as a dish?", "source_language": "en", "target_language": "ja", "prediction": "どういった方法で通常のダチョウを料理として準備されますか？"}
+{"id": "Q1760871_0", "text": "Who is the composer of the Mass in C major?", "source_language": "en", "target_language": "ja", "prediction": "C大調のメッセの作曲者は誰ですか？"}
+{"id": "Q1760871_1", "text": "What year was Beethoven's Mass in C major composed?", "source_language": "en", "target_language": "ja", "prediction": "バエトヴェンのド合調メッセをどんな年に作成しましたか？"}
+{"id": "Q1760871_2", "text": "Which key is Beethoven's Mass in C major written in?", "source_language": "en", "target_language": "ja", "prediction": "C大調で弾けたベートヴェンのメッセはどの鍵かですか？"}
+{"id": "Q1785955_0", "text": "What instrument is the Ballade No. 2 in F major, Op. 38 composed for?", "source_language": "en", "target_language": "ja", "prediction": "バラード第2番はF大音符でコンポーズされたものは何種類の器物ですか？"}
+{"id": "Q1785955_1", "text": "What is the key of the Ballade No. 2 in F major, Op. 38?", "source_language": "en", "target_language": "ja", "prediction": "Fシー键はバラード第2番（Op.38）のキーですか？"}
+{"id": "Q1785955_2", "text": "What is the opus number of the Ballade No. 2 in F major, Op. 38?", "source_language": "en", "target_language": "ja", "prediction": "バルアデ第2番はF大音階のオペラ号は何ですか？"}
+{"id": "Q178688_0", "text": "Can you provide a brief description of Mio, My Son?", "source_language": "en", "target_language": "ja", "prediction": "ミオについて、説明をお願いします。"}
+{"id": "Q178688_1", "text": "Who is the author of the book Mio, My Son?", "source_language": "en", "target_language": "ja", "prediction": "誰が「ミオ、私の子」の著者ですか？"}
+{"id": "Q178688_2", "text": "What is the genre of Mio, My Son?", "source_language": "en", "target_language": "ja", "prediction": "ミオのジャンルは何ですか？"}
+{"id": "Q1792320_0", "text": "What is the genre of the book On Murder Considered as one of the Fine Arts?", "source_language": "en", "target_language": "ja", "prediction": "芸術の一部である「美藝術の一分野における殺人」のジャンルは？"}
+{"id": "Q1792320_1", "text": "Who wrote the book On Murder Considered as one of the Fine Arts?", "source_language": "en", "target_language": "ja", "prediction": "ウーピー・ゴールドバーグは、芸術の一分野として見た殺人を描かせた本を著した者ですか？"}
+{"id": "Q1792320_2", "text": "In which year was On Murder Considered as one of the Fine Arts published?", "source_language": "en", "target_language": "ja", "prediction": "「芸術の一分野として見た殺人」は何年に発売されましたか？"}
+{"id": "Q181291_0", "text": "How do the Death Eaters show their loyalty to Lord Voldemort?", "source_language": "en", "target_language": "ja", "prediction": "デスイーターはどのようにロード・ヴォルデモートへの忠誠性を示すでしょうか？"}
+{"id": "Q181291_1", "text": "What is the role of the Death Eaters in the Harry Potter series?", "source_language": "en", "target_language": "ja", "prediction": "ハリー・ポッターシリーズでは、死喰い人の役割はありますか？"}
+{"id": "Q181291_2", "text": "Who is the leader of the Death Eaters?", "source_language": "en", "target_language": "ja", "prediction": "デスイーターのリーダーは誰ですか？"}
+{"id": "Q1816205_0", "text": "When was The Thin Blue Line first aired on television?", "source_language": "en", "target_language": "ja", "prediction": "テレビに最初に放送されたのは、シン・ブルー・ラインは何年前ですか？"}
+{"id": "Q1816205_1", "text": "Who are the main characters in The Thin Blue Line?", "source_language": "en", "target_language": "ja", "prediction": "The Thin Blue Lineの主人公はどれですか？"}
+{"id": "Q1816205_2", "text": "How many seasons of The Thin Blue Line have been produced?", "source_language": "en", "target_language": "ja", "prediction": "The Thin Blue Lineには何期が生成されましたか？"}
+{"id": "Q18207593_0", "text": "When was H₂O: Mermaid Adventures first released?", "source_language": "en", "target_language": "ja", "prediction": "H₂O：マーメイド・アドベンチャーは初期配信日は何かということですか？"}
+{"id": "Q18207593_1", "text": "How many seasons of H₂O: Mermaid Adventures are there?", "source_language": "en", "target_language": "ja", "prediction": "H₂O：マーメイド・アドベンチャーのセзонはいくつありますか？"}
+{"id": "Q18207593_2", "text": "Who are the main characters in H₂O: Mermaid Adventures?", "source_language": "en", "target_language": "ja", "prediction": "H₂O：マーメイド・アドベンチャーの主人公はどれですか？"}
+{"id": "Q1896121_0", "text": "What are the potential benefits of adopting zero-energy building standards?", "source_language": "en", "target_language": "ja", "prediction": "ゼロエネルギービルの採用による潜在的な利点は何かですか？"}
+{"id": "Q1896121_1", "text": "How can zero-energy buildings reduce energy consumption?", "source_language": "en", "target_language": "ja", "prediction": "ゼロエネルギーのビルは、エネルギー消費をどう減らすか？"}
+{"id": "Q1896121_2", "text": "What are some examples of zero-energy building projects around the world?", "source_language": "en", "target_language": "ja", "prediction": "ゼロエネルギービルの関連プロジェクトは、世界各地であるということはどうでしょうか？"}
+{"id": "Q18989784_0", "text": "What is the art style like in the Idol Incidents anime?", "source_language": "en", "target_language": "ja", "prediction": "アニメ「アイドル事変」のアートスタイルは何によっているでしょうか？"}
+{"id": "Q18989784_1", "text": "How many episodes does the Idol Incidents anime series have?", "source_language": "en", "target_language": "ja", "prediction": "アイドル事変の애니メーションシリーズは何エピソードありますか？"}
+{"id": "Q18989784_2", "text": "Who are the main characters in the Idol Incidents manga?", "source_language": "en", "target_language": "ja", "prediction": "Idol Incidentsの主人公はどういった人物ですか？"}
+{"id": "Q191414_0", "text": "What is the architectural style of Lenin's Mausoleum?", "source_language": "en", "target_language": "ja", "prediction": "レーニンのまずさの建築式は何ですか？"}
+{"id": "Q191414_1", "text": "Where is Lenin's Mausoleum located?", "source_language": "en", "target_language": "ja", "prediction": "Lenin's Mausoleumはどこにありますか？"}
+{"id": "Q191414_2", "text": "When was Lenin's Mausoleum built?", "source_language": "en", "target_language": "ja", "prediction": "レーニンのマウゾレアムは何年によって建設されましたか？"}
+{"id": "Q192258_0", "text": "What is the subject matter of Quidditch Through the Ages?", "source_language": "en", "target_language": "ja", "prediction": "クイディッシュの時代を語る書籍の題材は何ですか？"}
+{"id": "Q192258_1", "text": "Who is the author of Quidditch Through the Ages?", "source_language": "en", "target_language": "ja", "prediction": "クイディッチの年代には何人が作者でしたか？"}
+{"id": "Q192258_2", "text": "When was Quidditch Through the Ages published?", "source_language": "en", "target_language": "ja", "prediction": "クィディッチ通りに時空の何年頃に発売されましたか？"}
+{"id": "Q193584_0", "text": "What are some departments within the Ministry of Magic in the Harry Potter series?", "source_language": "en", "target_language": "ja", "prediction": "ハリー・ポッターシリーズの魔法省における部署は何がありますか？"}
+{"id": "Q193584_1", "text": "Who is the head of the Ministry of Magic in the Harry Potter series?", "source_language": "en", "target_language": "ja", "prediction": "ハリー・ポッターシリーズの魔法省の長官はどれかですか？"}
+{"id": "Q193584_2", "text": "How is the Ministry of Magic structured in the Harry Potter series?", "source_language": "en", "target_language": "ja", "prediction": "ハリー・ポッターシリーズでは、何によって魔法省が構成されていますか？"}
+{"id": "Q195359_0", "text": "What city is Ukrainian Catholic University in?", "source_language": "en", "target_language": "ja", "prediction": "ウクライナのどの市でウクライナ・カトリック大学がありますか？"}
+{"id": "Q195359_1", "text": "What type of institution is Ukrainian Catholic University?", "source_language": "en", "target_language": "ja", "prediction": "ウクライナ・カトリック大学は何類の学校ですか？"}
+{"id": "Q195359_2", "text": "Is Ukrainian Catholic University a place of worship?", "source_language": "en", "target_language": "ja", "prediction": "ウクライナ・カトリック大学は儀式場所ですか？"}
+{"id": "Q19794729_0", "text": "How many episodes does All About My Mom have?", "source_language": "en", "target_language": "ja", "prediction": "お願い、ママのエピソードは何個ありますか？"}
+{"id": "Q19794729_1", "text": "When was the TV series All About My Mom released?", "source_language": "en", "target_language": "ja", "prediction": "TV シリーズ お願い、ママが何年頃にリリースされましたか？"}
+{"id": "Q19794729_2", "text": "What is the genre of All About My Mom?", "source_language": "en", "target_language": "ja", "prediction": "何のジャンルです、All About My Mom?"}
+{"id": "Q1992713_0", "text": "Can you provide a brief overview of Guillermo Belio's career?", "source_language": "en", "target_language": "ja", "prediction": "Guillermo Belioのキャリアについて、まとめて下さい。"}
+{"id": "Q1992713_1", "text": "Where is Guillermo Belio from?", "source_language": "en", "target_language": "ja", "prediction": "Guillermo Belioはどこから来ますか？"}
+{"id": "Q1992713_2", "text": "How would you describe Guillermo Belio's occupation?", "source_language": "en", "target_language": "ja", "prediction": "ギルマーモ・ベリオの職業はどういってもりますか？"}
+{"id": "Q199326_0", "text": "Can an automobile auxiliary power outlet be used while the vehicle is turned off?", "source_language": "en", "target_language": "ja", "prediction": "車に付けられた補助電源は、車がオフ状態で使用可能ですか？"}
+{"id": "Q199326_1", "text": "How does an automobile auxiliary power outlet work?", "source_language": "en", "target_language": "ja", "prediction": "自動車の補助電源Socketはどう機能していますか？"}
+{"id": "Q199326_2", "text": "What type of accessories can be powered by an automobile auxiliary power outlet?", "source_language": "en", "target_language": "ja", "prediction": "車用補助電源にできるようなアクセサリは何かというと、どのようなものですか？"}
+{"id": "Q2011787_0", "text": "Is the Nativity Convent a male or female monastery?", "source_language": "en", "target_language": "ja", "prediction": "生神女誕生修道院は男の修道院ですか？"}
+{"id": "Q2011787_1", "text": "What type of landmark is the Nativity Convent?", "source_language": "en", "target_language": "ja", "prediction": "生神女誕生修道院は何の地図ですか？"}
+{"id": "Q2011787_2", "text": "What is the Nativity Convent primarily used for?", "source_language": "en", "target_language": "ja", "prediction": "生神女誕生修道院は主に何を使用されていますか？"}
+{"id": "Q207512_0", "text": "Do you know when the current coat of arms of Nigeria was officially adopted?", "source_language": "en", "target_language": "ja", "prediction": "ナイジェリアの国章は、正式に選択されたときが何ですか？"}
+{"id": "Q207512_1", "text": "Can you describe the colors used on the coat of arms of Nigeria?", "source_language": "en", "target_language": "ja", "prediction": "ナイジェリアの国章に使われている色を説明してくださいか？"}
+{"id": "Q207512_2", "text": "What is the significance of the eagle found on the coat of arms of Nigeria?", "source_language": "en", "target_language": "ja", "prediction": "ナイジェリアの国章に現れる鷲の意味は何ですか？"}
+{"id": "Q2076491_0", "text": "Which ancient city were the clay tablets with Hurrian songs excavated from?", "source_language": "en", "target_language": "ja", "prediction": "古代都市からどこに葯り上げられたクレイタブレットは、フルリ語の歌があったものですか？"}
+{"id": "Q2076491_1", "text": "Where were the Hurrian songs inscribed?", "source_language": "en", "target_language": "ja", "prediction": "フルリ語の歌は書かれた場所はどこでしたか？"}
+{"id": "Q2076491_2", "text": "How were the Hurrian songs written?", "source_language": "en", "target_language": "ja", "prediction": "フルリ語の歌はどう書かれたのですか？"}
+{"id": "Q2086605_0", "text": "What is the significance of the title Argonauts of the Western Pacific?", "source_language": "en", "target_language": "ja", "prediction": "西太平洋の遠洋航海者のタイトルには何か意味がありますか？"}
+{"id": "Q2086605_1", "text": "What is the subject matter of the book Argonauts of the Western Pacific?", "source_language": "en", "target_language": "ja", "prediction": "西太平洋の遠洋航海者については、何かですか？"}
+{"id": "Q2086605_2", "text": "How would you describe the genre of the book Argonauts of the Western Pacific?", "source_language": "en", "target_language": "ja", "prediction": "航海書のジャンルは、西太平洋の遠洋航海者の本について、どう描くでしょうか？"}
+{"id": "Q210451_0", "text": "Which number does Symphony No. 2 hold in Beethoven's symphonic collection?", "source_language": "en", "target_language": "ja", "prediction": "2番はベートフーвенの交響曲中にどの番位を占めていますか？"}
+{"id": "Q210451_1", "text": "What type of musical work is Symphony No. 2?", "source_language": "en", "target_language": "ja", "prediction": "どの種類の音楽作品は交響曲第2番ですか？"}
+{"id": "Q210451_2", "text": "What is Symphony No. 2 known for?", "source_language": "en", "target_language": "ja", "prediction": "交響曲第2番は何で知られていますか？"}
+{"id": "Q213019_0", "text": "What is the genre of The War of the Worlds?", "source_language": "en", "target_language": "ja", "prediction": "宇宙戦争は何のジャンルですか？"}
+{"id": "Q213019_1", "text": "Who is the author of The War of the Worlds?", "source_language": "en", "target_language": "ja", "prediction": "宇宙戦争の著者はどれですか？"}
+{"id": "Q213019_2", "text": "When was The War of the Worlds published?", "source_language": "en", "target_language": "ja", "prediction": "宇宙戦争は何年に公開されましたか？"}
+{"id": "Q216840_0", "text": "What is the genre of the Piano Concerto No. 24 in C minor?", "source_language": "en", "target_language": "ja", "prediction": "ピアノコンサートの24番目はC小調であるものの、どのジャンルかですか？"}
+{"id": "Q216840_1", "text": "Who composed the Piano Concerto No. 24 in C minor?", "source_language": "en", "target_language": "ja", "prediction": "誰がピアノ共奏曲第24番（C転弾）を作成しましたか？"}
+{"id": "Q216840_2", "text": "Which famous composer created the Piano Concerto No. 24 in C minor?", "source_language": "en", "target_language": "ja", "prediction": "ピアノ・コンチェルトの第24番はC小音の曲でどの著名な作曲家によって作成されましたか？"}
+{"id": "Q2219678_0", "text": "Is Mater and the Ghostlight a feature-length film?", "source_language": "en", "target_language": "ja", "prediction": "Materとゴーストライトは、長期作品ですか？"}
+{"id": "Q2219678_1", "text": "What year was Mater and the Ghostlight released?", "source_language": "en", "target_language": "ja", "prediction": "Materと恐怖の火の玉は何年にリリースされましたか？"}
+{"id": "Q2219678_2", "text": "How would you describe Mater and the Ghostlight in one word?", "source_language": "en", "target_language": "ja", "prediction": "Materを一言でどう描けば、「フレンドリー」でしょう。Ghostlightは「妖怪的な」と言えます。"}
+{"id": "Q223528_0", "text": "Which composer wrote the Symphony No. 3?", "source_language": "en", "target_language": "ja", "prediction": "誰が交響曲第3番を作ったでしょうか？"}
+{"id": "Q223528_1", "text": "Who composed Symphony No. 3?", "source_language": "en", "target_language": "ja", "prediction": "誰が交響曲第3番を作りましたか？"}
+{"id": "Q223528_2", "text": "What is Sergei Rachmaninoff's Symphony No. 3?", "source_language": "en", "target_language": "ja", "prediction": "Sergei Rachmaninoffの三曲目は何ですか？"}
+{"id": "Q226552_0", "text": "How many movements are there in Symphony No. 35?", "source_language": "en", "target_language": "ja", "prediction": "交響曲第35番 (モーツァルト)にはかくのおよびかくですか？"}
+{"id": "Q226552_1", "text": "Who composed Symphony No. 35?", "source_language": "en", "target_language": "ja", "prediction": "誰が交響曲第35番を作成しましたか？"}
+{"id": "Q226552_2", "text": "What is the significance of Symphony No. 35 in Mozart's repertoire?", "source_language": "en", "target_language": "ja", "prediction": "シンフォニーの35号はモーツァルトのリポートレートで何かの意義があるということはどうですか？"}
+{"id": "Q226936_0", "text": "How many movements are there in Symphony No. 36?", "source_language": "en", "target_language": "ja", "prediction": "交響曲第36番にはいくつの部分がありますか？"}
+{"id": "Q226936_1", "text": "Who composed Symphony No. 36?", "source_language": "en", "target_language": "ja", "prediction": "誰が交響曲第36番を作成しましたか？"}
+{"id": "Q226936_2", "text": "How would you describe Symphony No. 36?", "source_language": "en", "target_language": "ja", "prediction": "交響曲第36番はどのように説明できますか？"}
+{"id": "Q2269754_0", "text": "Who are the main actors in The Black Rose?", "source_language": "en", "target_language": "ja", "prediction": "ブラック・ローズの主演は誰ですか？"}
+{"id": "Q2269754_1", "text": "When was The Black Rose released?", "source_language": "en", "target_language": "ja", "prediction": "黒バラの映画は何年頃リリースされましたか？"}
+{"id": "Q2269754_2", "text": "What is the genre of the film The Black Rose?", "source_language": "en", "target_language": "ja", "prediction": "黒バラの映画は何のジャンルですか？"}
+{"id": "Q2271910_0", "text": "What is the significance of the Alexander-Svirsky Monastery?", "source_language": "en", "target_language": "ja", "prediction": "セント・アレクサンドロ・スヴィルスキー修道院の意味は何ですか？"}
+{"id": "Q2271910_1", "text": "Where is the Alexander-Svirsky Monastery located?", "source_language": "en", "target_language": "ja", "prediction": "聖アレクサンドル・スヴィルスキー修道院はどこにありますか？"}
+{"id": "Q2271910_2", "text": "What type of place is the Alexander-Svirsky Monastery?", "source_language": "en", "target_language": "ja", "prediction": "聖アレクサンドロ・スヴィルスキー修道院は何の種類の場所ですか？"}
+{"id": "Q2278469_0", "text": "Where is the setting of the film Dead of Winter?", "source_language": "en", "target_language": "ja", "prediction": "デッド・オブ・ウィンターの場所はどこですか？"}
+{"id": "Q2278469_1", "text": "What is the genre of the movie Dead of Winter?", "source_language": "en", "target_language": "ja", "prediction": "死の冬の嵐は何のジャンルですか？"}
+{"id": "Q2278469_2", "text": "When was the movie Dead of Winter released?", "source_language": "en", "target_language": "ja", "prediction": "冬の嵐は何年にリリースされたか？"}
+{"id": "Q229189_0", "text": "In what country was Joan I of Navarre queen consort?", "source_language": "en", "target_language": "ja", "prediction": "ファナ1世は何国の女王候補でしたか？"}
+{"id": "Q229189_1", "text": "What roles did Joan I of Navarre hold?", "source_language": "en", "target_language": "ja", "prediction": "ファナー1世はどの役割を果たしましたか？"}
+{"id": "Q2293299_0", "text": "How would you describe the style of the Italian Concerto?", "source_language": "en", "target_language": "ja", "prediction": "イタリア協奏曲のスタイルはどう描くでしょうか？"}
+{"id": "Q2293299_1", "text": "Who composed the Italian Concerto?", "source_language": "en", "target_language": "ja", "prediction": "イタリア協奏曲は誰が作成しましたか？"}
+{"id": "Q2293299_2", "text": "Which musical instrument is used in the Italian Concerto?", "source_language": "en", "target_language": "ja", "prediction": "イタリア協奏曲に使われる音楽器は何ですか？"}
+{"id": "Q230787_0", "text": "When was the Piano Concerto No. 4 first performed?", "source_language": "en", "target_language": "ja", "prediction": "ピアノ協奏曲第4番（ベートーヴェン）や Piano Concerto No. 4（ラフマニノフ）はどの年で初演されましたか？"}
+{"id": "Q230787_1", "text": "What is the genre of the Piano Concerto No. 4?", "source_language": "en", "target_language": "ja", "prediction": "ピアノ協奏曲第4番のジャネルは何ですか？"}
+{"id": "Q230787_2", "text": "How many movements are there in the Piano Concerto No. 4?", "source_language": "en", "target_language": "ja", "prediction": "4つの動きはピアノコンチェルトの4番にありますか？"}
+{"id": "Q231145_0", "text": "Why is Margaret of Anjou known for her influential role in the Wars of the Roses?", "source_language": "en", "target_language": "ja", "prediction": "マーガレット・オブ・アンジューは、薔薇戦争での影響が強い役割に知られていますか？"}
+{"id": "Q231145_1", "text": "When was Margaret of Anjou born and when did she pass away?", "source_language": "en", "target_language": "ja", "prediction": "マーガレット・オブ・アンジューはどの年に誕生し、何年齢で去りましたか？"}
+{"id": "Q231145_2", "text": "Where was Margaret of Anjou from originally and where did she marry into English royalty?", "source_language": "en", "target_language": "ja", "prediction": "マーガレット・オブ・アンジューは元についてはフランスで、英国王族へと嫁めたのはどこでしたか？"}
+{"id": "Q232170_0", "text": "Who are the lead actors in Two for the Road?", "source_language": "en", "target_language": "ja", "prediction": "二人の道の主演はどれですか？"}
+{"id": "Q232170_1", "text": "What year was the movie Two for the Road released?", "source_language": "en", "target_language": "ja", "prediction": "二人のロードが何年にリリースされたか？"}
+{"id": "Q232170_2", "text": "What is the genre of the film Two for the Road?", "source_language": "en", "target_language": "ja", "prediction": "二人のロードには何ジャンルの映画ですか？"}
+{"id": "Q2341640_0", "text": "In which city is the Corleone family based?", "source_language": "en", "target_language": "ja", "prediction": "コルレオーネ家はどの都市で基本していますか？"}
+{"id": "Q2341640_1", "text": "What is the famous phrase associated with the Corleone family?", "source_language": "en", "target_language": "ja", "prediction": "コルレオーネ家の関連する知名フレーズは何ですか？"}
+{"id": "Q2341640_2", "text": "What is the primary business of the Corleone family?", "source_language": "en", "target_language": "ja", "prediction": "コルレオーネファミリーの主な業務は何ですか？"}
+{"id": "Q2444377_0", "text": "How would you describe the Smolenskoye Orthodox Cemetery in Saint Petersburg?", "source_language": "en", "target_language": "ja", "prediction": "スペイトブルグの聖彼女のソモレンスキー墓地については、どう描かせますか？"}
+{"id": "Q2444377_1", "text": "Where is the Smolenskoye Orthodox Cemetery located in Russia?", "source_language": "en", "target_language": "ja", "prediction": "ロシアにある、スモレンスキー墓地はどこですか？"}
+{"id": "Q2444377_2", "text": "What type of landmark is the Smolenskoye Orthodox Cemetery in Saint Petersburg?", "source_language": "en", "target_language": "ja", "prediction": "サンクトペテルブルクの中にあるスモレンスキー墓地は何のランドマークですか？"}
+{"id": "Q246464_0", "text": "When was Symphony No. 6 composed?", "source_language": "en", "target_language": "ja", "prediction": "交響曲第6番は何年に COMPOSED されましたか？"}
+{"id": "Q246464_1", "text": "What is the genre of Symphony No. 6?", "source_language": "en", "target_language": "ja", "prediction": "交響曲第6番はどのジャンルですか？"}
+{"id": "Q246464_2", "text": "How many movements are in Symphony No. 6?", "source_language": "en", "target_language": "ja", "prediction": "交響曲第6番にはいくつの動作がありますか？"}
+{"id": "Q2478988_0", "text": "Can Mole Man see in the dark?", "source_language": "en", "target_language": "ja", "prediction": "モールマンは暗い中で見ることができますか？"}
+{"id": "Q2478988_1", "text": "What are some of Mole Man's main abilities and powers?", "source_language": "en", "target_language": "ja", "prediction": "モールマンの主な能力と強みは何かですか？"}
+{"id": "Q2478988_2", "text": "What is Mole Man's real name in the Marvel Comics universe?", "source_language": "en", "target_language": "ja", "prediction": "モールマンの本名は、マーベル・コミック世界内ではどう呼ばれていますか？"}
+{"id": "Q24912874_0", "text": "In which country can you find the Alamgir Mosque?", "source_language": "en", "target_language": "ja", "prediction": "アランジバーグ国に、アーラムギール・モスクはどこにありますか？"}
+{"id": "Q24912874_1", "text": "What type of place is the Alamgir Mosque?", "source_language": "en", "target_language": "ja", "prediction": "アーラムギール・モスクは何の種類の場所ですか？"}
+{"id": "Q24912874_2", "text": "Where is the Alamgir Mosque situated?", "source_language": "en", "target_language": "ja", "prediction": "アーラムギール・モスクはどこにありますか？"}
+{"id": "Q24964550_0", "text": "How does the artwork at the Nyamata Genocide Memorial Centre engage visitors emotionally and intellectually?", "source_language": "en", "target_language": "ja", "prediction": "ニャマタ虐殺記念館でのアートは、心に刺さるものとして遅延感を抚かすことができますが、知性的にも考えられるようになります。"}
+{"id": "Q24964550_1", "text": "How does the Nyamata Genocide Memorial Centre contribute to preserving the memory of the genocide through its artistic displays?", "source_language": "en", "target_language": "ja", "prediction": "ニャマタ虐殺記念館は、虐殺のメモリーを守るために、美術展示でどう寄与しているか"}
+{"id": "Q24964550_2", "text": "What are some of the prominent artistic features found within the Nyamata Genocide Memorial Centre?", "source_language": "en", "target_language": "ja", "prediction": "ニャマタ虐殺メモリアルセンター内にあるいくつかの特別な美術的なFeatureは何ですか？"}
+{"id": "Q255711_0", "text": "When was Wizard's First Rule published?", "source_language": "en", "target_language": "ja", "prediction": "「真実の剣」は何年によって発行されましたか？"}
+{"id": "Q255711_1", "text": "Who is the author of Wizard's First Rule?", "source_language": "en", "target_language": "ja", "prediction": "Witcher's First Ruleの著者はどれですか？"}
+{"id": "Q255711_2", "text": "What type of work is Wizard's First Rule classified as?", "source_language": "en", "target_language": "ja", "prediction": "Wizard's First Ruleは何種類の作品に分類されていますか？"}
+{"id": "Q2562528_0", "text": "Who was Prince Friedrich of Hesse and by Rhine?", "source_language": "en", "target_language": "ja", "prediction": "フリードリヒ、荷зеとラインの王子様はどれですか？"}
+{"id": "Q2562794_0", "text": "Can you provide a brief summary of the novel Our Lady of the Flowers by Jean Genet?", "source_language": "en", "target_language": "ja", "prediction": "誰か、ジャン・ジュネの『花のノートルダム』の小さな要約を提供できますか？"}
+{"id": "Q2562794_1", "text": "What is the subject matter of Our Lady of the Flowers?", "source_language": "en", "target_language": "ja", "prediction": "花のノートルダムの主題は何ですか？"}
+{"id": "Q2562794_2", "text": "How does the artwork Our Lady of the Flowers by Jean Genet contribute to the overall understanding of the novel?", "source_language": "en", "target_language": "ja", "prediction": "ジャン・ジュネの作品、花のノートルダムは、小説の全体的な理解にどのように貢献していますか？"}
+{"id": "Q2564352_0", "text": "Can you provide a brief description of Evesham Abbey?", "source_language": "en", "target_language": "ja", "prediction": "Evesham Abbeyの簡単な説明をいただけますか？"}
+{"id": "Q2564352_1", "text": "Where is Evesham Abbey located?", "source_language": "en", "target_language": "ja", "prediction": "イブシャム修道院はどこにありますか？"}
+{"id": "Q2564352_2", "text": "What type of place is Evesham Abbey?", "source_language": "en", "target_language": "ja", "prediction": "イブシャム修道院は何の種類の場所ですか？"}
+{"id": "Q257866_0", "text": "How did Grauballe Man die?", "source_language": "en", "target_language": "ja", "prediction": "グラウベールマンはどう死んでしまったか？"}
+{"id": "Q257866_1", "text": "What is the approximate age of the Grauballe Man?", "source_language": "en", "target_language": "ja", "prediction": "グラウベールマンのおくりことは何ですか？"}
+{"id": "Q257866_2", "text": "Where was Grauballe Man found?", "source_language": "en", "target_language": "ja", "prediction": "グラウベールマンはどこに発見されましたか？"}
+{"id": "Q2589734_0", "text": "Can you provide any additional information about George Maximilianovich, 6th Duke of Leuchtenberg?", "source_language": "en", "target_language": "ja", "prediction": "追加情報をご提供できますかあなた、6世ルヒテンバーグ大公 Геオルギー・マクシミリアノヴィチ・レイフテンベルクスキーについて？"}
+{"id": "Q2589734_1", "text": "Who was George Maximilianovich, 6th Duke of Leuchtenberg?", "source_language": "en", "target_language": "ja", "prediction": "6世のルヒテンバーグ公爵として、誰かいたですか？"}
+{"id": "Q259971_0", "text": "What kind of place is Andechs Abbey?", "source_language": "en", "target_language": "ja", "prediction": "アンデクス修道院は何種の場所ですか？"}
+{"id": "Q259971_1", "text": "How old is Andechs Abbey?", "source_language": "en", "target_language": "ja", "prediction": "アンデクス修道院はどれほど古いですか？"}
+{"id": "Q259971_2", "text": "Where is Andechs Abbey located?", "source_language": "en", "target_language": "ja", "prediction": "アンデクス修道院はどこにありますか？"}
+{"id": "Q2608654_0", "text": "Who are the main actors in Butterflies Are Free?", "source_language": "en", "target_language": "ja", "prediction": "バタフライの主演はどこですか？"}
+{"id": "Q2608654_1", "text": "In what year was the film Butterflies Are Free released?", "source_language": "en", "target_language": "ja", "prediction": "「バタフライはフリー」の映画は何年に配信されましたか？"}
+{"id": "Q2608654_2", "text": "What is the subject of the movie Butterflies Are Free?", "source_language": "en", "target_language": "ja", "prediction": "バタフライはフリーの映画で主題は何ですか？"}
+{"id": "Q26098_0", "text": "How does the Lonely Mountain impact the surrounding landscapes and regions?", "source_language": "en", "target_language": "ja", "prediction": "エレボールは、周囲の風景や地域にどう影響していますか？"}
+{"id": "Q26098_1", "text": "Who is the most famous inhabitant of the Lonely Mountain?", "source_language": "en", "target_language": "ja", "prediction": "ロンリー山岳の一名の著名な住人は誰ですか？"}
+{"id": "Q26098_2", "text": "What is the significance of the Lonely Mountain in the storyline?", "source_language": "en", "target_language": "ja", "prediction": "ロンリー山岳の意味は、ストーリーラインであるとは何ですか？"}
+{"id": "Q2618766_0", "text": "Is the Catholic Church of St. Catherine in Russia open to visitors?", "source_language": "en", "target_language": "ja", "prediction": "ロシアのカトリック聖カタリナ教会は訪問者への開放状況はありますか？"}
+{"id": "Q2618766_1", "text": "What architectural style is the Catholic Church of St. Catherine in Russia built in?", "source_language": "en", "target_language": "ja", "prediction": "ロシアのカトリック聖カタリナ教会は、何の建築スタイルで作られましたか？"}
+{"id": "Q2618766_2", "text": "How many people can the Catholic Church of St. Catherine in Russia accommodate?", "source_language": "en", "target_language": "ja", "prediction": "ロシアのカトリック聖カタリーナ教会にはいくらの人間が入れることができますか？"}
+{"id": "Q2704717_0", "text": "What is the genre of The Hawks and the Sparrows?", "source_language": "en", "target_language": "ja", "prediction": "小説のどれに相当するでしょうか？ The Hawks and the Sparrows"}
+{"id": "Q2704717_1", "text": "Who directed The Hawks and the Sparrows?", "source_language": "en", "target_language": "ja", "prediction": "大きな鳥と小さな鳥の監督は誰でしたか？"}
+{"id": "Q2704717_2", "text": "When was The Hawks and the Sparrows released?", "source_language": "en", "target_language": "ja", "prediction": "大きな鳥と小さな鳥は何年にかけてリーサルド（The Hawks and the Sparrows）が発売されましたか？"}
+{"id": "Q2707472_0", "text": "In which country was the Super Friends TV series produced?", "source_language": "en", "target_language": "ja", "prediction": "スーパーフレンズのテレビドラマはどの国で作成されましたか？"}
+{"id": "Q2707472_1", "text": "How many seasons did the Super Friends TV series run for?", "source_language": "en", "target_language": "ja", "prediction": "スーパーフレンズのテレビドрамиはどれくらいのシーズンまで放送されましたか？"}
+{"id": "Q2707472_2", "text": "When did the Super Friends TV series first premiere?", "source_language": "en", "target_language": "ja", "prediction": "スーパーフレンズのテレビシリーズはどれくらい前に初回放送されましたか？"}
+{"id": "Q271474_0", "text": "Why did Joseph of Arimathea offer his own prepared tomb for Jesus' burial?", "source_language": "en", "target_language": "ja", "prediction": "イエスの葬めに、アリマタヤのヨセフを自分の準備いただけて下さったから何でしょう？"}
+{"id": "Q271474_1", "text": "What role did Joseph of Arimathea play in the burial of Jesus?", "source_language": "en", "target_language": "ja", "prediction": "イエスの葬儀に参加したアリマタヤのヨセフは何役立ちましたか？"}
+{"id": "Q271474_2", "text": "Where was the tomb that Joseph of Arimathea donated for Jesus' burial located?", "source_language": "en", "target_language": "ja", "prediction": "イエスの死体を葬るために供餽した殺身はどこにありましたか？"}
+{"id": "Q272781_0", "text": "What is the historical significance of the Jerónimos Monastery?", "source_language": "en", "target_language": "ja", "prediction": "ジェロニモス修道院の歴史的意義は何ですか？"}
+{"id": "Q272781_1", "text": "What type of building is the Jerónimos Monastery?", "source_language": "en", "target_language": "ja", "prediction": "「ジェロニモス修道院」は何種類の建物ですか？"}
+{"id": "Q272781_2", "text": "Where is the Jerónimos Monastery situated within the Lisbon District?", "source_language": "en", "target_language": "ja", "prediction": "荷京都市内で何处にあります、ジェロニモス修道院ですか？"}
+{"id": "Q278998_0", "text": "What genre does The Judgment by Franz Kafka fall under?", "source_language": "en", "target_language": "ja", "prediction": "Franz Kafkaの「判断」は何のジャンルに属していますか？"}
+{"id": "Q278998_1", "text": "How long is The Judgment by Franz Kafka?", "source_language": "en", "target_language": "ja", "prediction": "フランツ・カフカの判決はいくら時間か？"}
+{"id": "Q278998_2", "text": "Who is the author of the short story The Judgment?", "source_language": "en", "target_language": "ja", "prediction": "裁きの短編は誰が作者ですか？"}
+{"id": "Q282694_0", "text": "Can sea salt be used as a substitute for regular salt in recipes?", "source_language": "en", "target_language": "ja", "prediction": "海塩はレギュラーな塩に代用できますか？"}
+{"id": "Q282694_1", "text": "How is sea salt made?", "source_language": "en", "target_language": "ja", "prediction": "海塩はどう製作されますか？"}
+{"id": "Q282694_2", "text": "What are some benefits of using sea salt?", "source_language": "en", "target_language": "ja", "prediction": "sea saltを使用する時においつるメリットは何ですか？"}
+{"id": "Q289175_0", "text": "What architectural style is the Temple of the Tooth built in?", "source_language": "en", "target_language": "ja", "prediction": "ダラダー・マーリガーワ寺院はどの建築式で作られていますか？"}
+{"id": "Q289175_1", "text": "What is the significance of the Temple of the Tooth in Buddhism?", "source_language": "en", "target_language": "ja", "prediction": "仏教では、ダラダー・マーリガーワ寺院の意味は何ですか？"}
+{"id": "Q289175_2", "text": "Can visitors see the tooth relic at the Temple of the Tooth?", "source_language": "en", "target_language": "ja", "prediction": "訪れる人々は、ダラダー・マーリガーワ寺院の中で願いの扱を見らреますか？"}
+{"id": "Q290918_0", "text": "In which church is The Last Supper fresco located?", "source_language": "en", "target_language": "ja", "prediction": "The Last Supper frescoは何 церクにありますか？"}
+{"id": "Q290918_1", "text": "Who created The Last Supper artwork?", "source_language": "en", "target_language": "ja", "prediction": "最後の晩餐の作品は誰が作りましたか？"}
+{"id": "Q290918_2", "text": "What type of artwork is The Last Supper?", "source_language": "en", "target_language": "ja", "prediction": "最後の晩餐は何種類の芸術品ですか？"}
+{"id": "Q2915385_0", "text": "Can you name one member of the Glass family?", "source_language": "en", "target_language": "ja", "prediction": "グラース家の一人を名前で言いかけられますか？"}
+{"id": "Q2915385_1", "text": "Which American writer created the Glass family?", "source_language": "en", "target_language": "ja", "prediction": "アメリカの何名の作家はグラース家を作りましたか？"}
+{"id": "Q2915385_2", "text": "In what kind of literature can you find the fictional Glass family?", "source_language": "en", "target_language": "ja", "prediction": "フィクション小説におけるグラース家はどこで見つかれますか？"}
+{"id": "Q301342_0", "text": "Is A Season in Hell considered a poem or prose?", "source_language": "en", "target_language": "ja", "prediction": "地獄の季節は詩や原書なのかを考えますか？"}
+{"id": "Q301342_1", "text": "What type of literary work is A Season in Hell?", "source_language": "en", "target_language": "ja", "prediction": "地獄の季節は何 KIND の文学作品ですか？"}
+{"id": "Q301342_2", "text": "How would you describe A Season in Hell in a few words?", "source_language": "en", "target_language": "ja", "prediction": "地獄の季節は、悪意と堕落にかかわる短期の時間を表します"}
+{"id": "Q30337352_0", "text": "What type of artwork is The Obelisk Gate?", "source_language": "en", "target_language": "ja", "prediction": "オーバレィスクの門は何種類のアートワークにありますか？"}
+{"id": "Q30337352_1", "text": "What is the subject of the artwork The Obelisk Gate?", "source_language": "en", "target_language": "ja", "prediction": "アートワーク「オベリスクの門」の主題は何ですか？"}
+{"id": "Q30337352_2", "text": "When was The Obelisk Gate released?", "source_language": "en", "target_language": "ja", "prediction": "「The Obelisk Gate」はいつリリースされましたか？"}
+{"id": "Q3038387_0", "text": "Are the Elders of the Universe considered heroes or villains in the Marvel Comics?", "source_language": "en", "target_language": "ja", "prediction": "マーベルコミックで、宇宙の歴史〜ザ・ユニバースに、エルダー・オブ・ジ・ユニバースはヒーローや悪い方で考えられますか？"}
+{"id": "Q3038387_1", "text": "How many Elders of the Universe are there in total?", "source_language": "en", "target_language": "ja", "prediction": "星の老者全体は何人いますか？"}
+{"id": "Q3038387_2", "text": "What superhuman abilities do the Elders of the Universe possess?", "source_language": "en", "target_language": "ja", "prediction": "エルダー・オブ・ジ・ユニバースは何れだけ超能力を持っていますか？"}
+{"id": "Q3094709_0", "text": "How long can bánh tráng be stored?", "source_language": "en", "target_language": "ja", "prediction": "バンハントランはいくら保存できますか？"}
+{"id": "Q3094709_1", "text": "What are some common uses for bánh tráng?", "source_language": "en", "target_language": "ja", "prediction": "バンハントランの一般的な使用例はありますか？"}
+{"id": "Q3094709_2", "text": "Can bánh tráng be eaten as is or does it need to be cooked?", "source_language": "en", "target_language": "ja", "prediction": "バンХ帯（ばんちゃん）はすでに食べられるのですか、または焼かせなければなりませんか？"}
+{"id": "Q3095180_0", "text": "How long has Shiramizu Amidadō been a place of worship?", "source_language": "en", "target_language": "ja", "prediction": "白水アミダードョーはいくつ、神明の場所として存在していますか？"}
+{"id": "Q3095180_1", "text": "What type of place is Shiramizu Amidadō?", "source_language": "en", "target_language": "ja", "prediction": "白水阿弥陀堂は何種類の場所ですか？"}
+{"id": "Q3095180_2", "text": "Who is the founder of Shiramizu Amidadō?", "source_language": "en", "target_language": "ja", "prediction": "白水アミダードーを開設した誰ですか？"}
+{"id": "Q31053_0", "text": "How does Ivan the Fool typically navigate challenges or solve problems?", "source_language": "en", "target_language": "ja", "prediction": "イワンのバカは、常にどう課題や問題を解くかの通常的な方法はありますか？"}
+{"id": "Q31053_1", "text": "What are some key characteristics that define Ivan the Fool?", "source_language": "en", "target_language": "ja", "prediction": "イワンのバカに定義する重要な特徴は何ですか？"}
+{"id": "Q31053_2", "text": "Can you share a popular story or folktale that features Ivan the Fool?", "source_language": "en", "target_language": "ja", "prediction": "Иван-дуракの話または伝説をご紹介くださいか？"}
+{"id": "Q3115759_0", "text": "Are there any notable features or decorations inside the Central Mosque of Lisbon?", "source_language": "en", "target_language": "ja", "prediction": "ライソン・モスク内に特別な建造や装飾はありますか？"}
+{"id": "Q3115759_1", "text": "What is the purpose of the Central Mosque of Lisbon?", "source_language": "en", "target_language": "ja", "prediction": "ライサボンの中央の大メッスは何の目的ですか？"}
+{"id": "Q3115759_2", "text": "How would you describe the architecture of the Central Mosque of Lisbon?", "source_language": "en", "target_language": "ja", "prediction": "リサボンの中央の大メシットのアーキテクチャはどうでしょうか？"}
+{"id": "Q312314_0", "text": "How did Bruno of Cologne's teachings and beliefs influence the Carthusian Order?", "source_language": "en", "target_language": "ja", "prediction": "カルトジオ会に関わる教えと信念は、コロンのブルーノによってどう影響したか？"}
+{"id": "Q312314_1", "text": "When did Bruno of Cologne found the Carthusian Order?", "source_language": "en", "target_language": "ja", "prediction": "カルトジオ会は、ケルンのブルーノによって何年前に設立されましたか？"}
+{"id": "Q312314_2", "text": "Where was Bruno of Cologne born and raised?", "source_language": "en", "target_language": "ja", "prediction": "ケルンのブルーノはどこで誕生し、育っていましたか？"}
+{"id": "Q3129699_0", "text": "Who created The Mighty Hercules TV series?", "source_language": "en", "target_language": "ja", "prediction": "The Mighty Hercules TV series を制作した誰ですか？"}
+{"id": "Q3129699_1", "text": "How many seasons did The Mighty Hercules TV series have?", "source_language": "en", "target_language": "ja", "prediction": "マイティ・ハーキュレステレビシリーズはいくつのシーズンだったでしょうか？"}
+{"id": "Q3129699_2", "text": "Can you name the main character in The Mighty Hercules TV series?", "source_language": "en", "target_language": "ja", "prediction": "テレビの「マイティ・ハーキュリー」では主人公をどう呼びますか？"}
+{"id": "Q316398_0", "text": "What is one notable event that happened during Haakon II of Norway's reign?", "source_language": "en", "target_language": "ja", "prediction": "ハーコン二世の統治中に一つの著名なイベントはありますか？"}
+{"id": "Q316398_1", "text": "When did Haakon II of Norway reign as king?", "source_language": "en", "target_language": "ja", "prediction": "ハルオク二世は何年間王位を貫いていたか？"}
+{"id": "Q316398_2", "text": "Who was Haakon II of Norway's predecessor?", "source_language": "en", "target_language": "ja", "prediction": "ハーラル3世の前decessorは何でしたか？"}
+{"id": "Q3181324_0", "text": "Can Nguyen Toon fly?", "source_language": "en", "target_language": "ja", "prediction": "NGUYEN TOON は飛べますか？"}
+{"id": "Q3181324_1", "text": "What is Nguyen Toon known for?", "source_language": "en", "target_language": "ja", "prediction": "Nguyen Toonはどう知られていますか？"}
+{"id": "Q3181324_2", "text": "Is Nguyen Toon a real person or a fictional character?", "source_language": "en", "target_language": "ja", "prediction": "NGUYEN TOONは実際の人物かまたフィクション文字列ですか？"}
+{"id": "Q319202_0", "text": "What genre does The Adventures of Three Englishmen and Three Russians in South Africa belong to?", "source_language": "en", "target_language": "ja", "prediction": "この話は、南アフリカでの3人のロシア人と3人のイギリス人の冒険を含むジャンルは何ですか？"}
+{"id": "Q319202_1", "text": "Who are the main characters in The Adventures of Three Englishmen and Three Russians in South Africa?", "source_language": "en", "target_language": "ja", "prediction": "南アフリカでの3人のロシア人と3人のイギリス人に関する冒険の主人公は何人でしょうか？"}
+{"id": "Q3209683_0", "text": "Is The Big Time a famous novel?", "source_language": "en", "target_language": "ja", "prediction": "ビッグ・タイムは著名な小説ですか？"}
+{"id": "Q3209683_1", "text": "What kind of artwork is The Big Time?", "source_language": "en", "target_language": "ja", "prediction": "The Big Timeは何種類の芸術ですか？"}
+{"id": "Q3209683_2", "text": "How would you describe The Big Time in one word?", "source_language": "en", "target_language": "ja", "prediction": "大時間を一言で説明する方法はありますか？"}
+{"id": "Q3273274_0", "text": "Can Dry Bones be defeated, or does it always come back to life?", "source_language": "en", "target_language": "ja", "prediction": "カロンは倒せますか、あるいは永遠に生き返りますか？"}
+{"id": "Q3273274_1", "text": "How does Dry Bones behave differently from other enemies in the Mario games?", "source_language": "en", "target_language": "ja", "prediction": "マリオゲームでのそれぞれの敵に比べ、ドライボーンはどう違うか？"}
+{"id": "Q3273274_2", "text": "What are some of the abilities or attacks that Dry Bones possesses?", "source_language": "en", "target_language": "ja", "prediction": "カロンには何らかの能力や攻撃は持っていますか？"}
+{"id": "Q3276037_0", "text": "What are some common characteristics or skills of a successful color commentator?", "source_language": "en", "target_language": "ja", "prediction": "色彩コメントレーヤーの成功にあたる通常の特徴やスキルは何ですか？"}
+{"id": "Q3276037_1", "text": "How does a color commentator enhance the viewer's understanding of the game?", "source_language": "en", "target_language": "ja", "prediction": "ゲームを理解する方法は、コメントレーターのどういったようにゲーム観客の理解力を向上させていますか？"}
+{"id": "Q3276037_2", "text": "Who typically hires a color commentator for sports broadcasts?", "source_language": "en", "target_language": "ja", "prediction": "スポーツのブロードキャストに色彩コメンテーターを雇っているのは誰ですか？"}
+{"id": "Q32989_0", "text": "Which religious order is associated with Bec Abbey?", "source_language": "en", "target_language": "ja", "prediction": "ベック修道院は何の教団に関係していますか？"}
+{"id": "Q32989_1", "text": "How would you describe the architectural style of Bec Abbey?", "source_language": "en", "target_language": "ja", "prediction": "ベック修道院の建築的スタイルはどうでしょう？"}
+{"id": "Q32989_2", "text": "Who founded Bec Abbey?", "source_language": "en", "target_language": "ja", "prediction": "ベック修道院は誰が建てたか？"}
+{"id": "Q3310583_0", "text": "Which celebrity chef is known for their fusion cuisine?", "source_language": "en", "target_language": "ja", "prediction": "知られるフュージョンクックについては、どの有名シェフですか？"}
+{"id": "Q3310583_1", "text": "Which celebrity chef has the most Michelin stars?", "source_language": "en", "target_language": "ja", "prediction": "米国のどのセレブリティ・料理長が、最多のミシュランガイドを持っていますか？"}
+{"id": "Q3310583_2", "text": "What is a popular TV show hosted by a celebrity chef?", "source_language": "en", "target_language": "ja", "prediction": "有名シェフが主催する、人気のあるテレビシリーズは何ですか？"}
+{"id": "Q334051_0", "text": "What is the architectural style of the Abbey of Monte Cassino?", "source_language": "en", "target_language": "ja", "prediction": "モンテ・カッシーノ修道院の建築様式は何ですか？"}
+{"id": "Q334051_1", "text": "How old is the Abbey of Monte Cassino?", "source_language": "en", "target_language": "ja", "prediction": "モンテ・カッシーノ修道院はいかに古いですか？"}
+{"id": "Q334051_2", "text": "Who founded the Abbey of Monte Cassino?", "source_language": "en", "target_language": "ja", "prediction": "モンテ・カッシーノ修道院は誰が建立しましたか？"}
+{"id": "Q3395987_0", "text": "Can you suggest some tips for choosing the best cooking apples at the grocery store?", "source_language": "en", "target_language": "ja", "prediction": "買い物所で最高の焼き料理用りんごを選ぶ方法は何かお教えくださいか？"}
+{"id": "Q3395987_1", "text": "What are some popular dishes or recipes that use cooking apples?", "source_language": "en", "target_language": "ja", "prediction": "何か、煮込みまれるきゅッきんぐりんごのポピュラーな料理やレシピはありますか？"}
+{"id": "Q3395987_2", "text": "Are cooking apples typically sweeter or more tart compared to eating apples?", "source_language": "en", "target_language": "ja", "prediction": "コッキング apple (クッキングアップル)は食べる apple (エーティングアップル)を比較して、どちらが甜いか、または酸っぱいかにどうなりますか？"}
+{"id": "Q34562_0", "text": "Can visitors enter and explore the Cathedral of La Laguna?", "source_language": "en", "target_language": "ja", "prediction": "観光客は、ラ・ラグーナ大聖堂に入れられて、探索することができますか？"}
+{"id": "Q34562_1", "text": "How would you describe the significance of the Cathedral of La Laguna?", "source_language": "en", "target_language": "ja", "prediction": "ラ・ラグーナ大聖堂の意味は何にてですか？"}
+{"id": "Q34562_2", "text": "Who is the artist or architect behind the Cathedral of La Laguna?", "source_language": "en", "target_language": "ja", "prediction": "ラ・ラグーナ大聖堂の設計者または建築家は誰ですか？"}
+{"id": "Q3522509_0", "text": "Why is the subject of time in Sri Lanka important in the book Sri Lanka Standard Time?", "source_language": "en", "target_language": "ja", "prediction": "スリランカの時間の主題は「スリランカ標準時」の本にどう重要なのか？を説明してください"}
+{"id": "Q3522509_1", "text": "What is the subject matter of the book Sri Lanka Standard Time?", "source_language": "en", "target_language": "ja", "prediction": "そして、「スリランカ標準時」の本の主題は何ですか？"}
+{"id": "Q3522509_2", "text": "How does the book Sri Lanka Standard Time explore the concept of time in Sri Lanka?", "source_language": "en", "target_language": "ja", "prediction": "スリランカの時間の概念について、「スリランカ標準時」という本はどう探索していますか？"}
+{"id": "Q353_0", "text": "What period of history did Blanche of Castile live in?", "source_language": "en", "target_language": "ja", "prediction": "ブランシュ・ド・カスティーユは何期に生活しましたか？"}
+{"id": "Q353_1", "text": "What years did Blanche of Castile serve as Queen consort of France?", "source_language": "en", "target_language": "ja", "prediction": "ブランシュ・ド・カスティーユはフランスの国妃としてどの年代において仕掛けたか？"}
+{"id": "Q353_2", "text": "What was Blanche of Castile's birthplace?", "source_language": "en", "target_language": "ja", "prediction": "ブランシュ・ド・カスティーユは誰かの出身地ですか？"}
+{"id": "Q367578_0", "text": "What was the time period in which Vladislaus II of Bohemia reigned?", "source_language": "en", "target_language": "ja", "prediction": "ヴラジスラフ2世は何の時期に、ブハミーニア国を指導しましたか？"}
+{"id": "Q367578_1", "text": "What country was Vladislaus II of Bohemia the king of?", "source_language": "en", "target_language": "ja", "prediction": "ウォルドセバルク IIはブヒメアの国王になっていたか？"}
+{"id": "Q367578_2", "text": "What was Vladislaus II of Bohemia's role in his kingdom?", "source_language": "en", "target_language": "ja", "prediction": "ヴラジスラフ2世は、彼の王国において何の役割を果たしましたか？"}
+{"id": "Q3801252_0", "text": "Who are the main actors in Identity Thief?", "source_language": "en", "target_language": "ja", "prediction": "Identity Thief の主演は誰ですか？"}
+{"id": "Q3801252_1", "text": "When was the movie Identity Thief released?", "source_language": "en", "target_language": "ja", "prediction": "Identity Thiefの映画は何年にてリリースされましたか？"}
+{"id": "Q3801252_2", "text": "What is the genre of Identity Thief?", "source_language": "en", "target_language": "ja", "prediction": "Identity Thiefのジャンルは？"}
+{"id": "Q3856180_0", "text": "What is the real name of Mister Terrific's alter ego in the DC Comics universe?", "source_language": "en", "target_language": "ja", "prediction": "DCコミックス内のミスター・テリフィックのアルターエゴの実名は？"}
+{"id": "Q3856180_1", "text": "What are the key abilities and skills possessed by Mister Terrific?", "source_language": "en", "target_language": "ja", "prediction": "ミスター・テリフィックの主な能力と技能は何ですか？"}
+{"id": "Q3856180_2", "text": "In which comic series did Mister Terrific first appear as a superhero?", "source_language": "en", "target_language": "ja", "prediction": "ミスター テリフィックはどのコミックシリーズで初めてスーパーヒーローとして出演しましたか？"}
+{"id": "Q3955469_0", "text": "Who is the leader of the Sentinels of Magic?", "source_language": "en", "target_language": "ja", "prediction": "魔法のセンチネルズのリーダーは誰ですか？"}
+{"id": "Q3955469_1", "text": "What powers do the Sentinels of Magic possess?", "source_language": "en", "target_language": "ja", "prediction": "センチネルズ・オブ・マジックは何の力を持っていますか？"}
+{"id": "Q3955469_2", "text": "How does the Sentinels of Magic protect the world?", "source_language": "en", "target_language": "ja", "prediction": "センチネルズ・オブ・マジックは世界をどう守っていますか？"}
+{"id": "Q4020750_0", "text": "Who were the main actors in the film Won't Back Down?", "source_language": "en", "target_language": "ja", "prediction": "ウォント・バック・ダウン -ママたちの学校戦争- において、主演はどれだっけでしょうか？"}
+{"id": "Q4020750_1", "text": "Who directed the 2012 film Won't Back Down?", "source_language": "en", "target_language": "ja", "prediction": "2012年の映画「ウォント・バック・ダウン -ママたちの学校戦争-」はどの режи側が監栄しましたか？"}
+{"id": "Q4020750_2", "text": "In which year was the movie Won't Back Down released?", "source_language": "en", "target_language": "ja", "prediction": "Won't Back Downは何年にリリースされましたか？"}
+{"id": "Q405637_0", "text": "What can visitors see at the Pavlovsk Museum-Preserve?", "source_language": "en", "target_language": "ja", "prediction": "パヴロフスク宮殿に訪れる人が見ることは何ですか？"}
+{"id": "Q405637_1", "text": "Where is the Pavlovsk Museum-Preserve located?", "source_language": "en", "target_language": "ja", "prediction": "パヴロフスク宮殿はどこにありますか？"}
+{"id": "Q405637_2", "text": "What type of landmark is the Pavlovsk Museum-Preserve?", "source_language": "en", "target_language": "ja", "prediction": "観光地は、ペルトロ夫斯ク公園は何ですか？"}
+{"id": "Q4169287_0", "text": "How do you prepare a butternut squash for cooking?", "source_language": "en", "target_language": "ja", "prediction": "バターナット・スクウォッシュを料理用に準備する方法は何ですか？"}
+{"id": "Q4169287_1", "text": "How would you describe the taste of a butternut squash?", "source_language": "en", "target_language": "ja", "prediction": "バターナット・スクウォッシュの味はどうですか？"}
+{"id": "Q4169287_2", "text": "Can you eat the skin of a butternut squash?", "source_language": "en", "target_language": "ja", "prediction": "バターナット・スクウォッシュの皮を食べられますか？"}
+{"id": "Q4187750_0", "text": "What is the main premise of Neko Rahmen?", "source_language": "en", "target_language": "ja", "prediction": "猫ラーメンの本題は？"}
+{"id": "Q4187750_1", "text": "Is Neko Rahmen a book series or a TV series?", "source_language": "en", "target_language": "ja", "prediction": "ネコラーメンは本seriesかTV seriesですか？"}
+{"id": "Q4187750_2", "text": "How would you describe the Neko Rahmen TV series?", "source_language": "en", "target_language": "ja", "prediction": "ネコラーメンのテレビドラマはどう説明できますか？"}
+{"id": "Q4189954_0", "text": "What is the architectural style of Moscow City Hall?", "source_language": "en", "target_language": "ja", "prediction": "モスクワ市庁舎の建築スタイルは何ですか？"}
+{"id": "Q4189954_1", "text": "Where is Moscow City Hall located in Russia?", "source_language": "en", "target_language": "ja", "prediction": "モスクワ市庁舎はロシアで何処にありますか？"}
+{"id": "Q4189954_2", "text": "How old is Moscow City Hall?", "source_language": "en", "target_language": "ja", "prediction": "モスコウ市役所はいくつ年か？"}
+{"id": "Q427110_0", "text": "What is the main theme explored in the book Way Station?", "source_language": "en", "target_language": "ja", "prediction": "Way Stationに掘り下げられる主題は何ですか？"}
+{"id": "Q427110_1", "text": "Who is the author of the 1963 novel Way Station?", "source_language": "en", "target_language": "ja", "prediction": "1963年の小説「Way Station」の著者はどれですか？"}
+{"id": "Q427110_2", "text": "How would you describe Way Station by Clifford D. Simak in one word?", "source_language": "en", "target_language": "ja", "prediction": "中継ステーションを一言で描く方法は何ですか？"}
+{"id": "Q4286835_0", "text": "What does the Medal for Warsaw 1939-1945 symbolize?", "source_language": "en", "target_language": "ja", "prediction": "メダル・フォー・ワルシャワ（1939年-1945年）は何を象徴していますか？"}
+{"id": "Q4286835_1", "text": "When was the Medal for Warsaw 1939-1945 created?", "source_language": "en", "target_language": "ja", "prediction": "1939年-1945年のウォルシャワ章は作成日を教えてください。"}
+{"id": "Q4286835_2", "text": "Who is eligible to receive the Medal for Warsaw 1939-1945?", "source_language": "en", "target_language": "ja", "prediction": "Medal for Warsaw 1939-1945に賞与されることができる人はどのつもりでしょうか？"}
+{"id": "Q4310936_0", "text": "When was the book Two Planets first published?", "source_language": "en", "target_language": "ja", "prediction": "「両惑星物語」は最初に何年にできたのですか？"}
+{"id": "Q4310936_1", "text": "Who is the author of the artwork Two Planets?", "source_language": "en", "target_language": "ja", "prediction": "二つの惑星の作品の著者は誰ですか？"}
+{"id": "Q4310936_2", "text": "Is Two Planets a science fiction novel?", "source_language": "en", "target_language": "ja", "prediction": "二つの惑星は科学フィクション小説ですか？"}
+{"id": "Q435739_0", "text": "Who was Prince Wilhelm, Duke of Södermanland?", "source_language": "en", "target_language": "ja", "prediction": "公爵ソーダマンランドで、ウェルヒメルムは誰だったか？"}
+{"id": "Q4384_0", "text": "Can you provide more information about the musical work Anthem of the Byelorussian Soviet Socialist Republic?", "source_language": "en", "target_language": "ja", "prediction": "白ロシア・ソビエト社会主義共和国の国歌についてより詳しい情報を提供することはできますか？"}
+{"id": "Q4384_1", "text": "What is the subject type of the musical work Anthem of the Byelorussian Soviet Socialist Republic?", "source_language": "en", "target_language": "ja", "prediction": "白ロシア・ソビエト社会主義共和国の国歌は、何の種類の作品ですか？"}
+{"id": "Q440558_0", "text": "How did Cyril Lucaris influence the Orthodox Church during his tenure?", "source_language": "en", "target_language": "ja", "prediction": "キリロス・ルカリスは、東方正教会の教会堂について、彼の任期中でどう影響を与えたか？"}
+{"id": "Q440558_1", "text": "When did Cyril Lucaris serve as the Patriarch of Constantinople?", "source_language": "en", "target_language": "ja", "prediction": "キリロス・ルカリスはコンスタンチノポリスのパトリアーハに何年間執職したでしょうか？"}
+{"id": "Q440558_2", "text": "What is Cyril Lucaris best known for during his time as the Patriarch of Constantinople?", "source_language": "en", "target_language": "ja", "prediction": "キリロス・ルカリスは、常尼ポールのパトリアークの時代に最も知られていることは何ですか？"}
+{"id": "Q4450022_0", "text": "Describe the Esoteric Order of Dagon in a few words.", "source_language": "en", "target_language": "ja", "prediction": "ダゴン秘密教団は、神秘的な願望の教会と言えます。"}
+{"id": "Q4450022_1", "text": "What is the fictional nature of the Esoteric Order of Dagon?", "source_language": "en", "target_language": "ja", "prediction": "ダゴン秘密教団のフィクション的な性質は何ですか？"}
+{"id": "Q4450022_2", "text": "In which mythos does the Esoteric Order of Dagon appear?", "source_language": "en", "target_language": "ja", "prediction": "ダゴン秘密教団は何の神話に現れるか"}
+{"id": "Q4530_0", "text": "What colors are commonly used in the coat of arms of Peru?", "source_language": "en", "target_language": "ja", "prediction": "ペルーの国章によく使われる色は何ですか？"}
+{"id": "Q4530_1", "text": "How does the coat of arms of Peru represent the history and culture of the country?", "source_language": "en", "target_language": "ja", "prediction": "ペルーの国章は、国の歴史と文化を表す方法は何ですか？"}
+{"id": "Q4530_2", "text": "What are the prominent symbols found in the coat of arms of Peru?", "source_language": "en", "target_language": "ja", "prediction": "ペルーの国章に見出される著名なシンボルは何ですか？"}
+{"id": "Q456053_0", "text": "What is croton oil used for?", "source_language": "en", "target_language": "ja", "prediction": "ハズ油は何を用いて使われますか？"}
+{"id": "Q456053_1", "text": "Where does croton oil come from?", "source_language": "en", "target_language": "ja", "prediction": "ハズ油はどこから来ますか？"}
+{"id": "Q456053_2", "text": "How is croton oil obtained?", "source_language": "en", "target_language": "ja", "prediction": "ハズ油はどう作られますか？"}
+{"id": "Q4631020_0", "text": "What are some common characteristics or themes found in 21st-century classical music?", "source_language": "en", "target_language": "ja", "prediction": "21世紀のクラシック音楽における一般的な特徴やテーマは何かですか？"}
+{"id": "Q4631020_1", "text": "Who are some notable composers of 21st-century classical music?", "source_language": "en", "target_language": "ja", "prediction": "21世紀のクラシック音楽の著名な作曲家は誰ですか？"}
+{"id": "Q4631020_2", "text": "How does 21st-century classical music differ from previous classical music eras?", "source_language": "en", "target_language": "ja", "prediction": "21世紀のクラシック音楽は過去のクラシック音楽時代とどう違いますか？"}
+{"id": "Q463938_0", "text": "Who plays the lead role in Made of Honor?", "source_language": "en", "target_language": "ja", "prediction": "Made of Honorの主役は誰ですか？"}
+{"id": "Q463938_1", "text": "When was the film Made of Honor released?", "source_language": "en", "target_language": "ja", "prediction": " Made of Honorの映画は何年におけるリリースでしたか？"}
+{"id": "Q463938_2", "text": "What is the genre of the movie Made of Honor?", "source_language": "en", "target_language": "ja", "prediction": "作品のジャンルは、「Made of Honor」は何ですか？"}
+{"id": "Q46711094_0", "text": "Are there any health benefits to consuming shark fin?", "source_language": "en", "target_language": "ja", "prediction": "シャークの筋を食べるには何らの健康の利点はありますか？"}
+{"id": "Q46711094_1", "text": "How is shark fin used in cooking?", "source_language": "en", "target_language": "ja", "prediction": "しゃークの翼は何で食料として使われますか？"}
+{"id": "Q46711094_2", "text": "What does shark fin taste like?", "source_language": "en", "target_language": "ja", "prediction": "さかんせつはどう味がありますか？"}
+{"id": "Q469755_0", "text": "What themes does The Anatomy of Melancholy explore?", "source_language": "en", "target_language": "ja", "prediction": "憂鬱の解剖学はどのテーマを探索していますか？"}
+{"id": "Q469755_1", "text": "When was The Anatomy of Melancholy published?", "source_language": "en", "target_language": "ja", "prediction": "憂鬱の解剖学は何年によって発行されましたか？"}
+{"id": "Q469755_2", "text": "Who wrote The Anatomy of Melancholy?", "source_language": "en", "target_language": "ja", "prediction": "憂鬱の解剖学は誰が作ったか？"}
+{"id": "Q471005_0", "text": "Can you provide a brief summary of The Mysterious Island?", "source_language": "en", "target_language": "ja", "prediction": " islandの概要をお伝えいただけますか？"}
+{"id": "Q471005_1", "text": "What is the genre of the book The Mysterious Island?", "source_language": "en", "target_language": "ja", "prediction": "神秘の島は何のジャンルの本ですか？"}
+{"id": "Q471005_2", "text": "Is The Mysterious Island considered a classic novel?", "source_language": "en", "target_language": "ja", "prediction": "神秘の島はクラシック小説と見られますか？"}
+{"id": "Q4785589_0", "text": "Can visitors view artwork at the Archbishop's Palace of Alcalá de Henares?", "source_language": "en", "target_language": "ja", "prediction": "アルカラ・デ・エナレス大司教宮殿には観慕者たちが芸術を見ることはできますか？"}
+{"id": "Q4785589_1", "text": "What type of property is the Archbishop's Palace of Alcalá de Henares?", "source_language": "en", "target_language": "ja", "prediction": "アルカラ・デ・エナレス大司教宮殿はどのような物件ですか？"}
+{"id": "Q4785589_2", "text": "What is the cultural significance of the Archbishop's Palace of Alcalá de Henares?", "source_language": "en", "target_language": "ja", "prediction": "アルカラ・デ・エナレス大司教宮殿の文化的意義は何ですか？"}
+{"id": "Q482085_0", "text": "How is the artwork related to the book The Caves of Steel?", "source_language": "en", "target_language": "ja", "prediction": "鋼鉄都市のアートワークは、鋼鉄都市で描かれた本「The Caves of Steel」とどのように関係ありますか？"}
+{"id": "Q482085_1", "text": "Who is the author of the book The Caves of Steel?", "source_language": "en", "target_language": "ja", "prediction": "鋼鉄都市の書籍《鉄の裏》の著者はどれですか？"}
+{"id": "Q482085_2", "text": "What is the main plot of the novel The Caves of Steel?", "source_language": "en", "target_language": "ja", "prediction": "鋼鉄都市の小説「イスタンブルの穴」における主要なストーリーは何ですか？"}
+{"id": "Q497904_0", "text": "Who was Rostislav I of Kyiv?", "source_language": "en", "target_language": "ja", "prediction": "キевのロストリスラフ1世は誰でしたか？"}
+{"id": "Q497925_0", "text": "When did Alexander Belyayev live?", "source_language": "en", "target_language": "ja", "prediction": "アレクサンドル・ベリャーエフは何年に生まれましたか？"}
+{"id": "Q497925_1", "text": "What nationality was Alexander Belyayev?", "source_language": "en", "target_language": "ja", "prediction": "アレクサンドル・ベリャーエフの国籍は何でしたか？"}
+{"id": "Q497925_2", "text": "What was Alexander Belyayev known for?", "source_language": "en", "target_language": "ja", "prediction": "アレクサンドル・ベリヤエフは何に著称していますか？"}
+{"id": "Q50018_0", "text": "What is the main function of the International Statistical Classification of Diseases and Related Health Problems in health management?", "source_language": "en", "target_language": "ja", "prediction": "疾病及び関連保健問題の国際統計分類（WHOによる説明）では、国際的に病歴を統合するために採用されています。そのために、疾病や脳慮問題等、健康管理に関連する問題を区別し、分類することができます。その中で、主な機能はどうなっているかという質問です。"}
+{"id": "Q50018_1", "text": "What is the purpose of the International Statistical Classification of Diseases and Related Health Problems?", "source_language": "en", "target_language": "ja", "prediction": "疾病及び関連保健問題の国際統計分類の目的は何ですか？"}
+{"id": "Q50018_2", "text": "Can you provide a brief overview of the International Statistical Classification of Diseases and Related Health Problems?", "source_language": "en", "target_language": "ja", "prediction": "疾病及び関連保健問題の国際統計分類を一時の概要をいただけますか？"}
+{"id": "Q504818_0", "text": "Who forged the Hitler Diaries?", "source_language": "en", "target_language": "ja", "prediction": "ウーピー・ゴールドバーグはヒッターの日記をどの人が偽造しましたか？"}
+{"id": "Q504818_1", "text": "Who purportedly wrote the Hitler Diaries?", "source_language": "en", "target_language": "ja", "prediction": "ヒトラーの日記をどの人が偽造して書き込んだとされるのですか？"}
+{"id": "Q504818_2", "text": "How many volumes are there in the Hitler Diaries?", "source_language": "en", "target_language": "ja", "prediction": "ヒッターの日記はいくつの巻か？"}
+{"id": "Q5116253_0", "text": "What is the primary role of Perry the Platypus in Phineas and Ferb?", "source_language": "en", "target_language": "ja", "prediction": "フィネアスとファーブの中で、ペラーズ・ザ・プレータヱパスの主な役割は何かですか？"}
+{"id": "Q5116253_1", "text": "What is the species of Perry the Platypus?", "source_language": "en", "target_language": "ja", "prediction": "プェリー・ザ・プラチパスの種類は何ですか？"}
+{"id": "Q5116253_2", "text": "In which cartoon series can you find Perry the Platypus?", "source_language": "en", "target_language": "ja", "prediction": "カモノハシペリーは何のアニメーションシリーズに見られますか？"}
+{"id": "Q512213_0", "text": "Is The Mound considered a significant piece of artwork?", "source_language": "en", "target_language": "ja", "prediction": "墓丘は芸術において重要な作品と見られますか？"}
+{"id": "Q512213_1", "text": "Who collaborated with H. P. Lovecraft to write The Mound?", "source_language": "en", "target_language": "ja", "prediction": "Who collaborated with ハワード・フィリップス・ラヴクラフト on writing ザ・マウンド?"}
+{"id": "Q512213_2", "text": "Can you provide a brief description of The Mound novella?", "source_language": "en", "target_language": "ja", "prediction": "墓地の怪談について、少しだけ説明できますか？"}
+{"id": "Q51403_0", "text": "What were the powers of the Man in Black from Lost?", "source_language": "en", "target_language": "ja", "prediction": "ロストの黒服の男の能力は何でしたか？"}
+{"id": "Q51403_1", "text": "What role did the Man in Black play in the TV series Lost?", "source_language": "en", "target_language": "ja", "prediction": " LostのTVシリーズで、黒服の男は何役を果たしましたか？"}
+{"id": "Q51403_2", "text": "How did the Man in Black appear in the show Lost?", "source_language": "en", "target_language": "ja", "prediction": "ロストで、黒服の男はどう出現しましたか？"}
+{"id": "Q5194756_0", "text": "Are there any health concerns or precautions when using curing salt?", "source_language": "en", "target_language": "ja", "prediction": "保存塩を使用する際には、何らかの健康の問題や注意事項がありますか？"}
+{"id": "Q5194756_1", "text": "What are the different types of curing salt?", "source_language": "en", "target_language": "ja", "prediction": "保存塩の種類は何かとありますか？"}
+{"id": "Q5194756_2", "text": "Can curing salt be used to preserve different types of food?", "source_language": "en", "target_language": "ja", "prediction": "食品の様な物が守りられることは、栄塩を使用できますか？"}
+{"id": "Q52316_0", "text": "How does the Rebel Alliance oppose the Galactic Empire?", "source_language": "en", "target_language": "ja", "prediction": "反乱同盟軍はどうガラクシー帝国に対抗していますか？"}
+{"id": "Q52316_1", "text": "What is the main goal of the Rebel Alliance?", "source_language": "en", "target_language": "ja", "prediction": "反乱同盟軍の主要な目標は何ですか？"}
+{"id": "Q52316_2", "text": "Which planets are known to be strongholds for the Rebel Alliance?", "source_language": "en", "target_language": "ja", "prediction": "反乱同盟軍が強holdになっている星は何ですか？"}
+{"id": "Q5360075_0", "text": "What are some characteristics of the Four Perils?", "source_language": "en", "target_language": "ja", "prediction": "四凋の特徴は何ですか？"}
+{"id": "Q5360075_1", "text": "What kind of beings are the Four Perils?", "source_language": "en", "target_language": "ja", "prediction": "四凶は何の形にありますか？"}
+{"id": "Q5360075_2", "text": "How many Four Perils are there in total?", "source_language": "en", "target_language": "ja", "prediction": "四凶は合計でいくつありますか？"}
+{"id": "Q543389_0", "text": "What genre does the movie Best Defense belong to?", "source_language": "en", "target_language": "ja", "prediction": "Best Defenseはどのジャンルに属していますか？"}
+{"id": "Q543389_1", "text": "What year was the film Best Defense released?", "source_language": "en", "target_language": "ja", "prediction": "Best Defenseの映画は何年にリリースされましたか？"}
+{"id": "Q543389_2", "text": "Who were the main stars of the movie Best Defense?", "source_language": "en", "target_language": "ja", "prediction": "Best Defenseのメインの主演は誰でしたか？"}
+{"id": "Q55168_0", "text": "What were Thodoros Angelopoulos' main professions in the film industry?", "source_language": "en", "target_language": "ja", "prediction": "テオ・アンゲロプロスは映画業界での主な職業は何でしたか？"}
+{"id": "Q55168_1", "text": "What nationality was the filmmaker Thodoros Angelopoulos?", "source_language": "en", "target_language": "ja", "prediction": "テオ・アンゲロプロスは何の国籍かでしたか？"}
+{"id": "Q55168_2", "text": "What is the full name of the Greek filmmaker known for his distinct style, Thodoros Angelopoulos?", "source_language": "en", "target_language": "ja", "prediction": "テオ・アンゲロプロスは、ディスティンクトなスタイルを持つグリーク映画家の全名は何ですか？"}
+{"id": "Q56261592_0", "text": "What jurisdiction does the Civil Code of the People's Republic of China apply to?", "source_language": "en", "target_language": "ja", "prediction": "中華人民共和国の民法がどこに適用されるかですか？"}
+{"id": "Q56261592_1", "text": "What is the subject of the book Civil Code of the People's Republic of China?", "source_language": "en", "target_language": "ja", "prediction": "中華人民共和国民法典の主題は何ですか？"}
+{"id": "Q56261592_2", "text": "When did the Civil Code of the People's Republic of China become effective?", "source_language": "en", "target_language": "ja", "prediction": "中华人民共和国的民法典何时生效了？"}
+{"id": "Q56800842_0", "text": "What is the setting of the Sweet Magnolias TV series?", "source_language": "en", "target_language": "ja", "prediction": "スイート・マグノリアスの舞台はどこですか？"}
+{"id": "Q56800842_1", "text": "How many seasons of Sweet Magnolias are available on Netflix?", "source_language": "en", "target_language": "ja", "prediction": "Netflixにはスイート・マグノリアスのいくつのシーズンがありますか？"}
+{"id": "Q56800842_2", "text": "Who are the main characters in the Sweet Magnolias TV series?", "source_language": "en", "target_language": "ja", "prediction": "スイート・マグノリアスの主要キャラクターは誰ですか？"}
+{"id": "Q57654_0", "text": "When did Sophie of Mecklenburg-Güstrow live?", "source_language": "en", "target_language": "ja", "prediction": "ゾフィー・フォン・メクレンブルクはいつ生まれましたか？"}
+{"id": "Q57654_1", "text": "What countries did Sophie of Mecklenburg-Güstrow become the queen consort of?", "source_language": "en", "target_language": "ja", "prediction": "ソフィーはメクレンブルク＝ギュストロー公国で何の国王女主になりましたか？"}
+{"id": "Q57654_2", "text": "What was Sophie of Mecklenburg-Güstrow's role in Denmark and Norway?", "source_language": "en", "target_language": "ja", "prediction": "デンマークとノルウェーにおけるソフィー・フォン・メクレンブルグの役割は何でしたか？"}
+{"id": "Q590132_0", "text": "What is the genre of the TV series Pat & Mat?", "source_language": "en", "target_language": "ja", "prediction": "TVサーイズのパットとマットは何のジャンルですか？"}
+{"id": "Q590132_1", "text": "What country is the TV series Pat & Mat from?", "source_language": "en", "target_language": "ja", "prediction": "テレビドラーマのPat & Matはどこの国からですか？"}
+{"id": "Q590132_2", "text": "Is Pat & Mat a Czechoslovakian or Czech television series?", "source_language": "en", "target_language": "ja", "prediction": "パットとマットはチェコスロバキアからもしくはチェコのテレビシリーズですか？"}
+{"id": "Q593115_0", "text": "How does the Great Mosque of Samarra compare to other famous mosques?", "source_language": "en", "target_language": "ja", "prediction": "その大きな寺院は、名所の寺院とどう比較されますか？"}
+{"id": "Q593115_1", "text": "How old is the Great Mosque of Samarra?", "source_language": "en", "target_language": "ja", "prediction": "サマラーの大モスクは何歳ですか？"}
+{"id": "Q593115_2", "text": "What architectural style is the Great Mosque of Samarra known for?", "source_language": "en", "target_language": "ja", "prediction": "サーマラーの大モスクは何の建築式に知られていますか？"}
+{"id": "Q603256_0", "text": "What kind of architectural style can be seen in the design of the Niujie Mosque?", "source_language": "en", "target_language": "ja", "prediction": "何の архитеctural style が、牛街清真寺の設計に見られますか？"}
+{"id": "Q603256_1", "text": "How would you describe the Niujie Mosque in terms of its religious significance?", "source_language": "en", "target_language": "ja", "prediction": "牛街清真寺は何であるか、それが宗教的な意義についてどう説明しますか？"}
+{"id": "Q603256_2", "text": "When was the Niujie Mosque first established in Beijing?", "source_language": "en", "target_language": "ja", "prediction": "北京市において、牛街清真寺は何年によって初めて設立されましたか？"}
+{"id": "Q621880_0", "text": "Does apricot oil have any health benefits?", "source_language": "en", "target_language": "ja", "prediction": "アプリコットオイルは健康にいろいろな利点がありますか？"}
+{"id": "Q621880_1", "text": "How is apricot oil made?", "source_language": "en", "target_language": "ja", "prediction": "かきオイルはどう作られますか？"}
+{"id": "Q621880_2", "text": "What are the culinary uses of apricot oil?", "source_language": "en", "target_language": "ja", "prediction": "あんづうオイルは何ですか？"}
+{"id": "Q634759_0", "text": "What is the origin of the lyrics in Monday's Child?", "source_language": "en", "target_language": "ja", "prediction": "月曜日の子が歌詞の元は、どこですか？"}
+{"id": "Q634759_1", "text": "What is the subject matter of the musical work Monday's Child?", "source_language": "en", "target_language": "ja", "prediction": "月曜日の子児がどの音楽作品の題材ですか？"}
+{"id": "Q634759_2", "text": "How old is the traditional song or poem Monday's Child?", "source_language": "en", "target_language": "ja", "prediction": "月曜日に生まれた子供は、何年老いていますか？"}
+{"id": "Q640112_0", "text": "Can you provide a brief description of Spirit Warrior, the artwork franchise directed by Katsuhito Akiyama?", "source_language": "en", "target_language": "ja", "prediction": "彼は、秋山勝仁が監督した、孔雀王の芸術作品フランチジャイズについて、簡単な説明をおねгаいしますか？"}
+{"id": "Q640112_1", "text": "Who is the director of the Spirit Warrior artwork in the media franchise?", "source_language": "en", "target_language": "ja", "prediction": "スピリットウォーRIORの作品の監督は誰ですか？"}
+{"id": "Q640112_2", "text": "What is the name of the artwork created by Katsuhito Akiyama, part of the Spirit Warrior franchise?", "source_language": "en", "target_language": "ja", "prediction": "秋山勝仁が作り、精霊戦士シリーズの一部となるアートワークは何ですか？"}
+{"id": "Q642478_0", "text": "Does the Arab Mosque have any special features or decorations?", "source_language": "en", "target_language": "ja", "prediction": "アラブの寺院は何らかの特徴や装飾がありますか？"}
+{"id": "Q642478_1", "text": "How old is the Arab Mosque in Türkiye?", "source_language": "en", "target_language": "ja", "prediction": "トルコにあるアラブmosqueはいくつの年ですか？"}
+{"id": "Q642478_2", "text": "What architectural style is prevalent in the Arab Mosque?", "source_language": "en", "target_language": "ja", "prediction": "アラブの寺院において、どの建築式が主役ですか？"}
+{"id": "Q645157_0", "text": "What is the significance of the Poblet Monastery?", "source_language": "en", "target_language": "ja", "prediction": "ポブレー修道院の意味は？"}
+{"id": "Q645157_1", "text": "Where is the Poblet Monastery located?", "source_language": "en", "target_language": "ja", "prediction": "ポブレー修道院はどこにありますか？"}
+{"id": "Q645157_2", "text": "What type of place is the Poblet Monastery?", "source_language": "en", "target_language": "ja", "prediction": "ポブレー修道院は何種の場所ですか？"}
+{"id": "Q65088_0", "text": "When did Victor II, Prince of Anhalt-Bernburg-Schaumburg-Hoym pass away?", "source_language": "en", "target_language": "ja", "prediction": "ヴィクトル2世、アンハルト－バーンブルグ－シャウムルップ-ホイム公爵がどの年月に亡くなったか？"}
+{"id": "Q65088_1", "text": "What nationality was Victor II, Prince of Anhalt-Bernburg-Schaumburg-Hoym?", "source_language": "en", "target_language": "ja", "prediction": "ヴィクトル2世の国籍は何でしたか？"}
+{"id": "Q65088_2", "text": "When was Victor II, Prince of Anhalt-Bernburg-Schaumburg-Hoym born?", "source_language": "en", "target_language": "ja", "prediction": "ヴィクトル2世、アンハルト-ベルンブルグ-シュオムールグ-ホイムの公爵として誕生した年は何かですか？"}
+{"id": "Q653789_0", "text": "How many episodes are there in the TV series Pippi Longstocking?", "source_language": "en", "target_language": "ja", "prediction": "Pippi LongstockingのTVシリーズにあります何集ですか？"}
+{"id": "Q653789_1", "text": "What type of TV series is Pippi Longstocking?", "source_language": "en", "target_language": "ja", "prediction": "ピッピロングストッキングはどのテレビドラマですか？"}
+{"id": "Q653789_2", "text": "Who created the 1997 animated television series Pippi Longstocking?", "source_language": "en", "target_language": "ja", "prediction": "1997年のアニメ化テレビシリーズ、ピッピロングストッキングは誰が作成しましたか？"}
+{"id": "Q660082_0", "text": "Where is Melk Abbey located?", "source_language": "en", "target_language": "ja", "prediction": "メルク修道院はどこにありますか？"}
+{"id": "Q660082_1", "text": "What type of place is Melk Abbey?", "source_language": "en", "target_language": "ja", "prediction": "メルク修道院は何の型ですか？"}
+{"id": "Q660082_2", "text": "Where can you find Melk Abbey?", "source_language": "en", "target_language": "ja", "prediction": "メルク修道院はどこにありますか？"}
+{"id": "Q66364245_0", "text": "What are some traditional themes found in Ukrainian folk music?", "source_language": "en", "target_language": "ja", "prediction": "何が、ウクライナの民謡における伝統的なテーマですか？"}
+{"id": "Q66364245_1", "text": "How does Ukrainian folk music differ from other music genres?", "source_language": "en", "target_language": "ja", "prediction": "ウクライナの民芸曲は他の音楽的形式とどう違いますか？"}
+{"id": "Q66364245_2", "text": "Can you name a famous Ukrainian folk music artist?", "source_language": "en", "target_language": "ja", "prediction": "Українаの民謡の著名なアーティストを教えてくださいか？"}
+{"id": "Q683511_0", "text": "How old is the Mosque of Amr ibn al-As?", "source_language": "en", "target_language": "ja", "prediction": "アムル ibn al-Asの荒mosqueはいくつ年前に建成されましたか？"}
+{"id": "Q683511_1", "text": "What is the purpose of the Mosque of Amr ibn al-As?", "source_language": "en", "target_language": "ja", "prediction": "アムル・イブン・アル=アース・モスクの目的は何ですか？"}
+{"id": "Q683511_2", "text": "Can tourists visit the Mosque of Amr ibn al-As?", "source_language": "en", "target_language": "ja", "prediction": "トウリスターは、アムル・イブン・アル=アース・モスクを訪れることができますか？"}
+{"id": "Q702746_0", "text": "Who was Frederick I, Duke of Württemberg?", "source_language": "en", "target_language": "ja", "prediction": "フリードリヒ1世は、ウールトエンブルゲの大公でしたか？"}
+{"id": "Q7278636_0", "text": "In which scene does the Rabbit of Caerbannog make its memorable appearance?", "source_language": "en", "target_language": "ja", "prediction": "カルバノグのシーンで、メモラブルな出現はどこですか？"}
+{"id": "Q7278636_1", "text": "How does the Rabbit of Caerbannog pose a threat to the characters in the movie?", "source_language": "en", "target_language": "ja", "prediction": "映画中のキャラクターに豔される、カルバノグの殺人ウサギはどのように危険な影響を及ぼしていますか？"}
+{"id": "Q7278636_2", "text": "What characteristics make the Rabbit of Caerbannog unique among fictional animals?", "source_language": "en", "target_language": "ja", "prediction": "カーバノグの斬り殺いウサギは妙な特徴が実際の动物に比べたとき独特ですか？"}
+{"id": "Q7336236_0", "text": "Did Queen Daemok have any notable accomplishments during her time as princess of Koryo?", "source_language": "en", "target_language": "ja", "prediction": "広陵町の公主として、大穆王后は、コリョ国の時代中に何らかの特集を果たいでしょうか？"}
+{"id": "Q7336236_1", "text": "What title did Queen Daemok hold in Koryo?", "source_language": "en", "target_language": "ja", "prediction": "大穆王後は朝鮮の古里予国で何等の称号を持っていましたか？"}
+{"id": "Q7336236_2", "text": "Can you provide a brief description of Queen Daemok's reign?", "source_language": "en", "target_language": "ja", "prediction": "大穌王後の統治期間について、少しの説明をすることはできませんか？"}
+{"id": "Q746368_0", "text": "In which languages is the Great Norwegian Encyclopedia available?", "source_language": "en", "target_language": "ja", "prediction": "ノルウェーの大図鑑はどの言語で利用可能ですか？"}
+{"id": "Q746368_1", "text": "How many volumes does the Great Norwegian Encyclopedia have?", "source_language": "en", "target_language": "ja", "prediction": "ノルウエー大百科事典は何冊になりますか？"}
+{"id": "Q746368_2", "text": "Who are some of the notable contributors to the Great Norwegian Encyclopedia?", "source_language": "en", "target_language": "ja", "prediction": "ノルウェー大百科事典に貢献しているのは誰ですか？"}
+{"id": "Q748786_0", "text": "How is cod liver oil typically consumed?", "source_language": "en", "target_language": "ja", "prediction": "肝油は普通にどのように飲みますか？"}
+{"id": "Q748786_1", "text": "How is cod liver oil derived?", "source_language": "en", "target_language": "ja", "prediction": "コドの腩油はどう生成されていますか？"}
+{"id": "Q748786_2", "text": "What are the benefits of taking cod liver oil?", "source_language": "en", "target_language": "ja", "prediction": "こだり油をとるのにとってどういった利点がありますか？"}
+{"id": "Q749783_0", "text": "Is The Man in the High Castle a book or a movie?", "source_language": "en", "target_language": "ja", "prediction": "『高い城の男』は本ですか、または映画ですか？"}
+{"id": "Q749783_1", "text": "When was The Man in the High Castle published?", "source_language": "en", "target_language": "ja", "prediction": "「高い城の男」は何年に発行されましたか？"}
+{"id": "Q749783_2", "text": "What type of artwork is The Man in the High Castle?", "source_language": "en", "target_language": "ja", "prediction": "タイプは高い城の男のアートワークは？"}
+{"id": "Q769783_0", "text": "What is Pavel Chukhray known for?", "source_language": "en", "target_language": "ja", "prediction": "パベル・チュフライは何に知られていますか？"}
+{"id": "Q769783_1", "text": "When was Pavel Chukhray born?", "source_language": "en", "target_language": "ja", "prediction": "パーヴェル・チュフライは何年誕生しましたか？"}
+{"id": "Q769783_2", "text": "What nationality is Pavel Chukhray?", "source_language": "en", "target_language": "ja", "prediction": "ペアヴェル・チュフライの国籍は何ですか？"}
+{"id": "Q7713594_0", "text": "What is the subject matter of The Americans?", "source_language": "en", "target_language": "ja", "prediction": "ジ・アメリカンズやアメリカンズの主題は何ですか？"}
+{"id": "Q7713594_1", "text": "What type of artwork is The Americans?", "source_language": "en", "target_language": "ja", "prediction": "ジ・アメリカンズはどの型の芸術ですか？"}
+{"id": "Q7713594_2", "text": "How would you describe the book The Americans?", "source_language": "en", "target_language": "ja", "prediction": "「ジ・アメリカンズ」または「アメリカンズ」という本の説明は？"}
+{"id": "Q7714007_0", "text": "Who produced the 1980 film The Apple?", "source_language": "en", "target_language": "ja", "prediction": "1980年の映画「The Apple」は誰が製作しましたか？"}
+{"id": "Q7714007_1", "text": "What genre does the film The Apple belong to?", "source_language": "en", "target_language": "ja", "prediction": "死のパラダイスは、どのジャンルに属しますか？"}
+{"id": "Q7714007_2", "text": "When was the movie The Apple released?", "source_language": "en", "target_language": "ja", "prediction": "死のパラダイス（The Apple）は何年頃にリリースされましたか？"}
+{"id": "Q7750262_0", "text": "Can you provide a brief description of the book The Map of Time?", "source_language": "en", "target_language": "ja", "prediction": "時の地図について、briefですが何か教えてください？"}
+{"id": "Q7750262_1", "text": "What is the subject of the book The Map of Time?", "source_language": "en", "target_language": "ja", "prediction": "時の地図の主題は何ですか？"}
+{"id": "Q7750262_2", "text": "Is The Map of Time considered an artwork or a book?", "source_language": "en", "target_language": "ja", "prediction": "The Map of Time (時の地図)は作品かブックかと考えられますか？"}
+{"id": "Q7755297_0", "text": "What inspired Susan Orlean to create The Orchid Thief, the artwork that delves into the fascinating subculture surrounding rare orchids?", "source_language": "en", "target_language": "ja", "prediction": "ジョン・ラロシュが、珍しいオルキッドを中心にする興味深い圏の世界について、何かがスーザン・オーリアンに魅了し、『The Orchid Thief』という作品を作り始めたのでしょうか？"}
+{"id": "Q7755297_1", "text": "Who is the author of The Orchid Thief, the artwork that explores the world of orchid enthusiasts?", "source_language": "en", "target_language": "ja", "prediction": "蘭の叛逆者の著作者は誰ですか？、蘭の愛好家の世界を探るアートワークであることです"}
+{"id": "Q7755297_2", "text": "How would you describe The Orchid Thief, the artwork that has been widely praised for its captivating storytelling?", "source_language": "en", "target_language": "ja", "prediction": "ジョン・ラロシュのオールダックスは、誰にも知られた人気を集めている巻絵であり、その俯瞰的な物語Telluringsに大きな魅力があると評判されています。"}
+{"id": "Q7756256_0", "text": "What is the main subject matter of The Passing of the Great Race?", "source_language": "en", "target_language": "ja", "prediction": "大きな人類の賄滅またはユーロ州の人類歴史については何ですか？"}
+{"id": "Q7756256_1", "text": "Who is the author of The Passing of the Great Race?", "source_language": "en", "target_language": "ja", "prediction": "著者はグレートレースの過去をどの人間類か、または欧州人类の歴史に関する本の作者は誰ですか？"}
+{"id": "Q7756256_2", "text": "In what form does The Passing of the Great Race exist?", "source_language": "en", "target_language": "ja", "prediction": "「大人類の撮退」はどういった形で存在しますか？"}
+{"id": "Q7825314_0", "text": "What is the genre of the movie Tora-san, My Uncle?", "source_language": "en", "target_language": "ja", "prediction": "男はつらいよ 寅次郎忘れな草の映画のジャンルは何ですか？"}
+{"id": "Q7825314_1", "text": "Which year was Tora-san, My Uncle released?", "source_language": "en", "target_language": "ja", "prediction": "トラサン、僕のおじいさんは何年にリリースされましたか？"}
+{"id": "Q7825314_2", "text": "Can you provide a brief plot summary of Tora-san, My Uncle?", "source_language": "en", "target_language": "ja", "prediction": "トラさん、私のおじいちゃんのストーリーを簡潔に要約することができますか？"}
+{"id": "Q796772_0", "text": "How did the Battle of Wolf 359 impact the fictional universe it occurred in?", "source_language": "en", "target_language": "ja", "prediction": "ウルフ359の戦いは、そのあたりに起きた虚構宇宙にどう影響しましたか？"}
+{"id": "Q796772_1", "text": "Which fictional universe does the Battle of Wolf 359 take place in?", "source_language": "en", "target_language": "ja", "prediction": "Star TrekでBattle of Wolf 359はどこに起きていますか？"}
+{"id": "Q796772_2", "text": "Who were the main combatants in the Battle of Wolf 359?", "source_language": "en", "target_language": "ja", "prediction": "ウルフ359の戦いで主に誰が戦ったか？"}
+{"id": "Q80355_0", "text": "How many chapters are there in the First Epistle to the Corinthians?", "source_language": "en", "target_language": "ja", "prediction": "ファースト・コリンズに書かれた第1章はいくつありますか？"}
+{"id": "Q80355_1", "text": "Who is the author of the First Epistle to the Corinthians?", "source_language": "en", "target_language": "ja", "prediction": "コリントの信頼主は誰ですか？"}
+{"id": "Q80355_2", "text": "What is the purpose of the First Epistle to the Corinthians?", "source_language": "en", "target_language": "ja", "prediction": "コリントの信徒への第1手紙の目的は何ですか？"}
+{"id": "Q81047912_0", "text": "What is the premise of the Belgian series The Twelve and what makes it unique?", "source_language": "en", "target_language": "ja", "prediction": "ベルギーのシリーズ『運命の12人』の概要は何ですか？そして、それに特別なところはありますか？"}
+{"id": "Q81047912_1", "text": "What is the setting of the Belgian television series The Twelve?", "source_language": "en", "target_language": "ja", "prediction": "ブルッセルのテレビドラマシリーズ『12人』の設定は何ですか？"}
+{"id": "Q81047912_2", "text": "Who are the main characters in the TV show The Twelve and how are they connected to the murder trial?", "source_language": "en", "target_language": "ja", "prediction": "テレビドラマ「 THE TWELVE」の主人公は何ですかと、殺人事件についての関連はどうでしょうか？"}
+{"id": "Q837140_0", "text": "How many books are in the series that Catching Fire is a part of?", "source_language": "en", "target_language": "ja", "prediction": "ハンガー・ゲーム (映画シリーズ)の本は何本ありますか？"}
+{"id": "Q837140_1", "text": "Who is the author of Catching Fire?", "source_language": "en", "target_language": "ja", "prediction": "Catching Fireの作者はどれですか？"}
+{"id": "Q837140_2", "text": "When was Catching Fire published?", "source_language": "en", "target_language": "ja", "prediction": "Catching Fire (ハンガー・ゲーム2 燃え広がる炎)の出版年は何年ですか？"}
+{"id": "Q837934_0", "text": "What is the genre of Flowers for Algernon?", "source_language": "en", "target_language": "ja", "prediction": "フラワーズ・フォーアルジェルノンのジャンレは何ですか？"}
+{"id": "Q837934_1", "text": "Who is the author of Flowers for Algernon?", "source_language": "en", "target_language": "ja", "prediction": "アルジェルノンの著者は誰ですか？"}
+{"id": "Q837934_2", "text": "Is Flowers for Algernon a short story or a novel?", "source_language": "en", "target_language": "ja", "prediction": "アルジャーノンに花束をは、短編storyか小説novelですか？"}
+{"id": "Q840448_0", "text": "Are cellophane noodles gluten-free?", "source_language": "en", "target_language": "ja", "prediction": "セロファンのヌードルズはグルテンフリーですか？"}
+{"id": "Q840448_1", "text": "How would you describe the texture of cellophane noodles?", "source_language": "en", "target_language": "ja", "prediction": "春雨は何と言えますか、セロファン仕事のテクスチャを語るのですか？"}
+{"id": "Q840448_2", "text": "What is a common dish that uses cellophane noodles as an ingredient?", "source_language": "en", "target_language": "ja", "prediction": "春雨は何種のお商品に含まれることがよくありますか？"}
+{"id": "Q842337_0", "text": "What is the main theme or focus of Parallel Lives?", "source_language": "en", "target_language": "ja", "prediction": "『対比列伝』の主題は何ですか？"}
+{"id": "Q842337_1", "text": "Who is the author of the book Parallel Lives?", "source_language": "en", "target_language": "ja", "prediction": "Parallel Livesの著者は誰ですか？"}
+{"id": "Q842337_2", "text": "Which ancient civilizations are featured in Parallel Lives?", "source_language": "en", "target_language": "ja", "prediction": "「対比列伝」で掲載されている古代の文明は何かですか？"}
+{"id": "Q843261_0", "text": "In what region of France can Cîteaux Abbey be found?", "source_language": "en", "target_language": "ja", "prediction": "シトー修道院は何地区のフランスにありますか？"}
+{"id": "Q843261_1", "text": "What type of place is Cîteaux Abbey?", "source_language": "en", "target_language": "ja", "prediction": "Cîteaux Abbeyは何の場所ですか？"}
+{"id": "Q843261_2", "text": "What is the main purpose of Cîteaux Abbey?", "source_language": "en", "target_language": "ja", "prediction": "Cîteaux Abbeyの主な目的は何ですか？"}
+{"id": "Q845053_0", "text": "What are the names of the three objects that make up the Deathly Hallows?", "source_language": "en", "target_language": "ja", "prediction": "三つの物は、死の秘宝というものを成す者には何かですか？"}
+{"id": "Q845053_1", "text": "Who created the Deathly Hallows in the Harry Potter series?", "source_language": "en", "target_language": "ja", "prediction": "ハリー・ポッターシリーズでは、誰が死の秘宝を作りましたか？"}
+{"id": "Q845053_2", "text": "Can someone possess all three Deathly Hallows at the same time?", "source_language": "en", "target_language": "ja", "prediction": "同時に三つの死の秘宝を持つ者はいますか？"}
+{"id": "Q848397_0", "text": "How long has the Maiden's Tower been standing at the entrance of the Bosphorus?", "source_language": "en", "target_language": "ja", "prediction": "乙女の塔は、ボスポルスの入り口に立てられる時かかった長いとうですか？"}
+{"id": "Q848397_1", "text": "Is the Maiden's Tower an artwork or a lighthouse?", "source_language": "en", "target_language": "ja", "prediction": "「乙女の塔」は芸術から灯台なのですか？"}
+{"id": "Q848397_2", "text": "What is the significance of the Maiden's Tower at the southern entrance of the Bosphorus?", "source_language": "en", "target_language": "ja", "prediction": "乙女の塔はボスポールス南端にあるものの意味は何ですか？"}
+{"id": "Q852032_0", "text": "Is the Burana Tower still used for religious ceremonies?", "source_language": "en", "target_language": "ja", "prediction": "ブラナの塔はまだ宗教式に使用されていますか？"}
+{"id": "Q852032_1", "text": "How tall is the Burana Tower?", "source_language": "en", "target_language": "ja", "prediction": "ブラナの塔はあなたにどの高さですか？"}
+{"id": "Q852032_2", "text": "What was the purpose of building the Burana Tower?", "source_language": "en", "target_language": "ja", "prediction": "ブラナの塔は何の目的で作られたんですか？"}
+{"id": "Q856356_0", "text": "Is Sheikh Lotfollah Mosque still used as a place of worship today?", "source_language": "en", "target_language": "ja", "prediction": "今日は拝面に使用されていますか、シェーク・ロトフォラー・モスク？"}
+{"id": "Q856356_1", "text": "Where is Sheikh Lotfollah Mosque located?", "source_language": "en", "target_language": "ja", "prediction": "シャイフ・ロトフォラー・モスクはどこにありますか？"}
+{"id": "Q856356_2", "text": "How would you describe the architectural style of Sheikh Lotfollah Mosque?", "source_language": "en", "target_language": "ja", "prediction": "シェイク・ロートフォラー・モスクの建築風顔をどう説明するでしょうか？"}
+{"id": "Q85814101_0", "text": "How many seasons of The Woods have been released?", "source_language": "en", "target_language": "ja", "prediction": "The Woodsで何年分のシーズンが発売されましたか？"}
+{"id": "Q85814101_1", "text": "Who are the main characters in The Woods?", "source_language": "en", "target_language": "ja", "prediction": "The Woods, その森にはどうやら主人公はどれですか？"}
+{"id": "Q85814101_2", "text": "Where is The Woods TV series set?", "source_language": "en", "target_language": "ja", "prediction": "その森に設けられているテレビドラマはどこですか？"}
+{"id": "Q864751_0", "text": "Can you provide an iconic quote by The Hatter?", "source_language": "en", "target_language": "ja", "prediction": "帽子屋様からイコニックな引用はどういってください？"}
+{"id": "Q864751_1", "text": "What role does The Hatter play in Through the Looking-Glass?", "source_language": "en", "target_language": "ja", "prediction": "帽子屋は通って見るものの大licaではどういった役割を果たしますか？"}
+{"id": "Q864751_2", "text": "How would you describe The Hatter's personality?", "source_language": "en", "target_language": "ja", "prediction": "帽子屋の性格はどうでしょうか？"}
+{"id": "Q88465322_0", "text": "Can you provide a brief plot summary of The Man Who Sold His Skin?", "source_language": "en", "target_language": "ja", "prediction": "皮膚を売りたれる男の短いストーリーをどうぞ。"}
+{"id": "Q88465322_1", "text": "Who directed The Man Who Sold His Skin?", "source_language": "en", "target_language": "ja", "prediction": "誰が《The Man Who Sold His Skin》を監督しましたか？"}
+{"id": "Q88465322_2", "text": "When was The Man Who Sold His Skin released?", "source_language": "en", "target_language": "ja", "prediction": "皮膨だんは何年における映画がリリースされましたか？"}
+{"id": "Q9062158_0", "text": "Is Wu Kang-ren primarily an actor or a model?", "source_language": "en", "target_language": "ja", "prediction": "呉慷仁は主にアクターかモデルですか？"}
+{"id": "Q9062158_1", "text": "What is Wu Kang-ren known for?", "source_language": "en", "target_language": "ja", "prediction": "呉慷仁は何に知られていますか？"}
+{"id": "Q9062158_2", "text": "Where is Wu Kang-ren from?", "source_language": "en", "target_language": "ja", "prediction": "呉慷仁はどこからですか？"}
+{"id": "Q910656_0", "text": "How does neem oil benefit the body when consumed?", "source_language": "en", "target_language": "ja", "prediction": "脂肪に満たされた食べ物でニームオイルを食べる際にどのような体に優点がありますか？"}
+{"id": "Q910656_1", "text": "What are the culinary uses of neem oil?", "source_language": "en", "target_language": "ja", "prediction": "ネームオイルは何かの料理使用にありますか？"}
+{"id": "Q910656_2", "text": "Can neem oil be used for medicinal purposes?", "source_language": "en", "target_language": "ja", "prediction": "ネイムオイルは医療的な用途に使うことができますか？"}
+{"id": "Q913324_0", "text": "Who are some of the main actors in Legends of the Fall?", "source_language": "en", "target_language": "ja", "prediction": "Legends of the Fallの主人公はどれかですか？"}
+{"id": "Q913324_1", "text": "What year was the movie Legends of the Fall released?", "source_language": "en", "target_language": "ja", "prediction": "Legends of the Fall (Futatabi no Ai ni) は何年にリリースされましたか？"}
+{"id": "Q913324_2", "text": "What genre does the movie Legends of the Fall belong to?", "source_language": "en", "target_language": "ja", "prediction": "「レジェンド・オブ・フォール」の映画はどのジャンルに属していますか？"}
+{"id": "Q922054_0", "text": "Who are the main actors in the movie The Cup?", "source_language": "en", "target_language": "ja", "prediction": "ザ・カップの主人公は誰ですか？"}
+{"id": "Q922054_1", "text": "When was the movie The Cup released?", "source_language": "en", "target_language": "ja", "prediction": "ザ・カップの映画は何年頃にリリースされましたか？"}
+{"id": "Q922054_2", "text": "What is the genre of the movie The Cup?", "source_language": "en", "target_language": "ja", "prediction": "ザ・カップの映画は何のジャンルですか？"}
+{"id": "Q930079_0", "text": "In which year was the TV series Dogtanian and the Three Muskehounds first aired?", "source_language": "en", "target_language": "ja", "prediction": "ドッグテーナンと三銃士のTVシリーズは何年にできたか？"}
+{"id": "Q930079_1", "text": "What is the genre of the TV series Dogtanian and the Three Muskehounds?", "source_language": "en", "target_language": "ja", "prediction": "ドクタニアンと三銃士のテレビシリーズのジャンルは何ですか？"}
+{"id": "Q930079_2", "text": "How many muskehounds are there in Dogtanian and the Three Muskehounds?", "source_language": "en", "target_language": "ja", "prediction": "ドグタニアンと3匹のムスケホーンにいくつのムスケホーンがありますか？"}
+{"id": "Q93165_0", "text": "What are some popular varieties of olive oil?", "source_language": "en", "target_language": "ja", "prediction": "オリーブオイルによく知られた種類はありますか？"}
+{"id": "Q93165_1", "text": "What are the health benefits of olive oil?", "source_language": "en", "target_language": "ja", "prediction": "オリジナル・オイルの健康利点は何ですか？"}
+{"id": "Q93165_2", "text": "Can olive oil be used for cooking and dressing salads?", "source_language": "en", "target_language": "ja", "prediction": "オリーブオイルは炒き込みやサラダのドレッシングに使用できますか？"}
+{"id": "Q941724_0", "text": "When was The Carnival of the Animals composed?", "source_language": "en", "target_language": "ja", "prediction": "豊裕が「動物の謝肉祭」を何年頃に作りましたか？"}
+{"id": "Q941724_1", "text": "What type of musical work is The Carnival of the Animals?", "source_language": "en", "target_language": "ja", "prediction": "何種類の音楽作品は、動物の謝肉祭ですか？"}
+{"id": "Q941724_2", "text": "How would you describe The Carnival of the Animals?", "source_language": "en", "target_language": "ja", "prediction": "動物の講祭を説明すると、どうでしょうか？"}
+{"id": "Q943383_0", "text": "What is the subject of the Turkish March?", "source_language": "en", "target_language": "ja", "prediction": "トールコの進行曲は何ですか？"}
+{"id": "Q943383_1", "text": "Who composed the Turkish March?", "source_language": "en", "target_language": "ja", "prediction": "トルコ行進曲は誰が作曲しましたか？"}
+{"id": "Q943383_2", "text": "How many melodies are in the Turkish March?", "source_language": "en", "target_language": "ja", "prediction": "トルコ行進曲には何つのメロディがありますか？"}
+{"id": "Q943808_0", "text": "Which Ruling Steward of Gondor played a pivotal role in defending the city against the Witch-king of Angmar?", "source_language": "en", "target_language": "ja", "prediction": "ゴンドの守護大官はアングマールの魔王をどうにあたるために市を守りましたか？に関する誰が重要な役割を果たしたでしょうか？"}
+{"id": "Q943808_1", "text": "What was the main duty of the Ruling Steward of Gondor?", "source_language": "en", "target_language": "ja", "prediction": "ゴンドールの執政は、主に財政と軍事等を管理する役割でした。"}
+{"id": "Q943808_2", "text": "Who succeeded the last Ruling Steward of Gondor in the line of succession?", "source_language": "en", "target_language": "ja", "prediction": "ゴンドールの前任行政弁議者を置き換える誰かは何人でしょうか？"}
+{"id": "Q946877_0", "text": "How did What Is to Be Done? impact the Bolshevik-Menshevik split?", "source_language": "en", "target_language": "ja", "prediction": "What Is to Be Done?の影響は、ボルシェビック-メンシェビックの分化にとってどういった影響がありましたか？"}
+{"id": "Q946877_1", "text": "What does What Is to Be Done? argue about the relationship between workers and politics?", "source_language": "en", "target_language": "ja", "prediction": "何をなすべきか（小説）は、労働者と政治関係について論じることでしょう。"}
+{"id": "Q946877_2", "text": "What is the significance of the vanguard in What Is to Be Done??", "source_language": "en", "target_language": "ja", "prediction": "何をなすべきか（小説）の前衛の意味は何ですか？"}
+{"id": "Q94787_0", "text": "Is sunflower oil a healthy option?", "source_language": "en", "target_language": "ja", "prediction": "サンフラウアー油は健康的なオプションですか？"}
+{"id": "Q94787_1", "text": "How is sunflower oil extracted?", "source_language": "en", "target_language": "ja", "prediction": "日本語では、さっきの質問は、コイオン Oil から何ように提取されるかということですか？"}
+{"id": "Q94787_2", "text": "Can sunflower oil be used for cooking?", "source_language": "en", "target_language": "ja", "prediction": "サンフラワーオイルを料理で使用できますか？"}
+{"id": "Q951587_0", "text": "Can you provide a brief summary of the plot of Never Let Me Go?", "source_language": "en", "target_language": "ja", "prediction": "Never Let Me Go のストーリーの短い概要を提供することはできますか？"}
+{"id": "Q951587_1", "text": "Who is the author of the novel Never Let Me Go?", "source_language": "en", "target_language": "ja", "prediction": "Never Let Me Goの著者は誰ですか？"}
+{"id": "Q951587_2", "text": "When was Never Let Me Go first published?", "source_language": "en", "target_language": "ja", "prediction": "Never Let Me Goは最初に何年がかったのですか？"}
+{"id": "Q9762_0", "text": "Which famous catchphrase is associated with the Simpson family?", "source_language": "en", "target_language": "ja", "prediction": "シンプソン一家は名られる愚かなことを言ったよりも知られている言葉は何ですか？"}
+{"id": "Q9762_1", "text": "What animated series features the Simpson family?", "source_language": "en", "target_language": "ja", "prediction": "科は何のアニメーションシリーズでシンプソン一家が現れますか？"}
+{"id": "Q9762_2", "text": "What is the name of the father in the Simpson family?", "source_language": "en", "target_language": "ja", "prediction": "シンプソンの父は何か名前ですか？"}
+{"id": "Q9892_0", "text": "Which dynasty did Emperor Ai of Tang belong to?", "source_language": "en", "target_language": "ja", "prediction": "単に何代の帝子で、唐の哀帝が居住していましたか？"}
+{"id": "Q9892_1", "text": "When did Emperor Ai of Tang rule?", "source_language": "en", "target_language": "ja", "prediction": "哀帝は、唐国に裁きを受けた年代は何年でしょうか？"}
+{"id": "Q9892_2", "text": "How long was Emperor Ai of Tang in power?", "source_language": "en", "target_language": "ja", "prediction": "哀帝は貴族家である漢の太平天皇を代表し、唐朝が存続する期間中に、何年間もいたかと質問されます"}
+{"id": "Q992508_0", "text": "What is the significance of the Huaisheng Mosque in Guangdong?", "source_language": "en", "target_language": "ja", "prediction": "広東省の懐聖寺の懐聖寺は何の意味がありますか？"}
+{"id": "Q992508_1", "text": "What type of place is the Huaisheng Mosque?", "source_language": "en", "target_language": "ja", "prediction": "懐聖寺は何の場所ですか？"}
+{"id": "Q992508_2", "text": "Can you provide a brief description of the Huaisheng Mosque in Guangdong?", "source_language": "en", "target_language": "ja", "prediction": "Guangdongの懐聖寺について、簡単な説明をしてくださいか？"}
