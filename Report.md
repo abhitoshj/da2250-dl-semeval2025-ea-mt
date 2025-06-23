@@ -81,16 +81,13 @@ The following prompt template is used for each translation task:
 
 #### Observations
 
-- The Final Score metric, which combines COMET and META, shows that `gpt-4o` and `gemini-2.0-flash` are the most consistent top performers across high-resource languages, with `gemini-2.0-flash` slightly ahead where available.
-- `facebook_nllb_200_3.3b` is robust and covers all languages, but is outperformed by the top models in most cases.
-- `gemma3_instruct_4b_text` is competitive in Asian languages but lags in overall adequacy, while `llama3.1_8b` is the weakest across all metrics.
-- The largest performance gaps are seen in Final Score for low-resource and Asian languages, highlighting the challenge of adequacy in these settings.
+- **COMET Scores:** `gpt-4o` and `gemini-2.0-flash` consistently achieve the highest COMET scores across high-resource languages, indicating strong adequacy and fluency. `facebook_nllb_200_3.3b` is robust and covers all languages, but is slightly behind the top models. `gemma3_instruct_4b_text` and `llama3.1_8b` lag behind, especially in low-resource and Asian languages.
+- **META Scores:** `gemini-2.0-flash` and `gpt-4o` again lead in META scores for high-resource languages, with `facebook_nllb_200_3.3b` providing broad but lower coverage. META scores for `llama3.1_8b` and `gemma3_instruct_4b_text` are notably lower, especially for Asian and low-resource languages, highlighting adequacy challenges.
+- **Final Score:** The harmonic mean of COMET and META confirms that `gpt-4o` and `gemini-2.0-flash` are the most consistent top performers for high-resource languages. `facebook_nllb_200_3.3b` is a strong baseline for broad coverage, but the largest performance gaps are seen in low-resource and Asian languages, where adequacy (META) is a limiting factor.
 
 #### Conclusion
 
-- The Final Score metric confirms that `gpt-4o` and `gemini-2.0-flash` are the best-performing models in the zero-shot setting, especially for high-resource languages.
-- `facebook_nllb_200_3.3b` remains a strong baseline for broad language coverage.
-- The Final Score provides a more holistic view of translation quality, emphasizing the importance of both adequacy and fluency.
+- The combined metrics show that `gpt-4o` and `gemini-2.0-flash` are the best-performing models in the zero-shot setting, especially for high-resource languages. `facebook_nllb_200_3.3b` remains a reliable baseline for broad language coverage. The Final Score metric provides a holistic view, emphasizing the importance of both adequacy and fluency, and highlights the need for further improvement in low-resource and Asian languages.
 
 ## Retrieval Augmented Generation
 
@@ -185,17 +182,14 @@ The following prompt template is used for each translation task:
 
 #### Observations
 
-- The Final Score metric highlights the substantial advantage of `gemma3_instruct_4b_text (rag-wikidata)` over all other models, especially in Meta-heavy languages and for adequacy.
-- `facebook_nllb_200_3.3b` (both RAG variants) is strong and consistent, but is outperformed by `gemma3_instruct_4b_text` in every language and metric.
-- `mistral7b` performs well in some European languages but is much weaker in Final Score for Asian and low-resource languages, and its zero-shot RAG variant is especially poor.
-- The largest gains from entity-aware augmentation are seen in languages with complex named entities and for adequacy (Meta score).
+- **COMET Scores:** `gemma3_instruct_4b_text (rag-wikidata)` achieves the highest COMET scores across nearly all languages, demonstrating the benefit of entity-aware augmentation. `facebook_nllb_200_3.3b` (both RAG variants) is strong and consistent, while `mistral7b` is competitive in some European languages but weaker elsewhere.
+- **META Scores:** The META scores show a substantial advantage for `gemma3_instruct_4b_text (rag-wikidata)`, especially in adequacy-heavy languages. `facebook_nllb_200_3.3b` is consistent, but `mistral7b` and its zero-shot RAG variant perform poorly in low-resource and Asian languages.
+- **Final Score:** The harmonic mean highlights the superior performance of `gemma3_instruct_4b_text (rag-wikidata)` in both adequacy and fluency, with the largest gains in languages with complex named entities. The RAG approach is especially effective for adequacy (META) in these settings.
 
 #### Conclusions
 
-- The RAG Wikidata approach with `gemma3_instruct_4b_text` delivers state-of-the-art performance among all tested models, especially in Final Score, indicating superior adequacy and entity handling.
-- Entity-aware translation using Wikidata lookups is highly effective, with the largest gains in languages and settings where entity translation is challenging.
-- The Final Score metric provides a comprehensive view of translation quality, confirming the robustness of the RAG approach for named-entity-rich content.
-A
+- The RAG Wikidata approach with `gemma3_instruct_4b_text` delivers state-of-the-art performance, especially in adequacy and entity handling, as reflected in the Final Score. Entity-aware translation using Wikidata lookups is highly effective, particularly for languages and settings where entity translation is challenging. The combined metrics confirm the robustness of the RAG approach for named-entity-rich content.
+
 ## Few Shot Prompting
 
 ### COMET Scores
@@ -237,16 +231,12 @@ A
 ![Final Score Chart](images/fewshot-experiment-final-score-(harmonic-mean-of-comet-and-meta)-per-language-and-model.png)
 
 #### Observations
-- The COMET and META scores show that `gpt-4o` consistently achieves the highest adequacy and fluency across most languages, especially high-resource ones.
-- `facebook_nllb_200_3.3b` and `mistral7b` are strong baselines, with `mistral7b` showing competitive META scores in some European languages.
-- `gemma3_instruct_4b_text` is more competitive in Asian languages for COMET, but its META scores lag behind, indicating challenges in adequacy.
-- `llama3.1_8b` is the weakest across all metrics, especially for low-resource and Asian languages.
-- The largest performance gaps are seen in META and Final Score for low-resource and Asian languages, highlighting the challenge of adequacy in these settings.
+- **COMET Scores:** `gpt-4o` and `gemini-2.0-flash` achieve the highest COMET scores in the few-shot setting for high-resource languages. `llama3.1_8b` lags behind, especially in low-resource and Asian languages.
+- **META Scores:** `gpt-4o` and `gemini-2.0-flash` again lead in META scores for high-resource languages, but `gpt-4o` shows a sharp drop in META for Asian languages, indicating a challenge in adequacy. `llama3.1_8b` and its variants have the lowest META scores, especially for low-resource languages.
+- **Final Score:** The harmonic mean confirms that `gpt-4o` and `gemini-2.0-flash` are the best in the few-shot setting for high-resource languages, but all models struggle with adequacy in low-resource and Asian languages, as seen in the lower Final Scores.
 
 #### Conclusion
-- `gpt-4o` is the best-performing model in the few-shot setting, excelling in both COMET and META scores for high-resource languages.
-- `facebook_nllb_200_3.3b` and `mistral7b` remain strong baselines for broad language coverage.
-- The inclusion of both COMET and META scores, along with the Final Score, provides a holistic view of translation quality, emphasizing the importance of both adequacy and fluency.
+- `gpt-4o` and `gemini-2.0-flash` are the best-performing models in the few-shot setting for high-resource languages. However, adequacy remains a challenge for all models in low-resource and Asian languages. The Final Score metric highlights the need for further improvements in these settings, and the importance of both adequacy and fluency in evaluation.
 
 ## Chain-of-Thought (CoT) Prompting
 
@@ -280,13 +270,9 @@ A
 ![Final Score Chart](images/cot-experiment-final-score-(harmonic-mean-of-comet-and-meta)-per-language-and-model.png)
 
 #### Observations
-- The COMET and META scores show that `gpt-4o` achieves the highest adequacy and fluency in the CoT setting, especially for high-resource languages.
-- `facebook_nllb_200_3.3b` and `mistral7b` are strong baselines, with `mistral7b` showing competitive META scores in some European languages.
-- `gemma3_instruct_4b_text` is more competitive in Asian languages for COMET, but its META scores lag behind, indicating challenges in adequacy.
-- `llama3.1_8b` is the weakest across all metrics, especially for low-resource and Asian languages.
-- The largest performance gaps are seen in META and Final Score for low-resource and Asian languages, highlighting the challenge of adequacy in these settings.
+- **COMET Scores:** In the CoT setting, `gpt-4o` and `gemini-2.0-flash` achieve the highest COMET scores for high-resource languages. `gpt-4o` also performs well in Asian languages, but there is a notable drop in adequacy (META) for some languages.
+- **META Scores:** `gpt-4o` and `gemini-2.0-flash` lead in META scores for high-resource languages, but all models show lower META scores for low-resource and Asian languages, indicating persistent adequacy challenges.
+- **Final Score:** The harmonic mean shows that `gpt-4o` and `gemini-2.0-flash` are the most robust in the CoT setting for high-resource languages, but adequacy remains a limiting factor for all models in more challenging languages.
 
 #### Conclusion
-- `gpt-4o` is the best-performing model in the CoT setting, excelling in both COMET and META scores for high-resource languages.
-- `facebook_nllb_200_3.3b` and `mistral7b` remain strong baselines for broad language coverage.
-- The inclusion of both COMET and META scores, along with the Final Score, provides a holistic view of translation quality, emphasizing the importance of both adequacy and fluency.
+- `gpt-4o` and `gemini-2.0-flash` are the top models in the CoT setting for high-resource languages, but all models face challenges in adequacy for low-resource and Asian languages. The Final Score metric underscores the need for further research and model improvements to address these gaps, and demonstrates the value of using both adequacy and fluency metrics for comprehensive evaluation.
