@@ -6,9 +6,9 @@
 
 #### Experiment Description
 
-This experiment evaluates the translation capabilities of the Gemma3 4B Text model (`gemma3_instruct_4b_text`) using a prompt-based approach. The evaluation is performed on multiple language pairs using validation data in JSONL format. The model is prompted to translate sentences from a source language to a target language, and its outputs are saved for further scoring.
+This experiment evaluates entity aware translation capabilities of the Gemma3 4B Text model (`gemma3_instruct_4b_text`) using a prompt-based approach. The evaluation is performed on multiple language pairs using validation data in JSONL format. The model is prompted to translate sentences from a source language to a target language, and its outputs are saved for further scoring.
 
-![alt text](images/image.png)
+![alt text](images/prompt-gemma.png)
 
 ##### Prompt Template
 The following prompt template is used for each translation task:
@@ -37,22 +37,22 @@ The following prompt template is used for each translation task:
 | Model                   | ar_AE   | de_DE   | es_ES   | fr_FR   | it_IT   | ja_JP   | ko_KR   | th_TH   | tr_TR   | zh_TW   |
 |------------------------ |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
 | facebook_nllb_200_3.3b  | 0.89401 | 0.88784 | 0.91469 | 0.88604 | 0.90116 | 0.87755 | 0.90910 | 0.79699 | 0.90841 | 0.84277 |
-| gemini-2.0-flash        | 0.89580 | 0.90218 | 0.92328 | 0.88199 | 0.91513 |   NaN   |   NaN   |   NaN   |   NaN   |   NaN   |
+| gemini-2.0-flash        | 0.89580 | 0.90218 | 0.92328 | 0.88199 | 0.91513 |    NA   |    NA   |    NA   |    NA   |    NA   |
 | gemma3_instruct_4b_text | 0.87070 | 0.87166 | 0.91166 | 0.87538 | 0.88999 | 0.89056 | 0.89771 | 0.80772 | 0.88826 | 0.88088 |
 | llama3.1_8b             | 0.73217 | 0.79436 | 0.88426 | 0.82143 | 0.84748 | 0.76645 | 0.78678 | 0.70851 | 0.80561 | 0.76020 |
 
-![alt text](images/image-2.png)
+![alt text](images/zeroshot-experiment:-comet-score-per-language-and-model.png)
 
 #### Meta Scores
 
 | Model                   | ar_AE   | de_DE   | es_ES   | fr_FR   | it_IT   | ja_JP   | ko_KR   | th_TH   | tr_TR   | zh_TW   |
 |------------------------ |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
 | facebook_nllb_200_3.3b  | 29.2244 | 26.4022 | 40.7307 | 34.3923 | 37.8082 | 9.12863 | 25.9060 | 4.78873 | 25.6831 | 2.49308 |
-| gemini-2.0-flash        | 38.9197 | 41.9973 | 53.5859 | 44.3370 | 49.0411 |   NaN   |   NaN   |   NaN   |   NaN   |   NaN   |
+| gemini-2.0-flash        | 38.9197 | 41.9973 | 53.5859 | 44.3370 | 49.0411 |    NA   |    NA   |    NA   |    NA   |    NA   |
 | gemma3_instruct_4b_text | 18.2825 | 25.1710 | 34.7767 | 27.9006 | 30.4110 | 16.8741 | 21.6107 | 4.22535 | 17.7596 | 13.1579 |
 | llama3.1_8b             | 10.2493 | 22.7086 | 32.8823 | 25.8287 | 29.4521 | 9.12863 | 6.97987 | 3.38028 | 14.4809 | 9.27978 |
 
-![alt text](images/image-3.png)
+![alt text](images/zeroshot-experiment:-meta-score-per-language-and-model.png)
 
 #### Observations
 
@@ -62,7 +62,7 @@ The following prompt template is used for each translation task:
     - `llama3.1_8b` lags behind the other models in both COMET and Meta scores for all languages.
 
 - **Language Trends:**
-    - All models tend to perform best on Romance and Germanic languages (es_ES, it_IT, de_DE, fr_FR), with higher COMET and Meta scores.
+    - All models tend to perform best on Roman and Germanic languages (es_ES, it_IT, de_DE, fr_FR), with higher COMET and Meta scores.
     - Performance drops for languages like Thai (th_TH) and Chinese (zh_TW) across all models, with the lowest Meta scores observed for these languages.
     - `gemma3_instruct_4b_text` shows particularly strong performance in Japanese and Korean compared to `llama3.1_8b`.
 
@@ -78,9 +78,9 @@ The following prompt template is used for each translation task:
 
 ## Retrieval Augmented Generation
 
-In these experiments we an LLM model to first detect named entities in the sentence. This is followed by a WikiData lookup to find the translations of the found entities in the target language. This is followed by using the looked up translations to create an augmented prompt which is then fed to an LLM to translate the source sentence.
+In these experiments, we use an LLM model to first detect named entities in the sentence. This is followed by a Wikidata lookup to find the translations of the detected entities in the target language. The looked-up translations are then used to create an augmented prompt, which is fed to an LLM to translate the source sentence.
 
-### Experiment Using Using gemma3_instruct_4b_text Model
+### Experiment Using gemma3_instruct_4b_text Model
 
 #### Experiment Description
 
@@ -88,10 +88,10 @@ In these experiments we an LLM model to first detect named entities in the sente
 - For each entity, a translation is retrieved from Wikidata (if available) for the target language.
 - The prompt is augmented with a list of known entity translations to guide the model.
 
-![alt text](images/SemEval-NER-lookup.drawio.png)
+![alt text](images/ner-lookup-gemma.png)
 
-### Prompt Template for NER detection
-The following prompt template is used for each translation task:
+### Prompt Template for NER Detection
+The following prompt template is used for each entity extraction task:
 
 ```
 <start_of_turn>user
@@ -102,9 +102,9 @@ The following prompt template is used for each translation task:
     Text: {text} <end_of_turn>
     <start_of_turn>model
 ```
-- `{text}` is the source sentence to extract named entities from.
+- `{text}` is the source sentence from which to extract named entities.
 
-### Prompt Template for NER translation augmented generation
+### Prompt Template for NER Translation Augmented Generation
 The following prompt template is used for each translation task:
 
 ```
@@ -137,7 +137,7 @@ The following prompt template is used for each translation task:
 | facebook_nllb_200_3.3b  | 0.900469 | 0.880849 | 0.902992 | 0.888537 | 0.914546 | 0.892243 | 0.905956 | 0.853740 | 0.919268 | 0.853816 |
 | gemma3_instruct_4b_text | 0.913272 | 0.909666 | 0.929734 | 0.900043 | 0.922269 | 0.928758 | 0.919779 | 0.871904 | 0.914075 | 0.902246 |
 
-![alt text](images/rag-comet.png)
+![alt text](images/rag-experiment:-comet-score-per-language-and-model.png)
 
 #### Meta Scores
 
@@ -146,7 +146,7 @@ The following prompt template is used for each translation task:
 | facebook_nllb_200_3.3b  | 56.0942  | 47.0588  | 53.1800  | 55.9392  | 59.7260  | 45.7815  | 52.8859  | 32.9577  | 52.7322  | 33.1025  |
 | gemma3_instruct_4b_text | 69.6676  | 68.1259  | 72.6658  | 64.6409  | 74.7945  | 72.6141  | 67.2483  | 57.7465  | 60.7924  | 56.9252  |
 
-![alt text](images/rag-meta.png)
+![alt text](images/rag-experiment:-meta-score-per-language-and-model.png)
 
 #### Observations
 
