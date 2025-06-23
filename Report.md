@@ -50,46 +50,44 @@ The following prompt template is used for each translation task:
 
 #### Meta Scores
 
-#### Meta Scores
-
-| Model                                   | ar_AE    | de_DE    | es_ES    | fr_FR    | it_IT    | ja_JP    | ko_KR    | th_TH    | tr_TR    | zh_TW    |
-|------------------------------------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
-| facebook_nllb_200_3.3b (zero_shot)      | 29.22    | 26.40    | 40.73    | 34.39    | 37.81    | 9.13     | 25.91    | 4.79     | 25.68    | 2.49     |
-| gemini-2.0-flash (zero-shot-1)          | 38.37    | 44.73    | 52.91    | 48.07    | 48.77    | NA       | NA       | NA       | NA       | NA       |
-| gemini-2.0-flash (zero-shot-2)          | 38.92    | 42.00    | 53.59    | 44.34    | 49.04    | NA       | NA       | NA       | NA       | NA       |
-| gemma3_instruct_4b_text (zero-shot)     | 18.28    | 25.17    | 34.78    | 27.90    | 30.41    | 16.87    | 21.61    | 4.23     | 17.76    | 13.16    |
-| gpt-4o (zero-shot-1)                    | 37.26    | 37.48    | 50.34    | 41.71    | 48.22    | 43.98    | 48.86    | 13.80    | 38.25    | 36.84    |
-| gpt-4o (zero-shot-2)                    | 27.70    | 37.76    | 48.58    | 39.09    | 46.44    | 44.40    | 43.49    | 12.82    | 37.30    | 35.73    |
-| llama3.1_8b (zero_shot)                 | 10.94    | 23.26    | 33.29    | 28.87    | 30.27    | 11.62    | 11.41    | 3.24     | 12.84    | 11.22    |
-| llama3.1_8b (zero_shot_longer_prompt)   | 10.25    | 22.71    | 32.88    | 25.83    | 29.45    | 9.13     | 6.98     | 3.38     | 14.48    | 9.28     |
+| Model                                   | ar_AE     | de_DE     | es_ES     | fr_FR     | it_IT     | ja_JP     | ko_KR     | th_TH     | tr_TR     | zh_TW     |
+|------------------------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+| facebook_nllb_200_3.3b (zero_shot)      | 29.224377 | 26.402189 | 40.730717 | 34.392265 | 37.808219 | 9.128631  | 25.906040 | 4.788732  | 25.683060 | 2.493075  |
+| gemini-2.0-flash (zero-shot-1)          | 38.365651 | 44.733242 | 52.909337 | 48.066298 | 48.767123 | NA        | NA        | NA        | NA        | NA        |
+| gemini-2.0-flash (zero-shot-2)          | 38.919668 | 41.997264 | 53.585927 | 44.337017 | 49.041096 | NA        | NA        | NA        | NA        | NA        |
+| gemma3_instruct_4b_text (zero-shot)     | 18.282548 | 25.170999 | 34.776725 | 27.900552 | 30.410959 | 16.874136 | 21.610738 | 4.225352  | 17.759563 | 13.157895 |
+| gpt-4o (zero-shot-1)                    | 37.257618 | 37.482900 | 50.338295 | 41.712707 | 48.219178 | 43.983402 | 48.859060 | 13.802817 | 38.251366 | 36.842105 |
+| gpt-4o (zero-shot-2)                    | 27.700831 | 37.756498 | 48.579161 | 39.088398 | 46.438356 | 44.398340 | 43.489933 | 12.816901 | 37.295082 | 35.734072 |
+| llama3.1_8b (zero_shot)                 | 10.941828 | 23.255814 | 33.288227 | 28.867403 | 30.273973 | 11.618257 | 11.409396 | 3.239437  | 12.841530 | 11.218837 |
+| llama3.1_8b (zero_shot_longer_prompt)   | 10.249307 | 22.708618 | 32.882273 | 25.828729 | 29.452055 | 9.128631  | 6.979866  | 3.380282  | 14.480874 | 9.279778  |
 
 
 ![alt text](images/zeroshot-experiment-meta-score-per-language-and-model.png)
 
+### Final Score (Harmonic Mean of COMET and META)
+
+| Model                                   | ar_AE    | de_DE    | es_ES    | fr_FR    | it_IT    | ja_JP    | ko_KR    | th_TH    | tr_TR    | zh_TW    |
+|------------------------------------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+| facebook_nllb_200_3.3b (zero_shot)      | 1.734949 | 1.717905 | 1.789201 | 1.727571 | 1.760357 | 1.601170 | 1.756566 | 1.366542 | 1.754752 | 1.259698 |
+| gemini-2.0-flash (zero-shot-1)          | 1.773780 | 1.773719 | 1.816884 | 1.776792 | 1.792177 | NA       | NA       | NA       | NA       | NA       |
+| gemini-2.0-flash (zero-shot-2)          | 1.751294 | 1.766421 | 1.815281 | 1.729587 | 1.796732 | NA       | NA       | NA       | NA       | NA       |
+| gemma3_instruct_4b_text (zero-shot)     | 1.662241 | 1.684962 | 1.776737 | 1.697507 | 1.729375 | 1.691822 | 1.723816 | 1.356183 | 1.691891 | 1.651211 |
+| gpt-4o (zero-shot-1)                    | 1.773950 | 1.752784 | 1.811571 | 1.763552 | 1.794008 | 1.833781 | 1.833723 | 1.565691 | 1.809230 | 1.800583 |
+| gpt-4o (zero-shot-2)                    | 1.716047 | 1.752504 | 1.806996 | 1.752143 | 1.786082 | 1.826284 | 1.816668 | 1.537991 | 1.806634 | 1.795895 |
+| llama3.1_8b (zero_shot)                 | 1.515378 | 1.654842 | 1.756131 | 1.671127 | 1.709471 | 1.587101 | 1.572505 | 1.180055 | 1.581523 | 1.536603 |
+| llama3.1_8b (zero_shot_longer_prompt)   | 1.366705 | 1.535031 | 1.722199 | 1.592229 | 1.647548 | 1.414159 | 1.414146 | 1.171483 | 1.526305 | 1.405275 |
+
+![Final Score Chart](images/zeroshot-experiment-final-score-(harmonic-mean-of-comet-and-meta)-per-language-and-model.png)
+
 #### Observations
 
-- **Overall Performance:**
-    - `gpt-4o` and `gemini-2.0-flash` achieve the highest COMET and Meta scores across most languages, with `gpt-4o` being the most consistent top performer where data is available.
-    - `facebook_nllb_200_3.3b` is strong and consistent, especially in European languages, but is outperformed by `gpt-4o` and `gemini-2.0-flash` in both metrics.
-    - `gemma3_instruct_4b_text` performs competitively in Asian languages (ja_JP, ko_KR, zh_TW), but lags behind the top models in European languages and is notably weaker in Meta scores.
-    - `llama3.1_8b` consistently has the lowest scores, especially for Meta, and the longer prompt does not close the gap.
-
-- **Language Trends:**
-    - All models perform best on European languages (es_ES, it_IT, de_DE, fr_FR), with COMET and Meta scores dropping for Asian (ja_JP, ko_KR, zh_TW) and especially Southeast Asian (th_TH) languages.
-    - The performance gap between top models and others is largest in Meta scores for Asian and low-resource languages.
-    - `gemma3_instruct_4b_text` is more competitive in Japanese, Korean, and Chinese, but still trails `gpt-4o` and `gemini-2.0-flash` where those are available.
-
-- **Meta Score Insights:**
-    - `gpt-4o` and `gemini-2.0-flash` have the highest Meta scores, indicating better adequacy and fluency, especially in high-resource languages.
-    - `facebook_nllb_200_3.3b` is the most robust for coverage, but its Meta scores are lower than the top models.
-    - `gemma3_instruct_4b_text` and `llama3.1_8b` have much lower Meta scores, especially for th_TH and zh_TW.
+- **COMET Scores:** `gpt-4o` and `gemini-2.0-flash` consistently achieve the highest COMET scores across high-resource languages, indicating strong adequacy and fluency. `facebook_nllb_200_3.3b` is robust and covers all languages, but is slightly behind the top models. `gemma3_instruct_4b_text` and `llama3.1_8b` lag behind, especially in low-resource and Asian languages.
+- **META Scores:** `gemini-2.0-flash` and `gpt-4o` again lead in META scores for high-resource languages, with `facebook_nllb_200_3.3b` providing broad but lower coverage. META scores for `llama3.1_8b` and `gemma3_instruct_4b_text` are notably lower, especially for Asian and low-resource languages, highlighting adequacy challenges.
+- **Final Score:** The harmonic mean of COMET and META confirms that `gpt-4o` and `gemini-2.0-flash` are the most consistent top performers for high-resource languages. `facebook_nllb_200_3.3b` is a strong baseline for broad coverage, but the largest performance gaps are seen in low-resource and Asian languages, where adequacy (META) is a limiting factor.
 
 #### Conclusion
 
-- `gpt-4o` and `gemini-2.0-flash` are the best-performing models in the zero-shot setting, especially for high-resource languages, with `gpt-4o` being the most consistent overall.
-- `facebook_nllb_200_3.3b` is a strong baseline, especially for broad language coverage, but is outperformed by the top models in both COMET and Meta scores.
-- `gemma3_instruct_4b_text` is competitive in Asian languages but lags in overall adequacy (Meta score), while `llama3.1_8b` is the weakest across all metrics.
-- The largest performance gaps are seen in Meta scores for low-resource and Asian languages, highlighting the challenge of adequacy in these settings.
+- The combined metrics show that `gpt-4o` and `gemini-2.0-flash` are the best-performing models in the zero-shot setting, especially for high-resource languages. `facebook_nllb_200_3.3b` remains a reliable baseline for broad language coverage. The Final Score metric provides a holistic view, emphasizing the importance of both adequacy and fluency, and highlights the need for further improvement in low-resource and Asian languages.
 
 ## Retrieval Augmented Generation
 
@@ -160,31 +158,121 @@ The following prompt template is used for each translation task:
 
 #### Meta Scores
 
-| Model                                         | ar_AE    | de_DE    | es_ES    | fr_FR    | it_IT    | ja_JP    | ko_KR    | th_TH    | tr_TR    | zh_TW    |
-|-----------------------------------------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
-| facebook_nllb_200_3.3b (rag-wikidata)         | 56.37    | 46.65    | 55.62    | 58.56    | 61.10    | 48.41    | 47.25    | 31.13    | 50.55    | 31.86    |
-| facebook_nllb_200_3.3b (rag-wikidata-entity-ty...) | 56.09    | 47.06    | 53.18    | 55.94    | 59.73    | 45.78    | 52.89    | 32.96    | 52.73    | 33.10    |
-| gemma3_instruct_4b_text (rag-wikidata)        | 69.67    | 68.13    | 72.67    | 64.64    | 74.79    | 72.61    | 67.25    | 57.75    | 60.79    | 56.93    |
-| mistral7b (one_shot_rag_wikidata)             | 57.76    | 58.82    | 70.64    | 53.18    | 62.88    | 53.25    | 54.77    | 44.37    | 41.53    | 49.58    |
-| mistral7b (zero_shot_rag_wikidata)            | 1.80     | 21.89    | 31.26    | 26.38    | 25.07    | 3.18     | 2.28     | 0.28     | 10.11    | 4.02     |
+| Model                                              | ar_AE     | de_DE     | es_ES     | fr_FR     | it_IT     | ja_JP     | ko_KR     | th_TH     | tr_TR     | zh_TW     |
+|----------------------------------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+| facebook_nllb_200_3.3b (rag-wikidata)              | 56.371191 | 46.648427 | 55.615697 | 58.563536 | 61.095890 | 48.409405 | 47.248322 | 31.126761 | 50.546448 | 31.855956 |
+| facebook_nllb_200_3.3b (rag-wikidata-entity-type)  | 56.094183 | 47.058824 | 53.179973 | 55.939227 | 59.726027 | 45.781466 | 52.885906 | 32.957746 | 52.732240 | 33.102493 |
+| gemma3_instruct_4b_text (rag-wikidata)             | 69.667590 | 68.125855 | 72.665765 | 64.640884 | 74.794521 | 72.614108 | 67.248322 | 57.746479 | 60.792350 | 56.925208 |
+| mistral7b (one_shot_rag_wikidata)                  | 57.756233 | 58.823529 | 70.635995 | 53.176796 | 62.876712 | 53.250346 | 54.765101 | 44.366197 | 41.530055 | 49.584488 |
+| mistral7b (zero_shot_rag_wikidata)                 |  1.800554 | 21.887825 | 31.258457 | 26.381215 | 25.068493 |  3.181189 |  2.281879 |  0.281690 | 10.109290 |  4.016620 |
 
 ![alt text](images/rag-experiment-meta-score-per-language-and-model.png)
 
+### Final Score (Harmonic Mean of COMET and META)
+
+| Model                                              | ar_AE    | de_DE    | es_ES    | fr_FR    | it_IT    | ja_JP    | ko_KR    | th_TH    | tr_TR    | zh_TW    |
+|----------------------------------------------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+| facebook_nllb_200_3.3b (rag-wikidata)              | 1.769955 | 1.719985 | 1.780599 | 1.762738 | 1.798918 | 1.769457 | 1.776777 | 1.645162 | 1.796439 | 1.663220 |
+| facebook_nllb_200_3.3b (rag-wikidata-entity-type)  | 1.772485 | 1.729328 | 1.775830 | 1.749289 | 1.801507 | 1.750372 | 1.781395 | 1.664365 | 1.807034 | 1.664695 |
+| gemma3_instruct_4b_text (rag-wikidata)             | 1.802910 | 1.795359 | 1.835977 | 1.775366 | 1.822070 | 1.834058 | 1.814737 | 1.717870 | 1.801070 | 1.776337 |
+| mistral7b (one_shot_rag_wikidata)                  | 1.426025 | 1.733629 | 1.804350 | 1.712604 | 1.779998 | 1.692108 | 1.696306 | 1.146089 | 1.500816 | 1.685619 |
+| mistral7b (zero_shot_rag_wikidata)                 | 0.939998 | 1.621023 | 1.729727 | 1.636106 | 1.680502 | 1.273685 | 1.176889 | 0.350972 | 1.335186 | 1.302176 |
+
+![Final Score Chart](images/rag-experiment-final-score-(harmonic-mean-of-comet-and-meta)-per-language-and-model.png)
+
 #### Observations
 
-- **Overall Performance:**
-    - `gemma3_instruct_4b_text (rag-wikidata)` achieves the highest COMET and Meta scores across all languages, with especially large gains in Meta score (e.g., 74.79 for it_IT, 72.67 for es_ES, 72.61 for ja_JP).
-    - `facebook_nllb_200_3.3b` (both RAG variants) is strong and consistent, but is outperformed by `gemma3_instruct_4b_text` in every language and metric.
-    - `mistral7b` performs well in some European languages but is much weaker in Meta scores for Asian and low-resource languages, and its zero-shot RAG variant is especially poor in Meta.
-    - All models perform best on European languages, but the gap between `gemma3_instruct_4b_text` and others is largest in Meta scores for Asian and low-resource languages.
-    - The lowest scores for all models are in Chinese (zh_TW) and Thai (th_TH), but `gemma3_instruct_4b_text` still leads by a wide margin.
-
-- **Entity-Aware Augmentation Impact:**
-    - The use of entity-aware augmentation and Wikidata lookups provides a substantial benefit to `gemma3_instruct_4b_text`, as reflected in the much higher Meta scores and consistent COMET improvements.
-    - The improvement is especially pronounced for languages with complex named entities and for adequacy (Meta score), suggesting better handling of entity translation.
+- **COMET Scores:** `gemma3_instruct_4b_text (rag-wikidata)` achieves the highest COMET scores across nearly all languages, demonstrating the benefit of entity-aware augmentation. `facebook_nllb_200_3.3b` (both RAG variants) is strong and consistent, while `mistral7b` is competitive in some European languages but weaker elsewhere.
+- **META Scores:** The META scores show a substantial advantage for `gemma3_instruct_4b_text (rag-wikidata)`, especially in adequacy-heavy languages. `facebook_nllb_200_3.3b` is consistent, but `mistral7b` and its zero-shot RAG variant perform poorly in low-resource and Asian languages.
+- **Final Score:** The harmonic mean highlights the superior performance of `gemma3_instruct_4b_text (rag-wikidata)` in both adequacy and fluency, with the largest gains in languages with complex named entities. The RAG approach is especially effective for adequacy (META) in these settings.
 
 #### Conclusions
 
-- The RAG Wikidata approach with `gemma3_instruct_4b_text` delivers state-of-the-art performance among all tested models, especially in Meta scores, indicating superior adequacy and entity handling.
-- Entity-aware translation using Wikidata lookups is highly effective, with the largest gains in languages and settings where entity translation is challenging.
-- This method is robust across all languages, but is especially recommended for scenarios where accurate entity translation and adequacy are critical, such as technical or named-entity-rich content.
+- The RAG Wikidata approach with `gemma3_instruct_4b_text` delivers state-of-the-art performance, especially in adequacy and entity handling, as reflected in the Final Score. Entity-aware translation using Wikidata lookups is highly effective, particularly for languages and settings where entity translation is challenging. The combined metrics confirm the robustness of the RAG approach for named-entity-rich content.
+
+## Few Shot Prompting
+
+### COMET Scores
+
+| Model                                    | ar_AE    | de_DE    | es_ES    | fr_FR    | it_IT    | ja_JP    | ko_KR    | th_TH    | tr_TR    | zh_TW    |
+|------------------------------------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+| gemini-2.0-flash (few-shot)              | 0.904642 | 0.901906 | 0.923532 | 0.899110 | 0.916286 | NA       | NA       | NA       | NA       | NA       |
+| gpt-4o (few-shot)                        | 0.909567 | 0.898799 | 0.926188 | 0.899244 | 0.914019 | 0.320419 | 0.318831 | 0.306257 | 0.330402 | 0.324356 |
+| llama3.1_8b (few(3)_shot)                | 0.758065 | 0.817910 | 0.893370 | 0.813730 | 0.837820 | 0.793364 | 0.789159 | 0.667263 | 0.813619 | 0.803496 |
+| llama3.1_8b (few(3)_shot_longer_prompt)  | 0.775002 | 0.782419 | 0.899149 | 0.791490 | 0.811485 | 0.724958 | 0.652297 | 0.675251 | 0.812732 | 0.747750 |
+| llama3.1_8b (one_shot_longer_prompt)     | 0.778907 | 0.792391 | 0.892918 | 0.764773 | 0.780366 | 0.701464 | 0.647615 | 0.662619 | 0.784995 | 0.772904 |
+
+
+![COMET Score Chart](images/fewshot-experiment-comet-score-per-language-and-model.png)
+
+### META Scores
+
+| Model                                    | ar_AE     | de_DE     | es_ES     | fr_FR     | it_IT     | ja_JP     | ko_KR     | th_TH     | tr_TR     | zh_TW     |
+|------------------------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+| gemini-2.0-flash (few-shot)              | 40.027701 | 46.238030 | 53.179973 | 43.646409 | 49.178082 | NA        | NA        | NA        | NA        | NA        |
+| gpt-4o (few-shot)                        | 40.304709 | 41.997264 | 55.074425 | 41.436464 | 49.863014 | 0.0       | 0.0       | 0.0       | 0.0       | 0.0       |
+| llama3.1_8b (few(3)_shot)                | 9.695291  | 22.298222 | 33.423545 | 26.933702 | 31.095890 | 13.001383 | 9.127517  | 2.535211  | 15.983607 | 11.772853 |
+| llama3.1_8b (few(3)_shot_longer_prompt)  | 0.277008  | 20.383037 | 33.694181 | 23.480663 | 29.041096 | 6.224066  | 4.295302  | 2.394366  | 13.797814 | 10.526316 |
+| llama3.1_8b (one_shot_longer_prompt)     | 10.249307 | 18.057456 | 31.664411 | 24.585635 | 24.931507 | 4.149378  | 4.697987  | 2.112676  | 14.344262 | 10.387812 |
+
+![META Score Chart](images/fewshot-experiment-meta-score-per-language-and-model.png)
+
+### Final Score (Harmonic Mean of COMET and META)
+
+| Model                                 | ar_AE    | de_DE    | es_ES    | fr_FR    | it_IT    | ja_JP    | ko_KR    | th_TH    | tr_TR    | zh_TW    |
+|----------------------------------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+| gemini-2.0-flash (few-shot)            | 1.769297 | 1.769300 | 1.815535 | 1.761925 | 1.799052 | NA       | NA       | NA       | NA       | NA       |
+| gpt-4o (few-shot)                      | 1.778987 | 1.759932 | 1.821741 | 1.760286 | 1.795133 | 0.0      | 0.0      | 0.0      | 0.0      | 0.0      |
+| llama3.1_8b (few(3)_shot)              | 1.406182 | 1.577941 | 1.740225 | 1.579732 | 1.631677 | 1.495471 | 1.452717 | 1.056466 | 1.548417 | 1.504323 |
+| llama3.1_8b (few(3)_shot_longer_prompt)| 0.408137 | 1.506990 | 1.751557 | 1.531361 | 1.578853 | 1.298654 | 1.132594 | 1.053421 | 1.535046 | 1.396311 |
+| llama3.1_8b (one_shot_longer_prompt)   | 1.447787 | 1.518163 | 1.736858 | 1.483402 | 1.513363 | 1.200056 | 1.138314 | 1.008829 | 1.488529 | 1.438758 |
+
+
+![Final Score Chart](images/fewshot-experiment-final-score-(harmonic-mean-of-comet-and-meta)-per-language-and-model.png)
+
+#### Observations
+- **COMET Scores:** `gpt-4o` and `gemini-2.0-flash` achieve the highest COMET scores in the few-shot setting for high-resource languages. `llama3.1_8b` lags behind, especially in low-resource and Asian languages.
+- **META Scores:** `gpt-4o` and `gemini-2.0-flash` again lead in META scores for high-resource languages, but `gpt-4o` shows a sharp drop in META for Asian languages, indicating a challenge in adequacy. `llama3.1_8b` and its variants have the lowest META scores, especially for low-resource languages.
+- **Final Score:** The harmonic mean confirms that `gpt-4o` and `gemini-2.0-flash` are the best in the few-shot setting for high-resource languages, but all models struggle with adequacy in low-resource and Asian languages, as seen in the lower Final Scores.
+
+#### Conclusion
+- `gpt-4o` and `gemini-2.0-flash` are the best-performing models in the few-shot setting for high-resource languages. However, adequacy remains a challenge for all models in low-resource and Asian languages. The Final Score metric highlights the need for further improvements in these settings, and the importance of both adequacy and fluency in evaluation.
+
+## Chain-of-Thought (CoT) Prompting
+
+### COMET Scores
+
+| Model                      | ar_AE    | de_DE    | es_ES    | fr_FR    | it_IT    | ja_JP   | ko_KR   | th_TH   | tr_TR   | zh_TW   |
+|----------------------------|----------|----------|----------|----------|----------|---------|---------|---------|---------|---------|
+| gemini-2.0-flash (cot)     | 0.898485 | 0.900797 | 0.922098 | 0.900923 | 0.910102 | NA      | NA      | NA      | NA      | NA      |
+| gpt-4o (cot)               | 0.891195 | 0.898929 | 0.922957 | 0.898582 | 0.911873 | 0.933051| 0.934914| 0.833996| 0.922442| 0.925292 |
+
+
+![COMET Score Chart](images/cot-experiment-comet-score-per-language-and-model.png)
+
+### META Scores
+
+| Model                   | ar_AE     | de_DE     | es_ES     | fr_FR     | it_IT     | ja_JP | ko_KR | th_TH | tr_TR | zh_TW |
+|-------------------------|-----------|-----------|-----------|-----------|-----------|-------|-------|-------|-------|-------|
+| gemini-2.0-flash (cot)  | 36.703601 | 42.270862 | 51.691475 | 45.027624 | 42.054795 | NA    | NA    | NA    | NA    | NA    |
+| gpt-4o (cot)            | 31.578947 | 40.218878 | 53.179973 | 42.127072 | 47.534247 | 43.153527 | 47.651007 | 14.647887 | 36.885246 | 38.781163 |
+
+![META Score Chart](images/cot-experiment-meta-score-per-language-and-model.png)
+
+### Final Score (Harmonic Mean of COMET and META)
+
+| Model                    | ar_AE    | de_DE    | es_ES    | fr_FR    | it_IT    | ja_JP    | ko_KR    | th_TH    | tr_TR    | zh_TW    |
+|--------------------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+| gemini-2.0-flash (cot)   | 1.754031 | 1.764004 | 1.811874 | 1.766501 | 1.781647 | NA       | NA       | NA       | NA       | NA       |
+| gpt-4o (cot)             | 1.733469 | 1.758553 | 1.814425 | 1.759631 | 1.789419 | 1.826608 | 1.833847 | 1.578139 | 1.799872 | 1.807458 |
+
+
+![Final Score Chart](images/cot-experiment-final-score-(harmonic-mean-of-comet-and-meta)-per-language-and-model.png)
+
+#### Observations
+- **COMET Scores:** In the CoT setting, `gpt-4o` and `gemini-2.0-flash` achieve the highest COMET scores for high-resource languages. `gpt-4o` also performs well in Asian languages, but there is a notable drop in adequacy (META) for some languages.
+- **META Scores:** `gpt-4o` and `gemini-2.0-flash` lead in META scores for high-resource languages, but all models show lower META scores for low-resource and Asian languages, indicating persistent adequacy challenges.
+- **Final Score:** The harmonic mean shows that `gpt-4o` and `gemini-2.0-flash` are the most robust in the CoT setting for high-resource languages, but adequacy remains a limiting factor for all models in more challenging languages.
+
+#### Conclusion
+- `gpt-4o` and `gemini-2.0-flash` are the top models in the CoT setting for high-resource languages, but all models face challenges in adequacy for low-resource and Asian languages. The Final Score metric underscores the need for further research and model improvements to address these gaps, and demonstrates the value of using both adequacy and fluency metrics for comprehensive evaluation.
