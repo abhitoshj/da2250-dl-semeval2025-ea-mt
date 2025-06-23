@@ -69,24 +69,27 @@ The following prompt template is used for each translation task:
 #### Observations
 
 - **Overall Performance:**
-    - The `facebook_nllb_200_3.3b` and `gemini-2.0-flash` models achieve the highest COMET scores across most languages, with `gemini-2.0-flash` slightly outperforming in some cases where data is available.
-    - `gemma3_instruct_4b_text` consistently performs well, with COMET scores close to the top models, especially in Japanese, Korean, and Chinese (where `gemini-2.0-flash` has missing data).
-    - `llama3.1_8b` lags behind the other models in both COMET and Meta scores for all languages.
+    - `gpt-4o` and `gemini-2.0-flash` achieve the highest COMET and Meta scores across most languages, with `gpt-4o` being the most consistent top performer where data is available.
+    - `facebook_nllb_200_3.3b` is strong and consistent, especially in European languages, but is outperformed by `gpt-4o` and `gemini-2.0-flash` in both metrics.
+    - `gemma3_instruct_4b_text` performs competitively in Asian languages (ja_JP, ko_KR, zh_TW), but lags behind the top models in European languages and is notably weaker in Meta scores.
+    - `llama3.1_8b` consistently has the lowest scores, especially for Meta, and the longer prompt does not close the gap.
 
 - **Language Trends:**
-    - All models tend to perform best on Roman and Germanic languages (es_ES, it_IT, de_DE, fr_FR), with higher COMET and Meta scores.
-    - Performance drops for languages like Thai (th_TH) and Chinese (zh_TW) across all models, with the lowest Meta scores observed for these languages.
-    - `gemma3_instruct_4b_text` shows particularly strong performance in Japanese and Korean compared to `llama3.1_8b`.
+    - All models perform best on European languages (es_ES, it_IT, de_DE, fr_FR), with COMET and Meta scores dropping for Asian (ja_JP, ko_KR, zh_TW) and especially Southeast Asian (th_TH) languages.
+    - The performance gap between top models and others is largest in Meta scores for Asian and low-resource languages.
+    - `gemma3_instruct_4b_text` is more competitive in Japanese, Korean, and Chinese, but still trails `gpt-4o` and `gemini-2.0-flash` where those are available.
 
 - **Meta Score Insights:**
-    - `gemini-2.0-flash` achieves the highest Meta scores where available, indicating strong translation quality and adequacy.
-    - `facebook_nllb_200_3.3b` is the most consistent across all languages, with no missing data and solid Meta scores.
-    - `gemma3_instruct_4b_text` outperforms `llama3.1_8b` in all languages for Meta score, and is competitive with the top models in several languages.
+    - `gpt-4o` and `gemini-2.0-flash` have the highest Meta scores, indicating better adequacy and fluency, especially in high-resource languages.
+    - `facebook_nllb_200_3.3b` is the most robust for coverage, but its Meta scores are lower than the top models.
+    - `gemma3_instruct_4b_text` and `llama3.1_8b` have much lower Meta scores, especially for th_TH and zh_TW.
 
-- **Conclusion:**
-    - `gemma3_instruct_4b_text` performs well in the zero-shot setting, especially in Asian languages, and is competitive with larger or more established models in European languages.
-    - `facebook_nllb_200_3.3b` is the most robust across all languages, while `gemini-2.0-flash` is the top performer where data is available.
-    - `llama3.1_8b` is consistently outperformed by the other models in this evaluation.
+#### Conclusion
+
+- `gpt-4o` and `gemini-2.0-flash` are the best-performing models in the zero-shot setting, especially for high-resource languages, with `gpt-4o` being the most consistent overall.
+- `facebook_nllb_200_3.3b` is a strong baseline, especially for broad language coverage, but is outperformed by the top models in both COMET and Meta scores.
+- `gemma3_instruct_4b_text` is competitive in Asian languages but lags in overall adequacy (Meta score), while `llama3.1_8b` is the weakest across all metrics.
+- The largest performance gaps are seen in Meta scores for low-resource and Asian languages, highlighting the challenge of adequacy in these settings.
 
 ## Retrieval Augmented Generation
 
@@ -170,18 +173,18 @@ The following prompt template is used for each translation task:
 #### Observations
 
 - **Overall Performance:**
-    - The `gemma3_instruct_4b_text` model outperforms `facebook_nllb_200_3.3b` in both COMET and Meta scores across all languages in the RAG Wikidata setting.
-    - The improvement is especially pronounced in Meta scores, where `gemma3_instruct_4b_text` achieves significantly higher values for every language.
-    - Both models perform best on European languages (it_IT, es_ES, de_DE, fr_FR), but the gap between the models is consistent across all languages.
-    - The lowest scores for both models are observed in Chinese (zh_TW) and Thai (th_TH), but `gemma3_instruct_4b_text` still maintains a clear lead.
+    - `gemma3_instruct_4b_text (rag-wikidata)` achieves the highest COMET and Meta scores across all languages, with especially large gains in Meta score (e.g., 74.79 for it_IT, 72.67 for es_ES, 72.61 for ja_JP).
+    - `facebook_nllb_200_3.3b` (both RAG variants) is strong and consistent, but is outperformed by `gemma3_instruct_4b_text` in every language and metric.
+    - `mistral7b` performs well in some European languages but is much weaker in Meta scores for Asian and low-resource languages, and its zero-shot RAG variant is especially poor in Meta.
+    - All models perform best on European languages, but the gap between `gemma3_instruct_4b_text` and others is largest in Meta scores for Asian and low-resource languages.
+    - The lowest scores for all models are in Chinese (zh_TW) and Thai (th_TH), but `gemma3_instruct_4b_text` still leads by a wide margin.
 
 - **Entity-Aware Augmentation Impact:**
-    - The use of entity-aware augmentation and Wikidata lookups appears to provide a substantial benefit to the `gemma3_instruct_4b_text` model, as reflected in the higher Meta scores (e.g., 74.79 for it_IT, 72.67 for es_ES).
-    - The COMET score improvements are more modest but still consistent, indicating better adequacy and fluency in the translations.
+    - The use of entity-aware augmentation and Wikidata lookups provides a substantial benefit to `gemma3_instruct_4b_text`, as reflected in the much higher Meta scores and consistent COMET improvements.
+    - The improvement is especially pronounced for languages with complex named entities and for adequacy (Meta score), suggesting better handling of entity translation.
 
 #### Conclusions
 
-- The RAG Wikidata approach with `gemma3_instruct_4b_text` leads to state-of-the-art performance among the tested models for both COMET and Meta metrics.
-- Entity-aware translation using Wikidata lookups is highly effective, especially for languages with rich entity content and for improving adequacy (Meta score).
-- This method is robust across a wide range of languages, with the largest gains observed in Meta scores, suggesting improved handling of named entities and overall translation quality.
-- The approach is recommended for scenarios where accurate entity translation is critical.
+- The RAG Wikidata approach with `gemma3_instruct_4b_text` delivers state-of-the-art performance among all tested models, especially in Meta scores, indicating superior adequacy and entity handling.
+- Entity-aware translation using Wikidata lookups is highly effective, with the largest gains in languages and settings where entity translation is challenging.
+- This method is robust across all languages, but is especially recommended for scenarios where accurate entity translation and adequacy are critical, such as technical or named-entity-rich content.
