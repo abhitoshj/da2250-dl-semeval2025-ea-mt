@@ -41,7 +41,7 @@ The following prompt template is used for each translation task:
 | gemma3_instruct_4b_text | 0.87070 | 0.87166 | 0.91166 | 0.87538 | 0.88999 | 0.89056 | 0.89771 | 0.80772 | 0.88826 | 0.88088 |
 | llama3.1_8b             | 0.73217 | 0.79436 | 0.88426 | 0.82143 | 0.84748 | 0.76645 | 0.78678 | 0.70851 | 0.80561 | 0.76020 |
 
-![alt text](images/zeroshot-experiment:-comet-score-per-language-and-model.png)
+![alt text](images/zeroshot-experiment-comet-score-per-language-and-model.png)
 
 #### Meta Scores
 
@@ -52,7 +52,7 @@ The following prompt template is used for each translation task:
 | gemma3_instruct_4b_text | 18.2825 | 25.1710 | 34.7767 | 27.9006 | 30.4110 | 16.8741 | 21.6107 | 4.22535 | 17.7596 | 13.1579 |
 | llama3.1_8b             | 10.2493 | 22.7086 | 32.8823 | 25.8287 | 29.4521 | 9.12863 | 6.97987 | 3.38028 | 14.4809 | 9.27978 |
 
-![alt text](images/zeroshot-experiment:-meta-score-per-language-and-model.png)
+![alt text](images/zeroshot-experiment-meta-score-per-language-and-model.png)
 
 #### Observations
 
@@ -137,7 +137,7 @@ The following prompt template is used for each translation task:
 | facebook_nllb_200_3.3b  | 0.900469 | 0.880849 | 0.902992 | 0.888537 | 0.914546 | 0.892243 | 0.905956 | 0.853740 | 0.919268 | 0.853816 |
 | gemma3_instruct_4b_text | 0.913272 | 0.909666 | 0.929734 | 0.900043 | 0.922269 | 0.928758 | 0.919779 | 0.871904 | 0.914075 | 0.902246 |
 
-![alt text](images/rag-experiment:-comet-score-per-language-and-model.png)
+![alt text](images/rag-experiment-comet-score-per-language-and-model.png)
 
 #### Meta Scores
 
@@ -146,7 +146,7 @@ The following prompt template is used for each translation task:
 | facebook_nllb_200_3.3b  | 56.0942  | 47.0588  | 53.1800  | 55.9392  | 59.7260  | 45.7815  | 52.8859  | 32.9577  | 52.7322  | 33.1025  |
 | gemma3_instruct_4b_text | 69.6676  | 68.1259  | 72.6658  | 64.6409  | 74.7945  | 72.6141  | 67.2483  | 57.7465  | 60.7924  | 56.9252  |
 
-![alt text](images/rag-experiment:-meta-score-per-language-and-model.png)
+![alt text](images/rag-experiment-meta-score-per-language-and-model.png)
 
 #### Observations
 
