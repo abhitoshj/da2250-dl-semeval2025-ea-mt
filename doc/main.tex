@@ -110,15 +110,7 @@ which specifically measures the accuracy of entity translation in machine-genera
 
 \section{Datasets}
 \label{sec:datasets}
-The datasets used in this study are derived from the SemEval 2025 Task 2 on Entity-Aware Machine Translation.
-All sets, except for the blind test set, included English source texts and their translations in ten 
-different languages (Italian, Spanish, French, German, Arabic, Japanese, Chinese, Korean, Thai, and Turkish). 
-Each data entry typically featured an English sentence, at least one translation in a target language, 
-and a relevant Wikidata ID. 
-For example, an English query like "What year was The Great Gatsby published?" 
-would be linked to its Korean translation and the Wikidata ID Q214371. We also referred the mintaka\cite{sen-etal-2022-mintaka} dataset,
-high-quality knowledge base of Wikidata facts, primarily used for question answering. It can be used to create
-datasets for fine-tuning Named Entity Recognition (NER) models.
+
 \begin{table}[h!]
 \centering
 \begin{tabular}{ll@{\hspace{8mm}}ll}
@@ -143,6 +135,16 @@ Turkish & - & 732 & 4,472 \\
 \label{tab:dataset_distribution}
 \end{table}
 
+The datasets used in this study are derived from the SemEval 2025 Task 2 on Entity-Aware Machine Translation.
+All sets, except for the blind test set, included English source texts and their translations in ten 
+different languages (Italian, Spanish, French, German, Arabic, Japanese, Chinese, Korean, Thai, and Turkish). 
+Each data entry typically featured an English sentence, at least one translation in a target language, 
+and a relevant Wikidata ID. 
+For example, an English query like "What year was The Great Gatsby published?" 
+would be linked to its Korean translation and the Wikidata ID Q214371. We also referred the mintaka\cite{sen-etal-2022-mintaka} dataset,
+high-quality knowledge base of Wikidata facts, primarily used for question answering. It can be used to create
+datasets for fine-tuning Named Entity Recognition (NER) models.
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %    Methodology
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -164,20 +166,29 @@ was successfully attempted. This multi-faceted methodology enabled comprehensive
 integration's impact on EAMT across contemporary LLMs.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%    Experiments and Results
+%    Evaluation
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Experiments and Results}
+\section{Evaluation}
 \label{sec:experiments}
-Present the experiments you conducted. This section should be detailed and clearly explain how you evaluated the models.
+Our system evaluations were conducted using the metrics specified for the shared task: COMET 
+(Crosslingual Optimized Metric for Evaluation of Translation)\cite{rei-etal-2020-comet} and 
+Manual Entity Translation Accuracy (M-ETA)\cite{conia-etal-2024-m-eta}. 
+COMET is a machine translation evaluation metric that utilizes a pre-trained model to derive 
+quality scores by comparing machine-generated outputs against human reference translations. 
+M-ETA specifically quantifies the precision of entity translations within machine-translated text, 
+calculated as the ratio of correctly translated entities against a gold standard.
+To provide a comprehensive assessment, the overall performance score, presented in Equation \ref{eq:overall_score}, 
+is computed as the harmonic mean of the COMET and M-ETA metrics. This combined metric ensures that systems are 
+evaluated not only on their general translation quality but also on their ability to accurately translate named entities.
+\begin{equation}
+\label{eq:overall_score}
+\text{Overall Score} = 2 \times \frac{\text{COMET} \times \text{M-ETA}}{\text{COMET} + \text{M-ETA}}
+\end{equation}
 
-\subsection{Evaluation Metrics}
-Briefly explain the COMET and M-ETA metrics.
-\begin{itemize}
-    \item \textbf{COMET (Crosslingual Optimized Metric for Evaluation of Translation):} Rei et al. (2020).\cite{conia-etal-2024-m-eta}
-    \item \textbf{M-ETA (Manual Entity Translation Accuracy):} Conia et al. (2024).\cite{rei-etal-2020-comet}
-\end{itemize}
-
-\subsection{Results}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%    Results
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Results}
 Present your results in tables and figures for clarity. For example:
 
 \begin{table}[h]
