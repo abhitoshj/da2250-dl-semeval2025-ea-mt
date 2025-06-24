@@ -84,14 +84,12 @@ The following prompt template is used for each translation task:
 ![Final Score Chart](images/zeroshot-experiment-final-score-(harmonic-mean-of-comet-and-meta)-per-language-and-model.png)
 
 ### Observations
-
-- **COMET Scores:** `gpt-4o` and `gemini-2.0-flash` consistently achieve the highest COMET scores for high-resource languages, indicating strong fluency and adequacy. `facebook_nllb_200_3.3b` is robust and covers all languages, but is slightly behind the top models. `gemma3_instruct_4b_text` and `llama3.1_8b` lag behind, especially in low-resource and Asian languages, with `mistral7b` showing the lowest scores in these settings.
-- **M-ETA Scores:** `gemini-2.0-flash` and `gpt-4o` again lead in M-ETA scores for high-resource languages, with `facebook_nllb_200_3.3b` providing broad but lower coverage. M-ETA scores for `llama3.1_8b`, `gemma3_instruct_4b_text`, and `mistral7b` are notably lower, especially for Asian and low-resource languages, highlighting adequacy challenges.
-- **Final Score:** The harmonic mean of COMET and M-ETA confirms that `gpt-4o` and `gemini-2.0-flash` are the most consistent top performers for high-resource languages. `facebook_nllb_200_3.3b` is a strong baseline for broad coverage, but the largest performance gaps are seen in low-resource and Asian languages, where adequacy (M-ETA) is a limiting factor.
+- **COMET Scores:** `gpt-4o` and `gemini-2.0-flash` consistently achieve the highest COMET scores for high-resource languages, with scores above 90 in most cases. `facebook_nllb_200_3.3b` is robust and covers all languages, but is slightly behind the top models. `gemma3_instruct_4b_text` and `llama3.1_8b` show moderate performance, while `mistral7b` is the weakest, especially in low-resource and Asian languages.
+- **M-ETA Scores:** `gemini-2.0-flash` and `gpt-4o` lead in M-ETA scores for high-resource languages, but all models, including `facebook_nllb_200_3.3b`, show a significant drop in adequacy for Asian and low-resource languages. The gap between COMET and M-ETA is especially pronounced for these languages, highlighting persistent adequacy challenges.
+- **Final Score:** The harmonic mean of COMET and M-ETA confirms that `gpt-4o` and `gemini-2.0-flash` are the most consistent top performers for high-resource languages. However, all models, including strong baselines, experience a sharp decline in overall performance for low-resource and Asian languages, driven by low adequacy (M-ETA) scores.
 
 ### Conclusion
-
-- The combined metrics show that `gpt-4o` and `gemini-2.0-flash` are the best-performing models in the zero-shot setting, especially for high-resource languages. `facebook_nllb_200_3.3b` remains a reliable baseline for broad language coverage. The Final Score metric provides a holistic view, emphasizing the importance of both adequacy and fluency, and highlights the need for further improvement in low-resource and Asian languages.
+- The combined metrics show that `gpt-4o` and `gemini-2.0-flash` are the best-performing models in the zero-shot setting for high-resource languages, with strong fluency and adequacy. `facebook_nllb_200_3.3b` remains a reliable baseline for broad language coverage. However, adequacy remains a major challenge for all models in low-resource and Asian languages, as reflected in the Final Score. Further research is needed to close this gap and improve adequacy in these settings.
 
 ## Retrieval Augmented Generation
 
@@ -189,14 +187,12 @@ The following prompt template is used for each translation task:
 ![Final Score Chart](images/rag-experiment-final-score-(harmonic-mean-of-comet-and-meta)-per-language-and-model.png)
 
 ### Observations
-
-- **COMET Scores:** `gemma3_instruct_4b_text (rag-wikidata)` achieves the highest COMET scores across nearly all languages, demonstrating the benefit of entity-aware augmentation. `facebook_nllb_200_3.3b` (both RAG variants) is strong and consistent, while `mistral7b` is competitive in some European languages but weaker elsewhere.
-- **M-ETA Scores:** The M-ETA scores show a substantial advantage for `gemma3_instruct_4b_text (rag-wikidata)`, especially in adequacy-heavy languages. `facebook_nllb_200_3.3b` is consistent, but `mistral7b` and its zero-shot RAG variant perform poorly in low-resource and Asian languages.
-- **Final Score:** The harmonic mean highlights the superior performance of `gemma3_instruct_4b_text (rag-wikidata)` in both adequacy and fluency, with the largest gains in languages with complex named entities. The RAG approach is especially effective for adequacy (M-ETA) in these settings.
+- **COMET Scores:** `gemma3_instruct_4b_text (rag-wikidata)` achieves the highest COMET scores across nearly all languages, often exceeding 90, demonstrating the benefit of entity-aware augmentation. `facebook_nllb_200_3.3b` (both RAG variants) is strong and consistent, while `mistral7b` is competitive in some European languages but much weaker in low-resource and Asian languages.
+- **M-ETA Scores:** `gemma3_instruct_4b_text (rag-wikidata)` also leads in M-ETA scores, with a substantial advantage in adequacy-heavy languages. `facebook_nllb_200_3.3b` is consistent but lower, and `mistral7b` and its zero-shot RAG variant perform poorly in low-resource and Asian languages.
+- **Final Score:** The harmonic mean highlights the superior performance of `gemma3_instruct_4b_text (rag-wikidata)` in both adequacy and fluency, with the largest gains in languages with complex named entities. The RAG approach is especially effective for adequacy (M-ETA) in these settings, and the performance gap with other models is most pronounced in low-resource and Asian languages.
 
 ### Conclusion
-
-- The RAG Wikidata approach with `gemma3_instruct_4b_text` delivers state-of-the-art performance, especially in adequacy and entity handling, as reflected in the Final Score. Entity-aware translation using Wikidata lookups is highly effective, particularly for languages and settings where entity translation is challenging. The combined metrics confirm the robustness of the RAG approach for named-entity-rich content.
+- The RAG Wikidata approach with `gemma3_instruct_4b_text` delivers state-of-the-art performance, especially in adequacy and entity handling, as reflected in the Final Score. Entity-aware translation using Wikidata lookups is highly effective, particularly for languages and settings where entity translation is challenging. The combined metrics confirm the robustness of the RAG approach for named-entity-rich content and its superiority over other methods, especially in difficult languages.
 
 ## Few Shot Prompting
 
@@ -241,8 +237,8 @@ The following prompt template is used for each translation task:
 ![Final Score Chart](images/fewshot-experiment-final-score-(harmonic-mean-of-comet-and-meta)-per-language-and-model.png)
 
 ### Observations
-- **COMET Scores:** In the few-shot setting, `gpt-4o` and `gemini-2.0-flash` achieve the highest COMET scores for high-resource languages. `llama3.1_8b` and its variants lag behind, especially in low-resource and Asian languages.
-- **M-ETA Scores:** `gpt-4o` and `gemini-2.0-flash` again lead in M-ETA scores for high-resource languages, but all models show a sharp drop in M-ETA for Asian and low-resource languages, indicating persistent adequacy challenges. `llama3.1_8b` and its variants have the lowest M-ETA scores in these settings.
+- **COMET Scores:** In the few-shot setting, `gpt-4o` and `gemini-2.0-flash` achieve the highest COMET scores for high-resource languages, with scores above 90. `llama3.1_8b` and its variants perform moderately in high-resource languages but drop sharply in low-resource and Asian languages.
+- **M-ETA Scores:** `gpt-4o` and `gemini-2.0-flash` again lead in M-ETA scores for high-resource languages, but all models, including `llama3.1_8b`, show a sharp drop in M-ETA for Asian and low-resource languages, indicating persistent adequacy challenges. The gap between COMET and M-ETA is especially large for these languages.
 - **Final Score:** The harmonic mean confirms that `gpt-4o` and `gemini-2.0-flash` are the best in the few-shot setting for high-resource languages, but all models struggle with adequacy in low-resource and Asian languages, as seen in the lower Final Scores.
 
 ### Conclusion
@@ -284,8 +280,8 @@ The following prompt template is used for each translation task:
 ![Final Score Chart](images/cot-experiment-final-score-(harmonic-mean-of-comet-and-meta)-per-language-and-model.png)
 
 ### Observations
-- **COMET Scores:** In the CoT setting, `gpt-4o` and `gemini-2.0-flash` achieve the highest COMET scores for high-resource languages. `gpt-4o` also performs well in Asian languages, but there is a notable drop in adequacy (M-ETA) for some languages.
-- **M-ETA Scores:** `gpt-4o` and `gemini-2.0-flash` lead in M-ETA scores for high-resource languages, but all models show lower M-ETA scores for low-resource and Asian languages, indicating persistent adequacy challenges.
+- **COMET Scores:** In the CoT setting, `gpt-4o` and `gemini-2.0-flash` achieve the highest COMET scores for high-resource languages, with `gpt-4o` also performing well in Asian languages. However, there is a notable drop in adequacy (M-ETA) for some languages, especially low-resource ones.
+- **M-ETA Scores:** `gpt-4o` and `gemini-2.0-flash` lead in M-ETA scores for high-resource languages, but all models show lower M-ETA scores for low-resource and Asian languages, indicating persistent adequacy challenges. The gap between COMET and M-ETA is again pronounced in these settings.
 - **Final Score:** The harmonic mean shows that `gpt-4o` and `gemini-2.0-flash` are the most robust in the CoT setting for high-resource languages, but adequacy remains a limiting factor for all models in more challenging languages.
 
 ### Conclusion
