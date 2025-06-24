@@ -229,14 +229,62 @@ CoT:gpt-4o & 39.58 & 90.73 & 54.40 \\
 \caption{Average M-ETA, COMET and Overall (Harmonic Mean) scores across languages for various approaches and models.}
 \end{table}
 
-     
+Among all evaluated approaches, Retrieval-Augmented Generation (RAG) with models like Gemma 3B 
+and Gemini 2.0 Flash demonstrates the most effective performance for the Entity-Aware Machine Translation (EA-MT) task. 
+These configurations consistently outperform zero-shot, few-shot, and chain-of-thought baselines in terms of both adequacy
+and fluency. The strength of RAG lies in its ability to leverage retrieved external knowledge, allowing models to 
+better handle the translation of named entities—particularly those requiring disambiguation or that lack sufficient 
+in-context information. This grounding is crucial for EA-MT, where preserving entity fidelity is a core requirement.
+
+In contrast, zero-shot and few-shot prompting with large models such as Gemini 2.0 Flash, GPT-4o, 
+and Facebook's NLLB 3 perform moderately well but show reduced reliability, especially when translating unseen or 
+ambiguous entities. LLaMA 3.1 8B and Mistral 7B underperform across setups, indicating limited capability without retrieval 
+support.
+
+Chain-of-thought (CoT) prompting with Gemini 2.0 Flash and GPT-4o yields slight gains in adequacy but does not 
+close the gap with RAG-based systems. Additionally, enhanced prompting strategies (e.g., variations in prompt design) 
+do not consistently improve performance and occasionally lead to regressions.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%    Future Work
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Future Work}
+\label{sec:future_work}
+While RAG-based approaches with models like \textit{Gemma 3B} and \textit{Gemini 2.0 Flash} have shown strong performance, 
+several directions can further enhance EA-MT systems. One promising path is fine-tuning models specifically for 
+entity-aware translation, using annotated corpora or synthetic data that emphasize named entity handling. 
+Techniques such as instruction tuning, LoRA-based adaptation, or reinforcement learning with entity-focused rewards 
+can improve entity fidelity without requiring full retraining. 
+Additionally, knowledge distillation from large models (e.g., \textit{Gemini} or \textit{GPT-4o}) into smaller, 
+more efficient models offers a scalable way to preserve entity translation quality. On the retrieval side,
+enhancements such as context-aware or cross-lingual retrieval—particularly those focused on entity-rich segments 
+could improve grounding and reduce ambiguity. Incorporating entity tagging or canonicalization before translation, 
+followed by post-generation substitution, may further reduce hallucinations. 
+Finally, moving beyond adequacy and fluency, future work should adopt entity-aware evaluation metrics that explicitly 
+assess correctness and faithfulness in named entity translation.
+    
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %    Conclusion
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Conclusion}
 \label{sec:conclusion}
-Summarize your key findings and contributions. You can also discuss the limitations of your study and suggest directions for future work.
+In this work, we evaluated a range of strategies for the Entity-Aware Machine Translation (EA-MT) 
+task as part of SemEval 2025 Task 2. Our experiments demonstrate that Retrieval-Augmented 
+Generation (RAG) methods, particularly those using high-capacity models like \textit{Gemma 3B} 
+and \textit{Gemini 2.0 Flash}, substantially outperform zero-shot, few-shot, and chain-of-thought 
+prompting approaches. RAG systems effectively leverage external knowledge to improve adequacy and 
+fluency, especially in the translation of named entities.
+We also observed that enhanced prompts and reasoning-based strategies, while helpful in certain 
+cases, fall short of the gains achieved through retrieval. Our findings highlight the importance
+of grounding language models in entity-relevant context to improve translation quality in 
+multilingual settings.
+This analysis establishes a strong foundation for further advancements in EA-MT. 
+Future directions include targeted fine-tuning, knowledge distillation, improved retrieval 
+strategies, and the development of entity-aware evaluation metrics. By integrating these 
+improvements, we aim to build more accurate, robust, and deployable translation systems that 
+are sensitive to entity correctness and cross-lingual consistency.
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %    BIBLIOGRAPHY SECTION
