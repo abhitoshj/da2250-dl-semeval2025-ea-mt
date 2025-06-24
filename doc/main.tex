@@ -12,6 +12,7 @@
 \usepackage{url}
 \usepackage{hyperref}
 \usepackage{natbib}
+\usepackage{multirow}
 
 
 \begin{document}
@@ -189,6 +190,46 @@ evaluated not only on their general translation quality but also on their abilit
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Results}
 \label{eq:results}
+
+\begin{table}[h!]
+\centering
+\small % Using small font size for compactness
+\label{tab:combined_methods_avg_scores}
+\begin{tabular}{|l|c|c|c|}
+\hline
+\textbf{Method:Model-Attempt} & \textbf{M-ETA} & \textbf{COMET} & \textbf{Overall Score} \\
+\hline
+RAG:gemma3\_4b & 66.52 & 91.12 & 76.79 \\
+RAG:gemini-2.0-flash & 59.99 & 90.62 & 72.16 \\
+RAG:fb\_nllb\_200\_3.3b & 48.75 & 89.08 & 62.51 \\
+RAG:fb\_nllb\_200\_3.3b & 48.95 & 89.12 & 62.79 \\
+RAG:mistral7b & 54.68 & 82.12 & 65.42 \\
+RAG:mistral7b & 12.63 & 76.27 & 20.01 \\
+\hline
+ZS:gemini-2.0-flash-0 & 46.57 & 91.10 & 61.49 \\
+ZS:gemini-2.0-flash-1 & 45.58 & 90.37 & 60.45 \\
+ZS:fb\_nllb\_200\_3.3b & 23.66 & 88.19 & 35.47 \\
+ZS:gpt-4o-0 & 39.67 & 90.93 & 54.55 \\
+ZS:gpt-4o-1 & 37.33 & 90.35 & 52.11 \\
+ZS:gemma3\_4b & 21.02 & 87.85 & 33.10 \\
+ZS:llama3.1\_8b-0 & 17.70 & 83.99 & 28.16 \\
+ZS:llama3.1\_8b-1 & 16.44 & 79.07 & 26.09 \\
+ZS:mistral7b & 12.88 & 76.19 & 20.31 \\
+\hline
+FS:gemini-2.0-flash & 46.45 & 90.91 & 61.38 \\
+FS:gpt-4o & 22.87 & 61.48 & 30.34 \\
+FS:llama3.1\_8b-0 & 17.59 & 79.88 & 27.76 \\
+FS:llama3.1\_8b-1 & 14.41 & 76.73 & 22.71 \\
+FS:llama3.1\_8b-2 & 14.52 & 75.79 & 23.25 \\
+\hline
+CoT:gemini-2.0-flash & 43.55 & 90.65 & 58.70 \\
+CoT:gpt-4o & 39.58 & 90.73 & 54.40 \\
+\hline
+\end{tabular}
+\caption{Average M-ETA, COMET and Overall (Harmonic Mean) scores across languages for various approaches and models.}
+\end{table}
+
+     
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %    Conclusion
