@@ -92,8 +92,7 @@ to perform a wide range of NLP tasks, including high-quality translation without
 A significant challenge in machine translation is the correct rendering of named entities,
 which often carry critical semantic weight. This has been a long-standing area of research, 
 with various approaches proposed to make NMT systems more "entity-aware." 
-Early work focused on integrating external knowledge or explicitly marking entities to guide the translation process 
-\cite{gazzola2019named, ennis2021improving}. 
+Early work focused on integrating external knowledge or explicitly marking entities to guide the translation process. 
 These methods aim to improve translation fidelity by preventing entities from being misinterpreted 
 as common words or being transliterated incorrectly.
 To further enhance the contextual understanding of LLMs for specialized tasks, 
@@ -101,11 +100,11 @@ Retrieval-Augmented Generation (RAG) has emerged as a powerful technique \cite{l
 By retrieving relevant documents or knowledge snippets and providing them as context to the generator model, 
 RAG has been successfully applied to knowledge-intensive NLP tasks. Its application to machine translation is 
 particularly promising for handling domain-specific terminology and entities, 
-as it allows the model to ground its translation in factual, retrieved data \cite{cai2021retrieval}, 
+as it allows the model to ground its translation in factual, retrieved data
 a principle that underpins our RAG-based experiments with Wikidata. 
 Finally, for evaluation, we rely on established metrics like COMET \cite{rei-etal-2020-comet}, 
 a reference-based metric that leverages cross-lingual pretrained models to achieve high correlation
-with human judgments of translation quality, and M-ETA \cite{conia-etal-2024-m-eta},
+with human judgments of translation quality, and M-ETA,
 which specifically measures the accuracy of entity translation in machine-generated text.
 
 \section{Datasets}
@@ -172,7 +171,7 @@ integration's impact on EAMT across contemporary LLMs.
 \label{sec:experiments}
 Our system evaluations were conducted using the metrics specified for the shared task: COMET 
 (Crosslingual Optimized Metric for Evaluation of Translation)\cite{rei-etal-2020-comet} and 
-Manual Entity Translation Accuracy (M-ETA)\cite{conia-etal-2024-m-eta}. 
+Manual Entity Translation Accuracy (M-ETA). 
 COMET is a machine translation evaluation metric that utilizes a pre-trained model to derive 
 quality scores by comparing machine-generated outputs against human reference translations. 
 M-ETA specifically quantifies the precision of entity translations within machine-translated text, 
@@ -189,24 +188,7 @@ evaluated not only on their general translation quality but also on their abilit
 %    Results
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Results}
-Present your results in tables and figures for clarity. For example:
-
-\begin{table}[h]
-\centering
-\label{tab:comet_scores}
-\begin{tabular}{ll@{\hspace{8mm}}ll}
-\hline
-\textbf{Model} & \textbf{Language 1} & \textbf{Language 2} & \textbf{Language 3} \\
-\hline
-Gemini         & Score 1a            & Score 1b            & Score 1c            \\
-ChatGPT        & Score 2a            & Score 2b            & Score 2c            \\
-Gemma (fine-tuned) & Score 3a            & Score 3b            & Score 3c            \\
-Llama (fine-tuned) & Score 4a            & Score 4b            & Score 4c            \\
-Qwen (fine-tuned)  & Score 5a            & Score 5b            & Score 5c            \\
-\hline
-\end{tabular}
-\caption{COMET scores for different models and languages.}
-\end{table}
+\label{eq:results}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %    Analysis and Discussion
