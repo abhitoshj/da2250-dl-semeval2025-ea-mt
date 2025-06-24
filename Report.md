@@ -34,64 +34,62 @@ The following prompt template is used for each translation task:
 
 #### COMET Scores
 
-| Model                                   | ar_AE    | de_DE    | es_ES    | fr_FR    | it_IT    | ja_JP    | ko_KR    | th_TH    | tr_TR    | zh_TW    |
-|------------------------------------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
-| facebook_nllb_200_3.3b (zero_shot)      | 0.894012 | 0.887837 | 0.914690 | 0.886039 | 0.901158 | 0.877546 | 0.909104 | 0.796988 | 0.908409 | 0.842765 |
-| gemini-2.0-flash (zero-shot-1)          | 0.907877 | 0.904798 | 0.924312 | 0.905125 | 0.912862 | NA       | NA       | NA       | NA       | NA       |
-| gemini-2.0-flash (zero-shot-2)          | 0.895801 | 0.902184 | 0.923279 | 0.881997 | 0.915130 | NA       | NA       | NA       | NA       | NA       |
-| gemma3_instruct_4b_text (zero-shot)     | 0.870702 | 0.871655 | 0.911657 | 0.875383 | 0.889993 | 0.890555 | 0.897712 | 0.807715 | 0.888256 | 0.880877 |
-| gpt-4o (zero-shot-1)                    | 0.908606 | 0.897374 | 0.922383 | 0.900818 | 0.914007 | 0.936411 | 0.934396 | 0.829915 | 0.926527 | 0.922842 |
-| gpt-4o (zero-shot-2)                    | 0.885450 | 0.897071 | 0.920620 | 0.896157 | 0.910552 | 0.932317 | 0.927710 | 0.818079 | 0.925739 | 0.921094 |
-| llama3.1_8b (zero_shot)                 | 0.814061 | 0.857946 | 0.901855 | 0.860470 | 0.879568 | 0.851725 | 0.844446 | 0.721428 | 0.842651 | 0.824786 |
-| llama3.1_8b (zero_shot_longer_prompt)   | 0.732168 | 0.794364 | 0.884256 | 0.821433 | 0.847478 | 0.766446 | 0.786775 | 0.708514 | 0.805609 | 0.760198 |
-| mistral7b (zero_shot)                   | 0.629800 | 0.845888 | 0.888324 | 0.845279 | 0.869485 | 0.788799 | 0.790001 | 0.470967 | 0.724187 | 0.766358 |
+| Model                                   | ar_AE | de_DE | es_ES | fr_FR | it_IT | ja_JP | ko_KR | th_TH | tr_TR | zh_TW |
+|------------------------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+| facebook_nllb_200_3.3b (zero_shot)      | 89.40 | 88.78 | 91.47 | 88.60 | 90.12 | 87.75 | 90.91 | 79.70 | 90.84 | 84.28 |
+| gemini-2.0-flash (zero-shot-1)          | 90.79 | 90.48 | 92.43 | 90.51 | 91.29 | NA    | NA    | NA    | NA    | NA    |
+| gemini-2.0-flash (zero-shot-2)          | 89.58 | 90.22 | 92.33 | 88.20 | 91.51 | NA    | NA    | NA    | NA    | NA    |
+| gemma3_instruct_4b_text (zero-shot)     | 87.07 | 87.17 | 91.17 | 87.54 | 89.00 | 89.06 | 89.77 | 80.77 | 88.83 | 88.09 |
+| gpt-4o (zero-shot-1)                    | 90.86 | 89.74 | 92.24 | 90.08 | 91.40 | 93.64 | 93.44 | 82.99 | 92.65 | 92.28 |
+| gpt-4o (zero-shot-2)                    | 88.55 | 89.71 | 92.06 | 89.62 | 91.06 | 93.23 | 92.77 | 81.81 | 92.57 | 92.11 |
+| llama3.1_8b (zero_shot)                 | 81.41 | 85.79 | 90.19 | 86.05 | 87.96 | 85.17 | 84.44 | 72.14 | 84.27 | 82.48 |
+| llama3.1_8b (zero_shot_longer_prompt)   | 73.22 | 79.44 | 88.43 | 82.14 | 84.75 | 76.64 | 78.68 | 70.85 | 80.56 | 76.02 |
+| mistral7b (zero_shot)                   | 62.98 | 84.59 | 88.83 | 84.53 | 86.95 | 78.88 | 79.00 | 47.10 | 72.42 | 76.64 |
 
 
 ![alt text](images/zeroshot-experiment-comet-score-per-language-and-model.png)
 
-#### Meta Scores
+#### M-ETA Scores
 
-| Model                                   | ar_AE     | de_DE     | es_ES     | fr_FR     | it_IT     | ja_JP     | ko_KR     | th_TH     | tr_TR     | zh_TW     |
-|------------------------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-| facebook_nllb_200_3.3b (zero_shot)      | 29.224377 | 26.402189 | 40.730717 | 34.392265 | 37.808219 | 9.128631  | 25.906040 | 4.788732  | 25.683060 | 2.493075  |
-| gemini-2.0-flash (zero-shot-1)          | 38.365651 | 44.733242 | 52.909337 | 48.066298 | 48.767123 | NA        | NA        | NA        | NA        | NA        |
-| gemini-2.0-flash (zero-shot-2)          | 38.919668 | 41.997264 | 53.585927 | 44.337017 | 49.041096 | NA        | NA        | NA        | NA        | NA        |
-| gemma3_instruct_4b_text (zero-shot)     | 18.282548 | 25.170999 | 34.776725 | 27.900552 | 30.410959 | 16.874136 | 21.610738 | 4.225352  | 17.759563 | 13.157895 |
-| gpt-4o (zero-shot-1)                    | 37.257618 | 37.482900 | 50.338295 | 41.712707 | 48.219178 | 43.983402 | 48.859060 | 13.802817 | 38.251366 | 36.842105 |
-| gpt-4o (zero-shot-2)                    | 27.700831 | 37.756498 | 48.579161 | 39.088398 | 46.438356 | 44.398340 | 43.489933 | 12.816901 | 37.295082 | 35.734072 |
-| llama3.1_8b (zero_shot)                 | 10.941828 | 23.255814 | 33.288227 | 28.867403 | 30.273973 | 11.618257 | 11.409396 | 3.239437  | 12.841530 | 11.218837 |
-| llama3.1_8b (zero_shot_longer_prompt)   | 10.249307 | 22.708618 | 32.882273 | 25.828729 | 29.452055 | 9.128631  | 6.979866  | 3.380282  | 14.480874 | 9.279778  |
-| mistral7b (zero_shot)                   | 1.939058  | 21.751026 | 32.341001 | 27.071823 | 25.753425 | 2.074689  | 3.221477  | 0.563380  | 10.519126 | 3.601108  |
+| Model                                   | ar_AE | de_DE | es_ES | fr_FR | it_IT | ja_JP | ko_KR | th_TH | tr_TR | zh_TW |
+|------------------------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+| facebook_nllb_200_3.3b (zero_shot)      | 29.22 | 26.40 | 40.73 | 34.39 | 37.81 | 9.13  | 25.91 | 4.79  | 25.68 | 2.49  |
+| gemini-2.0-flash (zero-shot-1)          | 38.37 | 44.73 | 52.91 | 48.07 | 48.77 | NA    | NA    | NA    | NA    | NA    |
+| gemini-2.0-flash (zero-shot-2)          | 38.92 | 42.00 | 53.59 | 44.34 | 49.04 | NA    | NA    | NA    | NA    | NA    |
+| gemma3_instruct_4b_text (zero-shot)     | 18.28 | 25.17 | 34.78 | 27.90 | 30.41 | 16.87 | 21.61 | 4.23  | 17.76 | 13.16 |
+| gpt-4o (zero-shot-1)                    | 37.26 | 37.48 | 50.34 | 41.71 | 48.22 | 43.98 | 48.86 | 13.80 | 38.25 | 36.84 |
+| gpt-4o (zero-shot-2)                    | 27.70 | 37.76 | 48.58 | 39.09 | 46.44 | 44.40 | 43.49 | 12.82 | 37.30 | 35.73 |
+| llama3.1_8b (zero_shot)                 | 10.94 | 23.26 | 33.29 | 28.87 | 30.27 | 11.62 | 11.41 | 3.24  | 12.84 | 11.22 |
+| llama3.1_8b (zero_shot_longer_prompt)   | 10.25 | 22.71 | 32.88 | 25.83 | 29.45 | 9.13  | 6.98  | 3.38  | 14.48 | 9.28  |
+| mistral7b (zero_shot)                   | 1.94  | 21.75 | 32.34 | 27.07 | 25.75 | 2.07  | 3.22  | 0.56  | 10.52 | 3.60  |
 
 
 ![alt text](images/zeroshot-experiment-meta-score-per-language-and-model.png)
 
-#### Final Score (Harmonic Mean of COMET and META)
+#### Final Score (Harmonic Mean of COMET and M-ETA)
 
-| Model                                   | ar_AE     | de_DE     | es_ES     | fr_FR     | it_IT     | ja_JP     | ko_KR     | th_TH     | tr_TR     | zh_TW     |
-|------------------------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-| facebook_nllb_200_3.3b (zero_shot)      | 44.049426 | 40.700888 | 56.363182 | 49.550955 | 53.267833 | 16.537007 | 40.321868 | 9.034616  | 40.044505 | 4.842887  |
-| gemini-2.0-flash (zero-shot-1)          | 53.937889 | 59.867809 | 67.296760 | 62.788841 | 63.572439 | NA        | NA        | NA        | NA        | NA        |
-| gemini-2.0-flash (zero-shot-2)          | 54.263570 | 57.314320 | 67.813669 | 59.010233 | 63.860078 | NA        | NA        | NA        | NA        | NA        |
-| gemma3_instruct_4b_text (zero-shot)     | 30.219720 | 39.061978 | 50.347520 | 42.314470 | 45.332022 | 28.372316 | 34.835482 | 8.030604  | 29.600815 | 22.895785 |
-| gpt-4o (zero-shot-1)                    | 52.845711 | 52.878629 | 65.131571 | 57.021441 | 63.132370 | 59.853501 | 64.166037 | 23.669087 | 54.147930 | 52.660760 |
-| gpt-4o (zero-shot-2)                    | 42.199710 | 53.144993 | 63.598659 | 54.433909 | 61.507654 | 60.151583 | 59.218805 | 22.161712 | 53.169758 | 51.491772 |
-| llama3.1_8b (zero_shot)                 | 19.290774 | 36.592677 | 48.627592 | 43.231367 | 45.044146 | 20.447324 | 20.102696 | 6.200453  | 22.286691 | 19.751103 |
-| llama3.1_8b (zero_shot_longer_prompt)   | 17.981467 | 35.320189 | 47.938104 | 39.300127 | 43.712785 | 16.314188 | 12.822210 | 6.452708  | 24.549041 | 16.540454 |
-| mistral7b (zero_shot)                   | 3.762282  | 34.604028 | 47.418470 | 41.009504 | 39.737065 | 4.043038  | 6.190515  | 1.113441  | 18.369939 | 6.878974  |
+| Model                                   | ar_AE | de_DE | es_ES | fr_FR | it_IT | ja_JP | ko_KR | th_TH | tr_TR | zh_TW |
+|------------------------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+| facebook_nllb_200_3.3b (zero_shot)      | 44.05 | 40.70 | 56.36 | 49.55 | 53.27 | 16.54 | 40.32 |  9.03 | 40.04 |  4.84 |
+| gemini-2.0-flash (zero-shot-1)          | 53.94 | 59.87 | 67.30 | 62.79 | 63.57 |   NA  |   NA  |   NA  |   NA  |   NA  |
+| gemini-2.0-flash (zero-shot-2)          | 54.26 | 57.31 | 67.81 | 59.01 | 63.86 |   NA  |   NA  |   NA  |   NA  |   NA  |
+| gemma3_instruct_4b_text (zero-shot)     | 30.22 | 39.06 | 50.35 | 42.31 | 45.33 | 28.37 | 34.84 |  8.03 | 29.60 | 22.90 |
+| gpt-4o (zero-shot-1)                    | 52.85 | 52.88 | 65.13 | 57.02 | 63.13 | 59.85 | 64.17 | 23.67 | 54.15 | 52.66 |
+| gpt-4o (zero-shot-2)                    | 42.20 | 53.14 | 63.60 | 54.43 | 61.51 | 60.15 | 59.22 | 22.16 | 53.17 | 51.49 |
+| llama3.1_8b (zero_shot)                 | 19.29 | 36.59 | 48.63 | 43.23 | 45.04 | 20.45 | 20.10 |  6.20 | 22.29 | 19.75 |
+| llama3.1_8b (zero_shot_longer_prompt)   | 17.98 | 35.32 | 47.94 | 39.30 | 43.71 | 16.31 | 12.82 |  6.45 | 24.55 | 16.54 |
+| mistral7b (zero_shot)                   |  3.76 | 34.60 | 47.42 | 41.01 | 39.74 |  4.04 |  6.19 |  1.11 | 18.37 |  6.88 |
 
 
 ![Final Score Chart](images/zeroshot-experiment-final-score-(harmonic-mean-of-comet-and-meta)-per-language-and-model.png)
 
 ### Observations
-
-- **COMET Scores:** `gpt-4o` and `gemini-2.0-flash` consistently achieve the highest COMET scores for high-resource languages, indicating strong fluency and adequacy. `facebook_nllb_200_3.3b` is robust and covers all languages, but is slightly behind the top models. `gemma3_instruct_4b_text` and `llama3.1_8b` lag behind, especially in low-resource and Asian languages, with `mistral7b` showing the lowest scores in these settings.
-- **META Scores:** `gemini-2.0-flash` and `gpt-4o` again lead in META scores for high-resource languages, with `facebook_nllb_200_3.3b` providing broad but lower coverage. META scores for `llama3.1_8b`, `gemma3_instruct_4b_text`, and `mistral7b` are notably lower, especially for Asian and low-resource languages, highlighting adequacy challenges.
-- **Final Score:** The harmonic mean of COMET and META confirms that `gpt-4o` and `gemini-2.0-flash` are the most consistent top performers for high-resource languages. `facebook_nllb_200_3.3b` is a strong baseline for broad coverage, but the largest performance gaps are seen in low-resource and Asian languages, where adequacy (META) is a limiting factor.
+- **COMET Scores:** `gpt-4o` and `gemini-2.0-flash` consistently achieve the highest COMET scores for high-resource languages, with scores above 90 in most cases. `facebook_nllb_200_3.3b` is robust and covers all languages, but is slightly behind the top models. `gemma3_instruct_4b_text` and `llama3.1_8b` show moderate performance, while `mistral7b` is the weakest, especially in low-resource and Asian languages.
+- **M-ETA Scores:** `gemini-2.0-flash` and `gpt-4o` lead in M-ETA scores for high-resource languages, but all models, including `facebook_nllb_200_3.3b`, show a significant drop in adequacy for Asian and low-resource languages. The gap between COMET and M-ETA is especially pronounced for these languages, highlighting persistent adequacy challenges.
+- **Final Score:** The harmonic mean of COMET and M-ETA confirms that `gpt-4o` and `gemini-2.0-flash` are the most consistent top performers for high-resource languages. However, all models, including strong baselines, experience a sharp decline in overall performance for low-resource and Asian languages, driven by low adequacy (M-ETA) scores.
 
 ### Conclusion
-
-- The combined metrics show that `gpt-4o` and `gemini-2.0-flash` are the best-performing models in the zero-shot setting, especially for high-resource languages. `facebook_nllb_200_3.3b` remains a reliable baseline for broad language coverage. The Final Score metric provides a holistic view, emphasizing the importance of both adequacy and fluency, and highlights the need for further improvement in low-resource and Asian languages.
+- The combined metrics show that `gpt-4o` and `gemini-2.0-flash` are the best-performing models in the zero-shot setting for high-resource languages, with strong fluency and adequacy. `facebook_nllb_200_3.3b` remains a reliable baseline for broad language coverage. However, adequacy remains a major challenge for all models in low-resource and Asian languages, as reflected in the Final Score. Further research is needed to close this gap and improve adequacy in these settings.
 
 ## Retrieval Augmented Generation
 
@@ -149,95 +147,98 @@ The following prompt template is used for each translation task:
 
 #### COMET Scores
 
-| Model                                         | ar_AE   | de_DE   | es_ES   | fr_FR   | it_IT   | ja_JP   | ko_KR   | th_TH   | tr_TR   | zh_TW   |
-|-----------------------------------------------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
-| facebook_nllb_200_3.3b (rag-wikidata)         | 0.89909 | 0.87615 | 0.90478 | 0.89484 | 0.91290 | 0.90120 | 0.90541 | 0.84491 | 0.91447 | 0.85390 |
-| facebook_nllb_200_3.3b (rag-wikidata-entity-ty...) | 0.90047 | 0.88085 | 0.90299 | 0.88854 | 0.91455 | 0.89224 | 0.90596 | 0.85374 | 0.91927 | 0.85382 |
-| gemma3_instruct_4b_text (rag-wikidata)        | 0.91327 | 0.90967 | 0.92973 | 0.90004 | 0.92227 | 0.92876 | 0.91978 | 0.87190 | 0.91408 | 0.90225 |
-| mistral7b (one_shot_rag_wikidata)             | 0.72193 | 0.87978 | 0.91385 | 0.87032 | 0.90278 | 0.85971 | 0.86150 | 0.58054 | 0.76422 | 0.85738 |
-| mistral7b (zero_shot_rag_wikidata)            | 0.63602 | 0.84168 | 0.88947 | 0.84423 | 0.86939 | 0.79624 | 0.79292 | 0.46545 | 0.71480 | 0.77705 |
+| Model                                         | ar_AE | de_DE | es_ES | fr_FR | it_IT | ja_JP | ko_KR | th_TH | tr_TR | zh_TW |
+|-----------------------------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+| facebook_nllb_200_3.3b (rag-wikidata)        | 89.91 | 87.61 | 90.48 | 89.48 | 91.29 | 90.12 | 90.54 | 84.49 | 91.45 | 85.39 |
+| facebook_nllb_200_3.3b (rag-wikidata-entity-type) | 90.05 | 88.08 | 90.30 | 88.85 | 91.45 | 89.22 | 90.60 | 85.37 | 91.93 | 85.38 |
+| gemini-2.0-flash (rag-eval)                   | 86.44 | 90.88 | 91.95 | 91.26 | 92.58 | NA    | NA    | NA    | NA    | NA    |
+| gemma3_instruct_4b_text (rag-wikidata)        | 91.33 | 90.97 | 92.97 | 90.00 | 92.23 | 92.88 | 91.98 | 87.19 | 91.41 | 90.22 |
+| mistral7b (one_shot_rag_wikidata)             | 72.19 | 87.98 | 91.38 | 87.03 | 90.28 | 85.97 | 86.15 | 58.05 | 76.42 | 85.74 |
+| mistral7b (zero_shot_rag_wikidata)            | 63.60 | 84.17 | 88.95 | 84.42 | 86.94 | 79.62 | 79.29 | 46.55 | 71.48 | 77.70 |
 
 
 ![alt text](images/rag-experiment-comet-score-per-language-and-model.png)
 
-#### Meta Scores
+#### M-ETA Scores
 
-| Model                                              | ar_AE     | de_DE     | es_ES     | fr_FR     | it_IT     | ja_JP     | ko_KR     | th_TH     | tr_TR     | zh_TW     |
-|----------------------------------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-| facebook_nllb_200_3.3b (rag-wikidata)              | 56.371191 | 46.648427 | 55.615697 | 58.563536 | 61.095890 | 48.409405 | 47.248322 | 31.126761 | 50.546448 | 31.855956 |
-| facebook_nllb_200_3.3b (rag-wikidata-entity-type)  | 56.094183 | 47.058824 | 53.179973 | 55.939227 | 59.726027 | 45.781466 | 52.885906 | 32.957746 | 52.732240 | 33.102493 |
-| gemma3_instruct_4b_text (rag-wikidata)             | 69.667590 | 68.125855 | 72.665765 | 64.640884 | 74.794521 | 72.614108 | 67.248322 | 57.746479 | 60.792350 | 56.925208 |
-| mistral7b (one_shot_rag_wikidata)                  | 57.756233 | 58.823529 | 70.635995 | 53.176796 | 62.876712 | 53.250346 | 54.765101 | 44.366197 | 41.530055 | 49.584488 |
-| mistral7b (zero_shot_rag_wikidata)                 |  1.800554 | 21.887825 | 31.258457 | 26.381215 | 25.068493 |  3.181189 |  2.281879 |  0.281690 | 10.109290 |  4.016620 |
+| Model                                         | ar_AE  | de_DE | es_ES | fr_FR | it_IT | ja_JP | ko_KR | th_TH | tr_TR | zh_TW |
+|-----------------------------------------------|--------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+| facebook_nllb_200_3.3b (rag-wikidata)        | 56.37  | 46.65 | 55.62 | 58.56 | 61.10 | 48.41 | 47.25 | 31.13 | 50.55 | 31.86 |
+| facebook_nllb_200_3.3b (rag-wikidata-entity-type) | 56.09  | 47.06 | 53.18 | 55.94 | 59.73 | 45.78 | 52.89 | 32.96 | 52.73 | 33.10 |
+| gemini-2.0-flash (rag-eval)                   | 60.25  | 59.64 | 57.37 | 59.25 | 63.42 | NA    | NA    | NA    | NA    | NA    |
+| gemma3_instruct_4b_text (rag-wikidata)        | 69.67  | 68.13 | 72.67 | 64.64 | 74.79 | 72.61 | 67.25 | 57.75 | 60.79 | 56.93 |
+| mistral7b (one_shot_rag_wikidata)             | 57.76  | 58.82 | 70.64 | 53.18 | 62.88 | 53.25 | 54.77 | 44.37 | 41.53 | 49.58 |
+| mistral7b (zero_shot_rag_wikidata)            | 1.80   | 21.89 | 31.26 | 26.38 | 25.07 | 3.18  | 2.28  | 0.28  | 10.11 | 4.02  |
+
 
 ![alt text](images/rag-experiment-meta-score-per-language-and-model.png)
 
-#### Final Score (Harmonic Mean of COMET and META)
+#### Final Score (Harmonic Mean of COMET and M-ETA)
 
-| Model                                         | ar_AE     | de_DE     | es_ES     | fr_FR     | it_IT     | ja_JP     | ko_KR     | th_TH     | tr_TR     | zh_TW     |
-|-----------------------------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-| facebook_nllb_200_3.3b (rag-wikidata)         | 69.295540 | 60.881706 | 68.887357 | 70.794698 | 73.201546 | 62.985230 | 62.093556 | 45.493542 | 65.106113 | 46.401284 |
-| facebook_nllb_200_3.3b (rag-wikidata-entity-type) | 69.126462 | 61.344644 | 66.938052 | 68.655398 | 72.260843 | 60.513253 | 66.785325 | 47.556711 | 67.019743 | 47.708413 |
-| gemma3_instruct_4b_text (rag-wikidata)        | 79.040408 | 77.906621 | 81.574701 | 75.242658 | 82.600971 | 81.504598 | 77.692728 | 69.477671 | 73.020798 | 69.807136 |
-| mistral7b (one_shot_rag_wikidata)             | 64.172478 | 70.505711 | 79.681779 | 66.016922 | 74.126057 | 65.765670 | 66.962341 | 50.295566 | 53.815175 | 62.831838 |
-| mistral7b (zero_shot_rag_wikidata)            | 3.501968  | 34.741212 | 46.259945 | 40.200318 | 38.915798 | 6.117951  | 4.436096  | 0.559991  | 17.713394 | 7.638405  |
+| Model                                         | ar_AE  | de_DE | es_ES | fr_FR | it_IT | ja_JP | ko_KR | th_TH | tr_TR | zh_TW |
+|-----------------------------------------------|--------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+| facebook_nllb_200_3.3b (rag-wikidata)        | 69.30  | 60.88 | 68.89 | 70.79 | 73.20 | 62.99 | 62.09 | 45.49 | 65.11 | 46.40 |
+| facebook_nllb_200_3.3b (rag-wikidata-entity-type) | 69.13  | 61.34 | 66.94 | 68.66 | 72.26 | 60.51 | 66.79 | 47.56 | 67.02 | 47.71 |
+| gemini-2.0-flash (rag-eval)                   | 71.01  | 72.02 | 70.66 | 71.86 | 75.28 | NA    | NA    | NA    | NA    | NA    |
+| gemma3_instruct_4b_text (rag-wikidata)        | 79.04  | 77.91 | 81.57 | 75.24 | 82.60 | 81.50 | 77.69 | 69.48 | 73.02 | 69.81 |
+| mistral7b (one_shot_rag_wikidata)             | 64.17  | 70.51 | 79.68 | 66.02 | 74.13 | 65.77 | 66.96 | 50.30 | 53.82 | 62.83 |
+| mistral7b (zero_shot_rag_wikidata)            | 3.50   | 34.74 | 46.26 | 40.20 | 38.92 | 6.12  | 4.44  | 0.56  | 17.71 | 7.64  |
 
 ![Final Score Chart](images/rag-experiment-final-score-(harmonic-mean-of-comet-and-meta)-per-language-and-model.png)
 
 ### Observations
-
-- **COMET Scores:** `gemma3_instruct_4b_text (rag-wikidata)` achieves the highest COMET scores across nearly all languages, demonstrating the benefit of entity-aware augmentation. `facebook_nllb_200_3.3b` (both RAG variants) is strong and consistent, while `mistral7b` is competitive in some European languages but weaker elsewhere.
-- **META Scores:** The META scores show a substantial advantage for `gemma3_instruct_4b_text (rag-wikidata)`, especially in adequacy-heavy languages. `facebook_nllb_200_3.3b` is consistent, but `mistral7b` and its zero-shot RAG variant perform poorly in low-resource and Asian languages.
-- **Final Score:** The harmonic mean highlights the superior performance of `gemma3_instruct_4b_text (rag-wikidata)` in both adequacy and fluency, with the largest gains in languages with complex named entities. The RAG approach is especially effective for adequacy (META) in these settings.
+- **COMET Scores:** `gemma3_instruct_4b_text (rag-wikidata)` achieves the highest COMET scores across nearly all languages, often exceeding 90, demonstrating the benefit of entity-aware augmentation. `facebook_nllb_200_3.3b` (both RAG variants) is strong and consistent, while `mistral7b` is competitive in some European languages but much weaker in low-resource and Asian languages.
+- **M-ETA Scores:** `gemma3_instruct_4b_text (rag-wikidata)` also leads in M-ETA scores, with a substantial advantage in adequacy-heavy languages. `facebook_nllb_200_3.3b` is consistent but lower, and `mistral7b` and its zero-shot RAG variant perform poorly in low-resource and Asian languages.
+- **Final Score:** The harmonic mean highlights the superior performance of `gemma3_instruct_4b_text (rag-wikidata)` in both adequacy and fluency, with the largest gains in languages with complex named entities. The RAG approach is especially effective for adequacy (M-ETA) in these settings, and the performance gap with other models is most pronounced in low-resource and Asian languages.
 
 ### Conclusion
-
-- The RAG Wikidata approach with `gemma3_instruct_4b_text` delivers state-of-the-art performance, especially in adequacy and entity handling, as reflected in the Final Score. Entity-aware translation using Wikidata lookups is highly effective, particularly for languages and settings where entity translation is challenging. The combined metrics confirm the robustness of the RAG approach for named-entity-rich content.
+- The RAG Wikidata approach with `gemma3_instruct_4b_text` delivers state-of-the-art performance, especially in adequacy and entity handling, as reflected in the Final Score. Entity-aware translation using Wikidata lookups is highly effective, particularly for languages and settings where entity translation is challenging. The combined metrics confirm the robustness of the RAG approach for named-entity-rich content and its superiority over other methods, especially in difficult languages.
 
 ## Few Shot Prompting
 
 ### Evaluations
 #### COMET Scores
 
-| Model                                    | ar_AE    | de_DE    | es_ES    | fr_FR    | it_IT    | ja_JP    | ko_KR    | th_TH    | tr_TR    | zh_TW    |
-|------------------------------------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
-| gemini-2.0-flash (few-shot)              | 0.904642 | 0.901906 | 0.923532 | 0.899110 | 0.916286 | NA       | NA       | NA       | NA       | NA       |
-| gpt-4o (few-shot)                        | 0.909567 | 0.898799 | 0.926188 | 0.899244 | 0.914019 | 0.320419 | 0.318831 | 0.306257 | 0.330402 | 0.324356 |
-| llama3.1_8b (few(3)_shot)                | 0.758065 | 0.817910 | 0.893370 | 0.813730 | 0.837820 | 0.793364 | 0.789159 | 0.667263 | 0.813619 | 0.803496 |
-| llama3.1_8b (few(3)_shot_longer_prompt)  | 0.775002 | 0.782419 | 0.899149 | 0.791490 | 0.811485 | 0.724958 | 0.652297 | 0.675251 | 0.812732 | 0.747750 |
-| llama3.1_8b (one_shot_longer_prompt)     | 0.778907 | 0.792391 | 0.892918 | 0.764773 | 0.780366 | 0.701464 | 0.647615 | 0.662619 | 0.784995 | 0.772904 |
+| Model                                 | ar_AE | de_DE | es_ES | fr_FR | it_IT | ja_JP | ko_KR | th_TH | tr_TR | zh_TW |
+|----------------------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+| gemini-2.0-flash (few-shot)            | 90.46 | 90.19 | 92.35 | 89.91 | 91.63 | NA    | NA    | NA    | NA    | NA    |
+| gpt-4o (few-shot)                      | 90.96 | 89.88 | 92.62 | 89.92 | 91.40 | 32.04 | 31.88 | 30.63 | 33.04 | 32.44 |
+| llama3.1_8b (few(3)_shot)              | 75.81 | 81.79 | 89.34 | 81.37 | 83.78 | 79.34 | 78.92 | 66.73 | 81.36 | 80.35 |
+| llama3.1_8b (few(3)_shot_longer_prompt)| 77.50 | 78.24 | 89.91 | 79.15 | 81.15 | 72.50 | 65.23 | 67.53 | 81.27 | 74.77 |
+| llama3.1_8b (one_shot_longer_prompt)   | 77.89 | 79.24 | 89.29 | 76.48 | 78.04 | 70.15 | 64.76 | 66.26 | 78.50 | 77.29 |
 
 
 ![COMET Score Chart](images/fewshot-experiment-comet-score-per-language-and-model.png)
 
-#### META Scores
+#### M-ETA Scores
 
-| Model                                    | ar_AE     | de_DE     | es_ES     | fr_FR     | it_IT     | ja_JP     | ko_KR     | th_TH     | tr_TR     | zh_TW     |
-|------------------------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-| gemini-2.0-flash (few-shot)              | 40.027701 | 46.238030 | 53.179973 | 43.646409 | 49.178082 | NA        | NA        | NA        | NA        | NA        |
-| gpt-4o (few-shot)                        | 40.304709 | 41.997264 | 55.074425 | 41.436464 | 49.863014 | 0.0       | 0.0       | 0.0       | 0.0       | 0.0       |
-| llama3.1_8b (few(3)_shot)                | 9.695291  | 22.298222 | 33.423545 | 26.933702 | 31.095890 | 13.001383 | 9.127517  | 2.535211  | 15.983607 | 11.772853 |
-| llama3.1_8b (few(3)_shot_longer_prompt)  | 0.277008  | 20.383037 | 33.694181 | 23.480663 | 29.041096 | 6.224066  | 4.295302  | 2.394366  | 13.797814 | 10.526316 |
-| llama3.1_8b (one_shot_longer_prompt)     | 10.249307 | 18.057456 | 31.664411 | 24.585635 | 24.931507 | 4.149378  | 4.697987  | 2.112676  | 14.344262 | 10.387812 |
+| Model                                 | ar_AE | de_DE | es_ES | fr_FR | it_IT | ja_JP | ko_KR | th_TH | tr_TR | zh_TW |
+|----------------------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+| gemini-2.0-flash (few-shot)            | 40.03 | 46.24 | 53.18 | 43.65 | 49.18 | NA    | NA    | NA    | NA    | NA    |
+| gpt-4o (few-shot)                      | 40.30 | 42.00 | 55.07 | 41.44 | 49.86 | NA    | NA    | NA    | NA    | NA    |
+| llama3.1_8b (few(3)_shot)              | 9.70  | 22.30 | 33.42 | 26.93 | 31.10 | 13.00 | 9.13  | 2.54  | 15.98 | 11.77 |
+| llama3.1_8b (few(3)_shot_longer_prompt)| 0.28  | 20.38 | 33.69 | 23.48 | 29.04 | 6.22  | 4.30  | 2.39  | 13.80 | 10.53 |
+| llama3.1_8b (one_shot_longer_prompt)   | 10.25 | 18.06 | 31.66 | 24.59 | 24.93 | 4.15  | 4.70  | 2.11  | 14.34 | 10.39 |
 
-![META Score Chart](images/fewshot-experiment-meta-score-per-language-and-model.png)
 
-#### Final Score (Harmonic Mean of COMET and META)
+![M-ETA Score Chart](images/fewshot-experiment-meta-score-per-language-and-model.png)
 
-| Model                                   | ar_AE     | de_DE     | es_ES     | fr_FR     | it_IT     | ja_JP     | ko_KR     | th_TH     | tr_TR     | zh_TW     |
-|------------------------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-| gemini-2.0-flash (few-shot)              | 55.498824 | 61.134313 | 67.494450 | 58.765624 | 64.004333 | NA        | NA        | NA        | NA        | NA        |
-| gpt-4o (few-shot)                        | 55.857747 | 57.245838 | 69.074640 | 56.731493 | 64.525220 | 0.0       | 0.0       | 0.0       | 0.0       | 0.0       |
-| llama3.1_8b (few(3)_shot)                | 17.191829 | 35.042899 | 48.646881 | 40.471658 | 45.357304 | 22.341512 | 16.362523 | 4.884827  | 26.718367 | 20.536668 |
-| llama3.1_8b (few(3)_shot_longer_prompt)  | 0.552043  | 32.340855 | 49.019202 | 36.217034 | 42.774302 | 11.463909 | 8.059870  | 4.624744  | 23.590630 | 18.454703 |
-| llama3.1_8b (one_shot_longer_prompt)     | 18.114945 | 29.412276 | 46.750345 | 37.209344 | 37.789757 | 7.835275  | 8.760464  | 4.094795  | 24.256176 | 18.314200 |
+#### Final Score (Harmonic Mean of COMET and M-ETA)
+
+| Model                                 | ar_AE | de_DE | es_ES | fr_FR | it_IT | ja_JP | ko_KR | th_TH | tr_TR | zh_TW |
+|----------------------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+| gemini-2.0-flash (few-shot)            | 55.50 | 61.13 | 67.49 | 58.77 | 64.00 | NA    | NA    | NA    | NA    | NA    |
+| gpt-4o (few-shot)                      | 55.86 | 57.25 | 69.07 | 56.73 | 64.53 | NA    | Na    | NA    | NA    | NA    |
+| llama3.1_8b (few(3)_shot)              | 17.19 | 35.04 | 48.65 | 40.47 | 45.36 | 22.34 | 16.36 | 4.88  | 26.72 | 20.54 |
+| llama3.1_8b (few(3)_shot_longer_prompt)| 0.55  | 32.34 | 49.02 | 36.22 | 42.77 | 11.46 | 8.06  | 4.62  | 23.59 | 18.45 |
+| llama3.1_8b (one_shot_longer_prompt)   | 18.11 | 29.41 | 46.75 | 37.21 | 37.79 | 7.84  | 8.76  | 4.09  | 24.26 | 18.31 |
 
 
 ![Final Score Chart](images/fewshot-experiment-final-score-(harmonic-mean-of-comet-and-meta)-per-language-and-model.png)
 
 ### Observations
-- **COMET Scores:** In the few-shot setting, `gpt-4o` and `gemini-2.0-flash` achieve the highest COMET scores for high-resource languages. `llama3.1_8b` and its variants lag behind, especially in low-resource and Asian languages.
-- **META Scores:** `gpt-4o` and `gemini-2.0-flash` again lead in META scores for high-resource languages, but all models show a sharp drop in META for Asian and low-resource languages, indicating persistent adequacy challenges. `llama3.1_8b` and its variants have the lowest META scores in these settings.
+- **COMET Scores:** In the few-shot setting, `gpt-4o` and `gemini-2.0-flash` achieve the highest COMET scores for high-resource languages, with scores above 90. `llama3.1_8b` and its variants perform moderately in high-resource languages but drop sharply in low-resource and Asian languages.
+- **M-ETA Scores:** `gpt-4o` and `gemini-2.0-flash` again lead in M-ETA scores for high-resource languages, but all models, including `llama3.1_8b`, show a sharp drop in M-ETA for Asian and low-resource languages, indicating persistent adequacy challenges. The gap between COMET and M-ETA is especially large for these languages.
 - **Final Score:** The harmonic mean confirms that `gpt-4o` and `gemini-2.0-flash` are the best in the few-shot setting for high-resource languages, but all models struggle with adequacy in low-resource and Asian languages, as seen in the lower Final Scores.
 
 ### Conclusion
@@ -249,38 +250,81 @@ The following prompt template is used for each translation task:
 
 #### COMET Scores
 
-| Model                      | ar_AE    | de_DE    | es_ES    | fr_FR    | it_IT    | ja_JP   | ko_KR   | th_TH   | tr_TR   | zh_TW   |
-|----------------------------|----------|----------|----------|----------|----------|---------|---------|---------|---------|---------|
-| gemini-2.0-flash (cot)     | 0.898485 | 0.900797 | 0.922098 | 0.900923 | 0.910102 | NA      | NA      | NA      | NA      | NA      |
-| gpt-4o (cot)               | 0.891195 | 0.898929 | 0.922957 | 0.898582 | 0.911873 | 0.933051| 0.934914| 0.833996| 0.922442| 0.925292 |
+| Model                   | ar_AE | de_DE | es_ES | fr_FR | it_IT | ja_JP | ko_KR | th_TH | tr_TR | zh_TW |
+|-------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+| gemini-2.0-flash (cot)  | 89.85 | 90.08 | 92.21 | 90.09 | 91.01 | NA    | NA    | NA    | NA    | NA    |
+| gpt-4o (cot)            | 89.12 | 89.89 | 92.30 | 89.86 | 91.19 | 93.31 | 93.49 | 83.40 | 92.24 | 92.53 |
 
 
 ![COMET Score Chart](images/cot-experiment-comet-score-per-language-and-model.png)
 
-#### META Scores
+#### M-ETA Scores
 
-| Model                   | ar_AE     | de_DE     | es_ES     | fr_FR     | it_IT     | ja_JP | ko_KR | th_TH | tr_TR | zh_TW |
-|-------------------------|-----------|-----------|-----------|-----------|-----------|-------|-------|-------|-------|-------|
-| gemini-2.0-flash (cot)  | 36.703601 | 42.270862 | 51.691475 | 45.027624 | 42.054795 | NA    | NA    | NA    | NA    | NA    |
-| gpt-4o (cot)            | 31.578947 | 40.218878 | 53.179973 | 42.127072 | 47.534247 | 43.153527 | 47.651007 | 14.647887 | 36.885246 | 38.781163 |
+| Model                   | ar_AE | de_DE | es_ES | fr_FR | it_IT | ja_JP | ko_KR | th_TH | tr_TR | zh_TW |
+|-------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+| gemini-2.0-flash (cot)  | 36.70 | 42.27 | 51.69 | 45.03 | 42.05 | NA    | NA    | NA    | NA    | NA    |
+| gpt-4o (cot)            | 31.58 | 40.22 | 53.18 | 42.13 | 47.53 | 43.15 | 47.65 | 14.65 | 36.89 | 38.78 |
 
-![META Score Chart](images/cot-experiment-meta-score-per-language-and-model.png)
+![M-ETA Score Chart](images/cot-experiment-meta-score-per-language-and-model.png)
 
-#### Final Score (Harmonic Mean of COMET and META)
+#### Final Score (Harmonic Mean of COMET and M-ETA)
 
-| Model                   | ar_AE     | de_DE     | es_ES     | fr_FR     | it_IT     | ja_JP     | ko_KR     | th_TH     | tr_TR     | zh_TW     |
-|-------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-| gemini-2.0-flash (cot)  | 52.117080 | 57.540323 | 66.246248 | 60.045059 | 57.527002 | NA        | NA        | NA        | NA        | NA        |
-| gpt-4o (cot)            | 46.633574 | 55.573632 | 67.479098 | 57.361904 | 62.492386 | 59.013404 | 63.127145 | 24.919108 | 52.698286 | 54.655084 |
+| Model                   | ar_AE | de_DE | es_ES | fr_FR | it_IT | ja_JP | ko_KR | th_TH | tr_TR | zh_TW |
+|-------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+| gemini-2.0-flash (cot)  | 52.12 | 57.54 | 66.25 | 60.05 | 57.53 | NA    | NA    | NA    | NA    | NA    |
+| gpt-4o (cot)            | 46.63 | 55.57 | 67.48 | 57.36 | 62.49 | 59.01 | 63.13 | 24.92 | 52.70 | 54.66 |
+
 
 
 
 ![Final Score Chart](images/cot-experiment-final-score-(harmonic-mean-of-comet-and-meta)-per-language-and-model.png)
 
 ### Observations
-- **COMET Scores:** In the CoT setting, `gpt-4o` and `gemini-2.0-flash` achieve the highest COMET scores for high-resource languages. `gpt-4o` also performs well in Asian languages, but there is a notable drop in adequacy (META) for some languages.
-- **META Scores:** `gpt-4o` and `gemini-2.0-flash` lead in META scores for high-resource languages, but all models show lower META scores for low-resource and Asian languages, indicating persistent adequacy challenges.
+- **COMET Scores:** In the CoT setting, `gpt-4o` and `gemini-2.0-flash` achieve the highest COMET scores for high-resource languages, with `gpt-4o` also performing well in Asian languages. However, there is a notable drop in adequacy (M-ETA) for some languages, especially low-resource ones.
+- **M-ETA Scores:** `gpt-4o` and `gemini-2.0-flash` lead in M-ETA scores for high-resource languages, but all models show lower M-ETA scores for low-resource and Asian languages, indicating persistent adequacy challenges. The gap between COMET and M-ETA is again pronounced in these settings.
 - **Final Score:** The harmonic mean shows that `gpt-4o` and `gemini-2.0-flash` are the most robust in the CoT setting for high-resource languages, but adequacy remains a limiting factor for all models in more challenging languages.
 
 ### Conclusion
 - `gpt-4o` and `gemini-2.0-flash` are the top models in the CoT setting for high-resource languages, but all models face challenges in adequacy for low-resource and Asian languages. The Final Score metric underscores the need for further research and model improvements to address these gaps, and demonstrates the value of using both adequacy and fluency metrics for comprehensive evaluation.
+
+## Best performance for each approach
+
+| Method    | Model                                 | ar_AE     | de_DE     | es_ES     | fr_FR     | it_IT     | ja_JP     | ko_KR     | th_TH     | tr_TR     | zh_TW     |
+|-----------|---------------------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+| RAG       | gemma3_instruct_4b_text | 79.04 | 77.90 | 81.57 | 75.24 | 82.60 | 81.50 | 77.69 | 69.47 | 73.02 | 69.80 |
+| ZeroShot  | gemini-2.0-flash       | 53.93 | 59.86 | 67.29 | 62.78 | 63.57 | NA        | NA        | NA        | NA        | NA        |
+| FewShot   | gemini-2.0-flash       | 40.02 | 46.23 | 53.17 | 43.64 | 49.17 | NA        | NA        | NA        | NA        | NA        |
+| CoT       | gemini-2.0-flash       | 52.11 | 57.54 | 66.24 | 60.04 | 57.52 | NA        | NA        | NA        | NA        | NA        |
+
+
+## Summary Table of Approaches and Results
+
+| Approach                | Model                                 | Avg M-ETA | Avg COMET | Avg Final Score |
+|-------------------------|---------------------------------------|----------|-----------|-----------------|
+| **RAG**                 | gemma3_instruct_4b_text (rag-wikidata) | 66.52    | 91.12     | 76.79           |
+| **RAG**                 | gemini-2.0-flash (rag-eval)            | 59.99    | 90.62     | 72.16           |
+| **RAG**                 | facebook_nllb_200_3.3b (rag-wikidata)  | 48.75    | 89.08     | 62.51           |
+| **RAG**                 | facebook_nllb_200_3.3b (rag-wikidata-entity-type) | 48.95 | 89.12     | 62.79           |
+| **RAG**                 | mistral7b (one_shot_rag_wikidata)      | 54.68    | 82.12     | 65.42           |
+| **RAG**                 | mistral7b (zero_shot_rag_wikidata)     | 12.63    | 76.27     | 20.01           |
+| **Zero Shot**           | gemini-2.0-flash (zero-shot-1)         | 46.57    | 91.10     | 61.49           |
+| **Zero Shot**           | gemini-2.0-flash (zero-shot-2)         | 45.58    | 90.37     | 60.45           |
+| **Zero Shot**           | facebook_nllb_200_3.3b (zero_shot)     | 23.66    | 88.19     | 35.47           |
+| **Zero Shot**           | gpt-4o (zero-shot-1)                   | 39.67    | 90.93     | 54.55           |
+| **Zero Shot**           | gpt-4o (zero-shot-2)                   | 37.33    | 90.35     | 52.11           |
+| **Zero Shot**           | gemma3_instruct_4b_text (zero-shot)    | 21.02    | 87.85     | 33.10           |
+| **Zero Shot**           | llama3.1_8b (zero_shot)                | 17.70    | 83.99     | 28.16           |
+| **Zero Shot**           | llama3.1_8b (zero_shot_longer_prompt)  | 16.44    | 79.07     | 26.09           |
+| **Zero Shot**           | mistral7b (zero_shot)                  | 12.88    | 76.19     | 20.31           |
+| **Few Shot**            | gemini-2.0-flash (few-shot)            | 46.45    | 90.91     | 61.38           |
+| **Few Shot**            | gpt-4o (few-shot)                      | 22.87    | 61.48     | 30.34           |
+| **Few Shot**            | llama3.1_8b (few(3)_shot)              | 17.59    | 79.88     | 27.76           |
+| **Few Shot**            | llama3.1_8b (few(3)_shot_longer_prompt)| 14.41    | 76.73     | 22.71           |
+| **Few Shot**            | llama3.1_8b (one_shot_longer_prompt)   | 14.52    | 75.79     | 23.25           |
+| **CoT**                 | gemini-2.0-flash (cot)                 | 43.55    | 90.65     | 58.70           |
+| **CoT**                 | gpt-4o (cot)                           | 39.58    | 90.73     | 54.40           |
+
+**Notes:**
+- *Avg M-ETA*: Average adequacy score across languages.
+- *Avg COMET*: Average fluency/adequacy score (COMET) across languages.
+- *Avg Final Score*: Harmonic mean of M-ETA and COMET, representing overall performance.
