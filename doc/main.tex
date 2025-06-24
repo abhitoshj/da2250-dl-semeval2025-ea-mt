@@ -78,7 +78,35 @@ thereby critically enhancing the overall fidelity and trustworthiness of machine
 
 \section{Related Work}
 \label{sec:related}
-Here, you can discuss previous work on named entity translation, machine translation using large language models, and the evaluation metrics you have chosen.
+Our work builds upon several key advancements in machine translation and large language models. 
+The field of machine translation was revolutionized by the introduction of Neural Machine Translation (NMT), 
+particularly with the advent of the Transformer architecture \cite{vaswani2017attention}, 
+which replaced recurrent and convolutional models with a purely attention-based mechanism, 
+setting a new standard for performance.
+More recently, Large Language Models (LLMs) have demonstrated remarkable capabilities in translation, 
+often in a zero-shot or few-shot setting \cite{brown2020language}. 
+Models pretrained on vast text corpora using a unified text-to-text framework, 
+such as T5 \cite{raffel2020exploring}, have shown that a single model can be effectively prompted 
+to perform a wide range of NLP tasks, including high-quality translation without task-specific fine-tuning.
+A significant challenge in machine translation is the correct rendering of named entities,
+which often carry critical semantic weight. This has been a long-standing area of research, 
+with various approaches proposed to make NMT systems more "entity-aware." 
+Early work focused on integrating external knowledge or explicitly marking entities to guide the translation process 
+\cite{gazzola2019named, ennis2021improving}. 
+These methods aim to improve translation fidelity by preventing entities from being misinterpreted 
+as common words or being transliterated incorrectly.
+To further enhance the contextual understanding of LLMs for specialized tasks, 
+Retrieval-Augmented Generation (RAG) has emerged as a powerful technique \cite{lewis2020retrieval}. 
+By retrieving relevant documents or knowledge snippets and providing them as context to the generator model, 
+RAG has been successfully applied to knowledge-intensive NLP tasks. Its application to machine translation is 
+particularly promising for handling domain-specific terminology and entities, 
+as it allows the model to ground its translation in factual, retrieved data \cite{cai2021retrieval}, 
+a principle that underpins our RAG-based experiments with Wikidata. 
+Finally, for evaluation, we rely on established metrics like COMET \cite{rei-etal-2020-comet}, 
+a reference-based metric that leverages cross-lingual pretrained models to achieve high correlation
+with human judgments of translation quality, and M-ETA \cite{conia-etal-2024-m-eta},
+which specifically measures the accuracy of entity translation in machine-generated text.
+
 
 \section{Methodology}
 \label{sec:methodology}
