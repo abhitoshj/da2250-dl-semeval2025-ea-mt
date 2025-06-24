@@ -44,6 +44,7 @@ The following prompt template is used for each translation task:
 | gpt-4o (zero-shot-2)                    | 0.885450 | 0.897071 | 0.920620 | 0.896157 | 0.910552 | 0.932317 | 0.927710 | 0.818079 | 0.925739 | 0.921094 |
 | llama3.1_8b (zero_shot)                 | 0.814061 | 0.857946 | 0.901855 | 0.860470 | 0.879568 | 0.851725 | 0.844446 | 0.721428 | 0.842651 | 0.824786 |
 | llama3.1_8b (zero_shot_longer_prompt)   | 0.732168 | 0.794364 | 0.884256 | 0.821433 | 0.847478 | 0.766446 | 0.786775 | 0.708514 | 0.805609 | 0.760198 |
+| mistral7b (zero_shot)	                  | 0.629800 | 0.845888 | 0.888324 | 0.845279 | 0.869485 | 0.788799 | 0.790001 | 0.470967 | 0.724187 | 0.766358 |
 
 
 ![alt text](images/zeroshot-experiment-comet-score-per-language-and-model.png)
@@ -60,6 +61,7 @@ The following prompt template is used for each translation task:
 | gpt-4o (zero-shot-2)                    | 27.700831 | 37.756498 | 48.579161 | 39.088398 | 46.438356 | 44.398340 | 43.489933 | 12.816901 | 37.295082 | 35.734072 |
 | llama3.1_8b (zero_shot)                 | 10.941828 | 23.255814 | 33.288227 | 28.867403 | 30.273973 | 11.618257 | 11.409396 | 3.239437  | 12.841530 | 11.218837 |
 | llama3.1_8b (zero_shot_longer_prompt)   | 10.249307 | 22.708618 | 32.882273 | 25.828729 | 29.452055 | 9.128631  | 6.979866  | 3.380282  | 14.480874 | 9.279778  |
+| mistral7b (zero_shot)	                  | 1.939058  | 21.751026 | 32.341001 | 27.071823 | 25.753425 | 2.074689  | 3.221477  | 0.56338   | 10.519126 | 3.601108  |
 
 
 ![alt text](images/zeroshot-experiment-meta-score-per-language-and-model.png)
@@ -76,14 +78,16 @@ The following prompt template is used for each translation task:
 | gpt-4o (zero-shot-2)                    | 1.716047 | 1.752504 | 1.806996 | 1.752143 | 1.786082 | 1.826284 | 1.816668 | 1.537991 | 1.806634 | 1.795895 |
 | llama3.1_8b (zero_shot)                 | 1.515378 | 1.654842 | 1.756131 | 1.671127 | 1.709471 | 1.587101 | 1.572505 | 1.180055 | 1.581523 | 1.536603 |
 | llama3.1_8b (zero_shot_longer_prompt)   | 1.366705 | 1.535031 | 1.722199 | 1.592229 | 1.647548 | 1.414159 | 1.414146 | 1.171483 | 1.526305 | 1.405275 |
+| mistral7b (zero_shot)	                  | 0.950788 | 1.628446 | 1.729152 | 1.639372 | 1.682177 | 1.14302  | 1.268843 | 0.513045 | 1.355083 | 1.26377  |
+
 
 ![Final Score Chart](images/zeroshot-experiment-final-score-(harmonic-mean-of-comet-and-meta)-per-language-and-model.png)
 
 #### Observations
 
-- **COMET Scores:** `gpt-4o` and `gemini-2.0-flash` consistently achieve the highest COMET scores across high-resource languages, indicating strong adequacy and fluency. `facebook_nllb_200_3.3b` is robust and covers all languages, but is slightly behind the top models. `gemma3_instruct_4b_text` and `llama3.1_8b` lag behind, especially in low-resource and Asian languages.
-- **META Scores:** `gemini-2.0-flash` and `gpt-4o` again lead in META scores for high-resource languages, with `facebook_nllb_200_3.3b` providing broad but lower coverage. META scores for `llama3.1_8b` and `gemma3_instruct_4b_text` are notably lower, especially for Asian and low-resource languages, highlighting adequacy challenges.
-- **Final Score:** The harmonic mean of COMET and META confirms that `gpt-4o` and `gemini-2.0-flash` are the most consistent top performers for high-resource languages. `facebook_nllb_200_3.3b` is a strong baseline for broad coverage, but the largest performance gaps are seen in low-resource and Asian languages, where adequacy (META) is a limiting factor.
+- **COMET Scores:** `gpt-4o` and `gemini-2.0-flash` consistently achieve the highest COMET scores across high-resource languages, indicating strong adequacy and fluency. `facebook_nllb_200_3.3b` is robust and covers all languages, but is slightly behind the top models. `gemma3_instruct_4b_text` and `llama3.1_8b` lag behind, especially in low-resource and Asian languages. `mistral7b` trails in fluency but remains usable.
+- **META Scores:** `gemini-2.0-flash` and `gpt-4o` again lead in META scores for high-resource languages, with `facebook_nllb_200_3.3b` providing broad but lower coverage. META scores for `llama3.1_8b` and `gemma3_instruct_4b_text` are notably lower, especially for Asian and low-resource languages, highlighting adequacy challenges. `mistral7b` shows limited adequacy, with some scores approaching zero in low-resource languages like Thai and Arabic.
+- **Final Score:** The harmonic mean of COMET and META confirms that `gpt-4o` and `gemini-2.0-flash` are the most consistent top performers for high-resource languages. `facebook_nllb_200_3.3b` is a strong baseline for broad coverage, but the largest performance gaps are seen in low-resource and Asian languages, where adequacy (META) is a limiting factor. `mistral7b` ranks the lowest across most languages, confirming its limited utility for high-quality zero-shot translation in this task
 
 #### Conclusion
 
@@ -201,6 +205,7 @@ The following prompt template is used for each translation task:
 | llama3.1_8b (few(3)_shot)                | 0.758065 | 0.817910 | 0.893370 | 0.813730 | 0.837820 | 0.793364 | 0.789159 | 0.667263 | 0.813619 | 0.803496 |
 | llama3.1_8b (few(3)_shot_longer_prompt)  | 0.775002 | 0.782419 | 0.899149 | 0.791490 | 0.811485 | 0.724958 | 0.652297 | 0.675251 | 0.812732 | 0.747750 |
 | llama3.1_8b (one_shot_longer_prompt)     | 0.778907 | 0.792391 | 0.892918 | 0.764773 | 0.780366 | 0.701464 | 0.647615 | 0.662619 | 0.784995 | 0.772904 |
+| mistral7b (one_shot)	                   | 0.631659 |	0.845818 | 0.888070 | 0.850543 | 0.871557 | 0.807261 | 0.797496 | 0.488756 | 0.730897 | 0.779732 |
 
 
 ![COMET Score Chart](images/fewshot-experiment-comet-score-per-language-and-model.png)
@@ -214,6 +219,8 @@ The following prompt template is used for each translation task:
 | llama3.1_8b (few(3)_shot)                | 9.695291  | 22.298222 | 33.423545 | 26.933702 | 31.095890 | 13.001383 | 9.127517  | 2.535211  | 15.983607 | 11.772853 |
 | llama3.1_8b (few(3)_shot_longer_prompt)  | 0.277008  | 20.383037 | 33.694181 | 23.480663 | 29.041096 | 6.224066  | 4.295302  | 2.394366  | 13.797814 | 10.526316 |
 | llama3.1_8b (one_shot_longer_prompt)     | 10.249307 | 18.057456 | 31.664411 | 24.585635 | 24.931507 | 4.149378  | 4.697987  | 2.112676  | 14.344262 | 10.387812 |
+| mistral7b (one_shot)	                   | 1.939058  | 20.383037 | 32.746955 | 27.762431 | 25.890411 | 3.872752  | 3.355705  | 0.704225  | 10.109290 | 3.4626040 |
+
 
 ![META Score Chart](images/fewshot-experiment-meta-score-per-language-and-model.png)
 
@@ -226,13 +233,14 @@ The following prompt template is used for each translation task:
 | llama3.1_8b (few(3)_shot)              | 1.406182 | 1.577941 | 1.740225 | 1.579732 | 1.631677 | 1.495471 | 1.452717 | 1.056466 | 1.548417 | 1.504323 |
 | llama3.1_8b (few(3)_shot_longer_prompt)| 0.408137 | 1.506990 | 1.751557 | 1.531361 | 1.578853 | 1.298654 | 1.132594 | 1.053421 | 1.535046 | 1.396311 |
 | llama3.1_8b (one_shot_longer_prompt)   | 1.447787 | 1.518163 | 1.736858 | 1.483402 | 1.513363 | 1.200056 | 1.138314 | 1.008829 | 1.488529 | 1.438758 |
+| mistral7b (one_shot)	                 | 0.952904	| 1.624237 | 1.729245 | 1.650520 | 1.686347 | 1.336031 | 1.288723 | 0.577032 | 1.363233	| 1.272837 |
 
 
 ![Final Score Chart](images/fewshot-experiment-final-score-(harmonic-mean-of-comet-and-meta)-per-language-and-model.png)
 
 #### Observations
-- **COMET Scores:** `gpt-4o` and `gemini-2.0-flash` achieve the highest COMET scores in the few-shot setting for high-resource languages. `llama3.1_8b` lags behind, especially in low-resource and Asian languages.
-- **META Scores:** `gpt-4o` and `gemini-2.0-flash` again lead in META scores for high-resource languages, but `gpt-4o` shows a sharp drop in META for Asian languages, indicating a challenge in adequacy. `llama3.1_8b` and its variants have the lowest META scores, especially for low-resource languages.
+- **COMET Scores:** `gpt-4o` and `gemini-2.0-flash` achieve the highest COMET scores in the few-shot setting for high-resource languages like French, Spanish, and German. However, `llama3.1_8b` and `mistral7b` trail in fluency, especially under one-shot setups.
+- **META Scores:** `gpt-4o` and `gemini-2.0-flash` again lead in META scores for high-resource languages, but `gpt-4o` shows a sharp drop in META for Asian languages, indicating a challenge in adequacy. `llama3.1_8b` and its variants have the lowest META scores, especially for low-resource languages. `mistral7b`, while modestly improving from its zero-shot run, continues to score poorly in META, especially for low-resource and Asian languages. This indicates named entity translation remains a core weakness for `mistral7b`.
 - **Final Score:** The harmonic mean confirms that `gpt-4o` and `gemini-2.0-flash` are the best in the few-shot setting for high-resource languages, but all models struggle with adequacy in low-resource and Asian languages, as seen in the lower Final Scores.
 
 #### Conclusion
