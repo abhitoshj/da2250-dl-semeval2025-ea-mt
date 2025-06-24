@@ -108,6 +108,41 @@ a reference-based metric that leverages cross-lingual pretrained models to achie
 with human judgments of translation quality, and M-ETA \cite{conia-etal-2024-m-eta},
 which specifically measures the accuracy of entity translation in machine-generated text.
 
+\section{Datasets}
+\label{sec:datasets}
+The datasets used in this study are derived from the SemEval 2025 Task 2 on Entity-Aware Machine Translation.
+All sets, except for the blind test set, included English source texts and their translations in ten 
+different languages (Italian, Spanish, French, German, Arabic, Japanese, Chinese, Korean, Thai, and Turkish). 
+Each data entry typically featured an English sentence, at least one translation in a target language, 
+and a relevant Wikidata ID. 
+For example, an English query like "What year was The Great Gatsby published?" 
+would be linked to its Korean translation and the Wikidata ID Q214371. We also referred the mintaka\cite{sen-etal-2022-mintaka} dataset,
+high-quality knowledge base of Wikidata facts, primarily used for question answering. It can be used to create
+datasets for fine-tuning Named Entity Recognition (NER) models.
+\begin{table}[h!]
+\centering
+\begin{tabular}{ll@{\hspace{8mm}}ll}
+\hline
+\textbf{Language} & \textbf{Train} & \textbf{Valid} & \textbf{Test} \\
+\hline
+Italian & 3,739 & 730 & 5,097 \\
+Spanish & 5,160 & 739 & 5,337 \\
+French & 5,531 & 724 & 5,464 \\
+German & 4,087 & 731 & 5,875 \\
+Arabic & 7,220 & 722 & 4,546 \\
+Japanese & 7,225 & 723 & 5,107 \\
+Chinese & - & 722 & 5,181 \\
+Korean & - & 745 & 5,081 \\
+Thai & - & 710 & 3,446 \\
+Turkish & - & 732 & 4,472 \\
+\hline
+\textbf{Total} & \textbf{32,962} & \textbf{7,278} & \textbf{49,606} \\
+\hline
+\end{tabular}
+\caption{Dataset distribution across languages}
+\label{tab:dataset_distribution}
+\end{table}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %    Methodology
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -118,7 +153,7 @@ Describe the methods you have used in your study. You can have subsections for d
 \subsection{Closed-Source Models}
 Detail the prompt engineering techniques you used for Google's Gemini and OpenAI's ChatGPT. Include examples of your prompts if possible.
 
-\subsection{Open-Source Models}
+\subsection{Open-Weight Models}
 Explain the fine-tuning procedures for Gemma, Llama, and Qwen. Mention the datasets used, the fine-tuning parameters, and any prompt engineering strategies applied.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
