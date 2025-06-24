@@ -148,13 +148,56 @@ Turkish & - & 732 & 4,472 \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Methodology}
 \label{sec:methodology}
-Describe the methods you have used in your study. You can have subsections for different models.
 
-\subsection{Closed-Source Models}
-Detail the prompt engineering techniques you used for Google's Gemini and OpenAI's ChatGPT. Include examples of your prompts if possible.
+We used a few Open-Weight and Closed-Source models for our experiments.
 
 \subsection{Open-Weight Models}
-Explain the fine-tuning procedures for Gemma, Llama, and Qwen. Mention the datasets used, the fine-tuning parameters, and any prompt engineering strategies applied.
+For open-weight models like Gemma, Llama and Mistral, our methodology explored both direct translation
+and Retrieval-Augmented Generation (RAG)-inspired approaches.
+
+Our direct translation experiments established a baseline for intrinsic model capabilities. 
+In \textbf{Zero-shot Translation}, we evaluated inherent fluency; initial attempts often struggled 
+with named entity recognition and translation, even with general system prompts. 
+For \textbf{One-shot/Few-shot Translation}, we explored using limited in-context examples for entity translation. 
+This yielded modest improvements, though managing context window size and prompt complexity was a challenge.
+
+We tried to also extract Named entities using a zero-shot LLM-based NER approach, complemented by 
+rule-based local heuristics. 
+These entities were verified via prompt-based model refinement, deduplicated, 
+and linked to Wikidata for accurate translation using a RAG inspired pipeline. 
+Translated entities were incorporated into the final sentence
+translation prompt, with a retry mechanism to ensure entity fidelity in the output.
+
+\textbf{Entity Extraction with spaCy} integrated spaCy for pre-identifying entities, 
+as models like NLLB could not be prompted for NER. Identified entities were targeted for external Wikidata translation. 
+Furthermore, \textbf{Entity Merging and Type Filtering} implemented merging of adjacent entity spans
+and refined Wikidata lookups by mapping detected entity types to Wikidata classes. 
+These steps improved lookup precision and reduced ambiguity for multi-word and common entities.
+
+\subsection{Closed-Source Models}
+
+For closed-source models, specifically Google's Gemini-2.0-Flash and OpenAI's GPT-4o, 
+our evaluation primarily focused on prompt engineering techniques without access to model fine-tuning. 
+These models were assessed using zero-shot, few-shot, and Chain-of-Thought (CoT) prompting strategies to 
+evaluate their intrinsic translation capabilities, especially concerning named entity handling.
+For \textbf{Zero-shot Translation}, models were prompted to translate sentences directly, without 
+any in-context examples. This aimed to gauge their baseline fluency and comprehension. While generally 
+producing grammatically correct translations, this approach often revealed limitations in consistently 
+recognizing and accurately translating named entities. In \textbf{Few-shot Translation}, this strategy 
+involved providing a limited number of input-output examples within the prompt. 
+The intent was to observe if contextual examples could guide the models toward more accurate and consistent entity translation. 
+Modest improvements were observed, but challenges in balancing prompt complexity and context window constraints remained. 
+For \textbf{Chain-of-Thought (CoT) Prompting}, models were instructed to output intermediate reasoning steps before 
+providing the final translation. This approach aimed to enhance the models' logical processing and 
+potentially improve entity handling by explicitly guiding their thought process. The general prompt templates 
+employed across these strategies focused on direct translation and, where applicable, 
+the inclusion of in-context examples or instructions for step-by-step reasoning. 
+For direct translation tasks, the template typically requested only the translated text.
+In few-shot scenarios, examples illustrating correct entity translations were prepended to the input. 
+For CoT, the prompt guided the model to first analyze the sentence and identify entities, then formulate the translation.
+With Gemini, we were also able to attempt \textbf{RAG guided translation} where spaCy was used for entity extraction 
+followed by translation after a Wikidata lookup, similar to the approach used for open-weight models.
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %    Experiments and Results
