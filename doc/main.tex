@@ -2,7 +2,7 @@
 %    INSTANTIATE YOUR DOCUMENT CLASS WITH THE ECAI OPTION.
 %    For final camera-ready copy, replace 'report' with 'final'.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\documentclass{ecai} 
+\documentclass[final]{ecai} 
 %\documentclass[doubleblind]{ecai} 
 \usepackage{times}
 \usepackage{graphicx}
@@ -361,7 +361,7 @@ Here are some of the prompt templates used for the various models and approaches
 \subsubsection{Gemma3 IT 4B}
 
 \begin{enumerate}
-    \item \texttt{<start\_of\_turn>}user\\
+    \item \textbf{Zero-Shot Translation Prompt:} \texttt{<start\_of\_turn>}user\\
     Translate the following sentence to \{\texttt{language}\}.\\
     Text: \{\texttt{text}\}\\
     Only output the translated text.\\
@@ -369,7 +369,7 @@ Here are some of the prompt templates used for the various models and approaches
     \texttt{<end\_of\_turn>}\\
     \texttt{<start\_of\_turn>}model
 
-    \item \texttt{<start\_of\_turn>}user\\
+    \item \textbf{RAG based Translation Prompt:} \texttt{<start\_of\_turn>}user\\
     Translate the following English sentences into \{\texttt{target\_language}\}. Named entities are already translated. Provide the translations as a JSON array of objects, where each object contains the original \texttt{"id"} and its \texttt{"translation"}. Maintain the original order of sentences from the input. Your final output \textbf{MUST} be a JSON array of objects, each containing two fields: \texttt{"id"} (the original sentence ID) and \texttt{"translation"} (the complete translated sentence). \textbf{Do NOT} include any other text, reasoning steps, or formatting outside of the JSON array.\\
     Example Output: \texttt{[ \{"id": "sentence\_id\_1", "translation": "Translated sentence 1."\}, \{"id": "sentence\_id\_2", "translation": "Translated sentence 2."\} ]}\\
     Input JSON: \{\texttt{source\_texts\_json}\}\\
@@ -380,7 +380,7 @@ Here are some of the prompt templates used for the various models and approaches
 \subsubsection{LLaMA-3.1 IT 8B}
 
 \begin{itemize}
-    \item You are a professional translator specialized in entity-aware translations from English to \{\texttt{language}\}. Translate the following text while adhering to these guidelines: (1) Keep named entities (people, organizations, places, dates, titles) in their original form unless a well-known equivalent exists in \{\texttt{language}\}; (2) Ensure the meaning and context remain intact; (3) Do not translate media names (books, movies, etc.) unless there is a widely accepted localized version. Here are some examples for a text, its translation, entity types, and entity translation: \{\texttt{few\_shot\_examples}\}. These are for reference only — the output must contain only the plain-text translation of the input, without any notes, symbols, or formatting.\\
+    \item \textbf{Few-Shot Prompt:}You are a professional translator specialized in entity-aware translations from English to \{\texttt{language}\}. Translate the following text while adhering to these guidelines: (1) Keep named entities (people, organizations, places, dates, titles) in their original form unless a well-known equivalent exists in \{\texttt{language}\}; (2) Ensure the meaning and context remain intact; (3) Do not translate media names (books, movies, etc.) unless there is a widely accepted localized version. Here are some examples for a text, its translation, entity types, and entity translation: \{\texttt{few\_shot\_examples}\}. These are for reference only — the output must contain only the plain-text translation of the input, without any notes, symbols, or formatting.\\
     \textbf{Text:} \{\texttt{text}\}\\
     \textbf{Translation:}
 \end{itemize}
