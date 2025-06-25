@@ -1,10 +1,10 @@
-import os
+import requests
+import time
 import re
 import json
 from typing import Dict, List, Set
 from comet import download_model, load_from_checkpoint
 
-# Define constants for training and validation data directories
 TRAIN_DATA_DIR = './data/semeval.train.v2-e0d1c28b78c8dd4969d25eea5d3bc9cc/semeval/train'
 VALIDATION_DATA_DIR = './data/semeval.validation.v2-889a1492ba6c3791baa8f4224bc8e685/validation'
 
@@ -272,3 +272,77 @@ def _get_mentions_from_references(data: List[dict]) -> Dict[str, Set[str]]:
         mentions[instance_id] = instance_mentions
 
     return mentions
+
+def find_best_match(entity_name, search_results):
+    entity_name_lower = entity_name.lower()
+    
+    for result in search_results:
+        label = result.get('label', '').lower()
+        if entity_name_lower == label:
+            return result
+    
+    for result in search_results:
+        label = result.get('label', '').lower()
+        if entity_name_lower in label:
+            return result
+    
+    return search_results[0]
+ 
+def fetch_wikidata_label(entity_id, target_locale):
+    url = f"https://www.wikidata.org/wiki/Special:EntityData/{entity_id}.json"
+    
+    try:
+        resp = requests.get(url, timeout=10)
+        if resp.status_code == 200:
+            entity = resp.json()["entities"].get(entity_id, {})
+            label = entity.get("labels", {}).get(target_locale, {}).get("value") \
+                or entity.get("labels", {}).get("en", {}).get("value")
+            if label:
+                return label
+    except Exception as e:
+        print(f"Error fetching Wikidata for {entity_id}: {e}")
+    return ''
+ 
+def wikidata_translate_entityId(entity_name):
+    search_url = "https://www.wikidata.org/w/api.php"
+    params = {
+        'action': 'wbsearchentities',
+        'format': 'json',
+        'language': 'en',
+        'search': entity_name
+    }
+ 
+    try:
+        response = requests.get(search_url, params=params, timeout=10)
+        if response.status_code != 200:
+            print(f"[WARN] Wikidata API failed for '{entity_name}' with status {response.status_code}")
+            return None
+        time.sleep(0.5)
+ 
+        data = response.json()
+        if not data.get('search'):
+            return None
+ 
+        qid = find_best_match(entity_name, data['search'])['id']
+        if qid:
+            return qid
+ 
+    except requests.exceptions.RequestException as e:
+        print(f"[ERROR] HTTP error for '{entity_name}': {e}")
+    except ValueError as e:
+        print(f"[ERROR] JSON decode error for '{entity_name}': {e}")
+    except Exception as e:
+        print(f"[ERROR] Unexpected error for '{entity_name}': {e}")
+ 
+    return None
+ 
+def extract_entity_translation(entity_name, target_lang):
+    qid = wikidata_translate_entityId(entity_name)
+    english_label = fetch_wikidata_label(qid, "en")
+    translated_label = fetch_wikidata_label(qid, target_lang)
+   
+    return {
+        "qid": qid,
+        "english": english_label,
+        "translated": translated_label
+    }
