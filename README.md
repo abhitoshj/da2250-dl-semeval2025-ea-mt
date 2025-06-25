@@ -147,6 +147,22 @@ The following prompt template is used for each translation task:
 - **Wikidata Lookup:** Entity translations are retrieved from Wikidata and cached for efficiency.
 - **Output Extraction:** The model's output is parsed between `<start_of_turn>model` and `<end_of_turn>` tags to extract the translated text.
 
+### Experiment Using NLLB_3.3B Model
+
+#### Experiment Description
+- Named entities are first extracted from the source sentence using spaCy and post processed.
+- For each entity, a translation is retrieved from Wikidata (if available) according to the sentence context (entity type given by spaCy) for the target language.
+- The prompt is augmented with a list of known entity translations to guide the model.
+
+![alt text](images/NLLB_spaCy_RAG.png)
+
+#### Model Used
+- **Model:** `facebook_nllb_200_3.3B and spaCy` (loaded via hugging face)
+- **Entity Extraction:** The spaCy model is used to extract named entities and their types according to context from the source sentence.
+- **Entity Postprocessing:** The entities are cleaned and merged if they are separated by some stop words like is, a, the, etc.
+- **Wikidata Lookup:** Entity translations are retrieved from Wikidata and cached for efficiency.
+- **Output Extraction:** The translated/processed entities along with the sentence are passed to NLLB model for final translation.
+
 ### Evaluations
 
 #### COMET Scores
